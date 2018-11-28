@@ -6,26 +6,30 @@
 
 # Author: Fuad Ikhlasul Amal
 # Created date: 07-11-2018
-# Updated date: 14-11-2018
-# Version: 1.1
+# Updated date: 28-11-2018
+# Version: 1.2
 # Function: 
 #	* perform simple grab html content from http/https web page
 # 	* find any url that refer to the self root domain url
 #	* collect the urls and save to database
+#	* add Flask wrapper
 # Run code: python news_crawler.py
 
 
 
 from __future__ import division
 import re
+import sys
 import pymongo
 import requests
 import warnings
 from bs4 import BeautifulSoup
+from flask import Flask, request as flask_req
 
 
 
 warnings.filterwarnings("ignore")
+app = Flask(__name__)
 
 
 
@@ -34,9 +38,9 @@ def connect_mongodb():
 
 
 
-def crawl(source_name, url, target_url):
-	# headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'}
-	req_ = requests.get(target_url, verify=False)
+def do_crawl(source_name, url, target_url):
+	headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'}
+	req_ = requests.get(target_url, headers=headers)
 	html_ = req_.text
 	soup_ = BeautifulSoup(html_, "html.parser")
 	valid_url_re = re.compile(r"^https?://\S*" + url + "/?\S*$")
@@ -68,9 +72,27 @@ def crawl(source_name, url, target_url):
 
 
 	# bulk save here, list of links...
-	bulkop_resp = link_bulk.execute()
+	try:
+		bulkop_resp = link_bulk.execute()
+		return "ok"
+	except Exception, e:
+		return None
+
+
+
+# Flask methods below:
+@app.route("/crawl", methods=["POST"])
+def crawl():
+	source_name = flask_req.form.get("source_name")
+	url = flask_req.form.get("url")
+	url_target = flask_req.form.get("url_target")
+
+	if do_crawl(source_name, url, url_target):
+		return {"response": "ok"}
+	else:
+		return {"response": "not-ok"}
 
 
 
 if __name__ == '__main__':
-	crawl("detik", "detik.com", "https://www.detik.com")
+	app.run(debug=True)
