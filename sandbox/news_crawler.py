@@ -13,6 +13,7 @@
 # 	* find any url that refer to the self root domain url
 #	* collect the urls and save to database
 #	* add Flask wrapper
+#	* add extract, pre-process and save DOM elements function
 # Run code: python news_crawler.py
 
 
@@ -23,8 +24,13 @@ import sys
 import pymongo
 import requests
 import warnings
+<<<<<<< HEAD
 from bs4 import BeautifulSoup
 from flask import Flask, request as flask_req,jsonify
+=======
+from bs4 import BeautifulSoup, Comment
+from flask import Flask, request as flask_req
+>>>>>>> 2005c6b3a56087a9e9f21165a513c1d29fda84c5
 
 
 
@@ -41,7 +47,7 @@ def connect_mongodb():
 def do_crawl(source_name, url, target_url):
 	headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'}
 	req_ = requests.get(target_url, headers=headers)
-	html_ = req_.text
+	html_ = str(req_.text)
 	soup_ = BeautifulSoup(html_, "html.parser")
 	valid_url_re = re.compile(r"^https?://\S*" + url + "/?\S*$")
 	
@@ -50,6 +56,38 @@ def do_crawl(source_name, url, target_url):
 	db_cnx = connect_mongodb()
 	db_ = db_cnx["milo-staging"]
 	link_collection = db_.links
+
+
+	# remove <script>, <style> and <link>
+	soup_raw = soup_
+	for tag in soup_.findAll():
+		if tag.name.lower() in ("script", "style", "link"):
+			tag.extract()
+		# remove inline style in html tag
+		# for attr
+
+
+	# remove comments block
+	for comment in soup_.findAll(text=lambda text:isinstance(text, Comment)):
+		comment.extract()
+
+
+
+	fhtml_raw = open("html_dom_raw_sample.out", "w")
+	sys.stdout = fhtml_raw
+	print(html_)
+	sys.stdout = sys.__stdout__
+	fhtml_raw.close()
+
+
+	fhtml_clean = open("html_dom_clean_sample.out", "w")
+	sys.stdout = fhtml_clean
+	print(soup_)
+	sys.stdout = sys.__stdout__
+	fhtml_clean.close()
+
+
+	quit()
 
 
 	# init the mongo bulk object to upsert (update-or-insert) the link data
@@ -74,8 +112,13 @@ def do_crawl(source_name, url, target_url):
 	# bulk save here, list of links...
 	try:
 		bulkop_resp = link_bulk.execute()
+<<<<<<< HEAD
 		return "ok"
 	except Exception as e:
+=======
+		return True
+	except Exception, e:
+>>>>>>> 2005c6b3a56087a9e9f21165a513c1d29fda84c5
 		return None
 
 
@@ -83,17 +126,22 @@ def do_crawl(source_name, url, target_url):
 # Flask methods below:
 @app.route("/crawl", methods=["POST"])
 def crawl():
-	source_name = flask_req.form.get("source_name")
+	source_name = flask_req.form.get("source")
 	url = flask_req.form.get("url")
 	url_target = flask_req.form.get("url_target")
 
 	if do_crawl(source_name, url, url_target):
+<<<<<<< HEAD
 
 		return jsonify({"response": "ok"})
+=======
+		return 
+>>>>>>> 2005c6b3a56087a9e9f21165a513c1d29fda84c5
 	else:
 		return jsonify({"response": "not ok"})
 
 
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	# app.run(debug=True)
+	do_crawl("detik", "detik.com", "https://www.detik.com")
