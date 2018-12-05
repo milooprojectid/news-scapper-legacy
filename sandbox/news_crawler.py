@@ -24,7 +24,7 @@ import pymongo
 import requests
 import warnings
 from bs4 import BeautifulSoup
-from flask import Flask, request as flask_req
+from flask import Flask, request as flask_req,jsonify
 
 
 
@@ -75,7 +75,7 @@ def do_crawl(source_name, url, target_url):
 	try:
 		bulkop_resp = link_bulk.execute()
 		return "ok"
-	except Exception, e:
+	except Exception as e:
 		return None
 
 
@@ -88,9 +88,10 @@ def crawl():
 	url_target = flask_req.form.get("url_target")
 
 	if do_crawl(source_name, url, url_target):
-		return {"response": "ok"}
+
+		return jsonify({"response": "ok"})
 	else:
-		return {"response": "not-ok"}
+		return jsonify({"response": "not ok"})
 
 
 
