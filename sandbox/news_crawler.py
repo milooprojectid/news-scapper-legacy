@@ -6,15 +6,21 @@
 
 # Author: Fuad Ikhlasul Amal
 # Created date: 07-11-2018
-# Updated date: 28-11-2018
+# Updated date: 05-12-2018
 # Version: 1.2
 # Function: 
 #	* perform simple grab html content from http/https web page
 # 	* find any url that refer to the self root domain url
-#	* collect the urls and save to database
-#	* add Flask wrapper
-#	* add extract, pre-process and save DOM elements function
+#	* collect the urls and grab the HTML page DOMs, save to mongodb
+#	* add Flask wrapper and provide API end-point
+#	* add regexp to classify valid-news-url and non-valid-news-url
+#	* add extract and preprocess HTML DOM elements including: 
+#	*		- remove <script>, <style> and <link> tags
+#	* 		- remove inline style="" attribute from any html tag
+# 	*		- remove html comments
+# 	*		- minified DOM HTML
 # Run code: python news_crawler.py
+# curl POST -X https://api_host_name_or_ip:api_port_number/crawl {"source": "...", "url": "...", "url_target": "..."}
 
 
 
@@ -22,16 +28,13 @@ from __future__ import division
 import re
 import os
 import sys
+import string
+import htmlmin
 import pymongo
 import requests
 import warnings
-<<<<<<< HEAD
-from bs4 import BeautifulSoup
-from flask import Flask, request as flask_req,jsonify
-=======
 from bs4 import BeautifulSoup, Comment
-from flask import Flask, request as flask_req
->>>>>>> 2005c6b3a56087a9e9f21165a513c1d29fda84c5
+from flask import Flask, request as flask_req, jsonify
 
 
 
@@ -50,7 +53,7 @@ def connect_mongodb():
 def do_crawl(source_name, url, target_url):
 	headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'}
 	req_ = requests.get(target_url, headers=headers)
-	html_ = str(req_.text)
+	html_ = req_.text
 	soup_ = BeautifulSoup(html_, "html.parser")
 	valid_url_re = re.compile(r"^https?://\S*" + url + "/?\S*$")
 	
@@ -59,6 +62,7 @@ def do_crawl(source_name, url, target_url):
 	db_cnx = connect_mongodb()
 	db_ = db_cnx["milo-staging"]
 	link_collection = db_.links
+	dom_collection = db_.raws
 
 
 	# remove <script>, <style> and <link>
@@ -75,23 +79,46 @@ def do_crawl(source_name, url, target_url):
 		comment.extract()
 
 
+	# handle some non-ascii chars issue
+	html_dom_clean = filter(lambda _: _ in set(string.printable), str(soup_))
+
+
+	# minified dom
+	html_dom_clean = htmlmin.minify(html_dom_clean)
+
+
+	# save the dom page here, but before that, we've to make sure that the link caontains the actual article or news
+	# to detect the valid url, using regexp but may vary for each news sources.
+	# first, I hard-coded it:
+	target_url = target_url.split("?")[0]
+	if "detik" == source_name:
+		news_url_re = re.compile(r"^(https://(www\.)?(\S+\.)?detik\.com/[a-z\-]+/\w\-\d+/[a-z0-9\-]+)$")
+	elif "kompas" == source_name:
+		pass
+	elif "kumparan" == source_name:
+		pass
+	else:
+		pass
+
+
+	if news_url_re.match(target_url):
+		pass
+		# dom_collection.upsert()
+
 
 	# =================== this block line of code is temporary, to be deleted ===================
-	fhtml_raw = open(os.path.join(_BASEDIR, "html_dom_raw_sample.out"), "w")
-	sys.stdout = fhtml_raw
-	print(html_)
-	sys.stdout = sys.__stdout__
-	fhtml_raw.close()
+	# html_ = filter(lambda _: _ in set(string.printable), html_)
+	# fhtml_raw = open(os.path.join(_BASEDIR, "html_dom_raw_sample.out"), "w")
+	# sys.stdout = fhtml_raw
+	# print(html_)
+	# sys.stdout = sys.__stdout__
+	# fhtml_raw.close()
 
-
-	fhtml_clean = open(os.path.join(_BASEDIR, "html_dom_clean_sample.out"), "w")
-	sys.stdout = fhtml_clean
-	print(soup_)
-	sys.stdout = sys.__stdout__
-	fhtml_clean.close()
-
-
-	quit()
+	# fhtml_clean = open(os.path.join(_BASEDIR, "html_dom_clean_sample.out"), "w")
+	# sys.stdout = fhtml_clean
+	# print(htmlmin.minify(html_dom_clean))
+	# sys.stdout = sys.__stdout__
+	# fhtml_clean.close()
 	# =================== this block line of code is temporary, to be deleted ===================
 
 
@@ -117,13 +144,10 @@ def do_crawl(source_name, url, target_url):
 	# bulk save here, list of links...
 	try:
 		bulkop_resp = link_bulk.execute()
-<<<<<<< HEAD
 		return "ok"
 	except Exception as e:
-=======
 		return True
 	except Exception, e:
->>>>>>> 2005c6b3a56087a9e9f21165a513c1d29fda84c5
 		return None
 
 
@@ -136,17 +160,15 @@ def crawl():
 	url_target = flask_req.form.get("url_target")
 
 	if do_crawl(source_name, url, url_target):
-<<<<<<< HEAD
-
 		return jsonify({"response": "ok"})
-=======
-		return 
->>>>>>> 2005c6b3a56087a9e9f21165a513c1d29fda84c5
 	else:
-		return jsonify({"response": "not ok"})
+		return jsonify({"response": "not-ok"})
 
 
 
 if __name__ == '__main__':
+	# this is the actual way to call crawl service
 	# app.run(debug=True)
-	do_crawl("detik", "detik.com", "https://www.detik.com")
+
+	# code below was provided for testing purpose
+	do_crawl("detik", "detik.com", "https://finance.detik.com/berita-ekonomi-bisnis/d-4332042/anggaran-beasiswa-lpdp-naik-jadi-rp-55-triliun?tag_from=wp_nhl_judul_8&_ga=2.30128319.1057623162.1544025778-523514988.1519287610")
