@@ -20,6 +20,7 @@
 
 from __future__ import division
 import re
+import os
 import sys
 import pymongo
 import requests
@@ -31,6 +32,8 @@ from flask import Flask, request as flask_req
 
 warnings.filterwarnings("ignore")
 app = Flask(__name__)
+
+_BASEDIR = os.path.dirname(os.path.realpath(__file__))
 
 
 
@@ -58,8 +61,8 @@ def do_crawl(source_name, url, target_url):
 	for tag in soup_.findAll():
 		if tag.name.lower() in ("script", "style", "link"):
 			tag.extract()
-		# remove inline style in html tag
-		# for attr
+		# remove inline style in every html tag
+		del tag["style"]
 
 
 	# remove comments block
@@ -68,14 +71,15 @@ def do_crawl(source_name, url, target_url):
 
 
 
-	fhtml_raw = open("html_dom_raw_sample.out", "w")
+	# =================== this block line of code is temporary, to be deleted ===================
+	fhtml_raw = open(os.path.join(_BASEDIR, "html_dom_raw_sample.out"), "w")
 	sys.stdout = fhtml_raw
 	print(html_)
 	sys.stdout = sys.__stdout__
 	fhtml_raw.close()
 
 
-	fhtml_clean = open("html_dom_clean_sample.out", "w")
+	fhtml_clean = open(os.path.join(_BASEDIR, "html_dom_clean_sample.out"), "w")
 	sys.stdout = fhtml_clean
 	print(soup_)
 	sys.stdout = sys.__stdout__
@@ -83,6 +87,7 @@ def do_crawl(source_name, url, target_url):
 
 
 	quit()
+	# =================== this block line of code is temporary, to be deleted ===================
 
 
 	# init the mongo bulk object to upsert (update-or-insert) the link data
