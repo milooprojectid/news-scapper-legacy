@@ -25,8 +25,13 @@ import sys
 import pymongo
 import requests
 import warnings
+<<<<<<< HEAD
+from bs4 import BeautifulSoup
+from flask import Flask, request as flask_req,jsonify
+=======
 from bs4 import BeautifulSoup, Comment
 from flask import Flask, request as flask_req
+>>>>>>> 2005c6b3a56087a9e9f21165a513c1d29fda84c5
 
 
 
@@ -112,8 +117,13 @@ def do_crawl(source_name, url, target_url):
 	# bulk save here, list of links...
 	try:
 		bulkop_resp = link_bulk.execute()
+<<<<<<< HEAD
+		return "ok"
+	except Exception as e:
+=======
 		return True
 	except Exception, e:
+>>>>>>> 2005c6b3a56087a9e9f21165a513c1d29fda84c5
 		return None
 
 
@@ -126,9 +136,14 @@ def crawl():
 	url_target = flask_req.form.get("url_target")
 
 	if do_crawl(source_name, url, url_target):
+<<<<<<< HEAD
+
+		return jsonify({"response": "ok"})
+=======
 		return 
+>>>>>>> 2005c6b3a56087a9e9f21165a513c1d29fda84c5
 	else:
-		return {"response": "not-ok"}
+		return jsonify({"response": "not ok"})
 
 
 
