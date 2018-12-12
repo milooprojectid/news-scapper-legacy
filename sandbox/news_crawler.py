@@ -82,7 +82,7 @@ def do_crawl(source_name, url, target_url):
 
 
     if "detik" == source_name:
-        news_url_re = re.compile(r"^(https://(www\.)?(\S+\.)?detik\.com/[a-z\-]+/\w\-\d+/[a-z0-9\-]+)$")
+        news_url_re = re.compile(r"^(https://(www\.)?(\S+\.)?detik\.com/[a-z\-]+/\w*\-\d+/[a-z0-9\-]+)$")
     elif "kompas" == source_name:
         pass
     elif "kumparan" == source_name:
@@ -100,6 +100,7 @@ def do_crawl(source_name, url, target_url):
             "visited_at": None
         }
         dom_collection.update({"content": html_dom_clean, "source": source_name}, data_, upsert=True)
+        print("insert dom success !!")
 
 
     link_bulk = link_collection.initialize_ordered_bulk_op()
@@ -118,6 +119,7 @@ def do_crawl(source_name, url, target_url):
 
     try:
         bulkop_resp = link_bulk.execute()
+        print("insert bulk links success !!")
         return True
     except Exception as  e:
         return None
@@ -143,4 +145,4 @@ if __name__ == '__main__':
 	# app.run(debug=True)
 
 	# code below was provided for testing purpose
-	do_crawl("detik", "detik.com", "https://news.detik.com/berita/d-4340977/la-nyalla-janji-tak-ulangi-kesalahan-sebar-hoax-seperti-2014?tag_from=wp_cb_detikPemilu_list&_ga=2.245502210.723175103.1544630983-1523264677.1541603029")
+	do_crawl("detik", "detik.com", "https://hot.detik.com/kpop/d-4340712/heboh-iklan-blackpink-dinilai-seronok-shopee-dipanggil-kpai")
