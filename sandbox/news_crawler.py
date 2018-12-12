@@ -33,11 +33,8 @@ import htmlmin
 import pymongo
 import requests
 import warnings
-<<<<<<< HEAD
-=======
 from bs4 import BeautifulSoup, Comment
 from flask import Flask, request as flask_req, jsonify
->>>>>>> 5ba19ea36185e69a95b1fa1ddd10bf3e18d527a4
 
 from bs4 import BeautifulSoup, Comment
 from flask import Flask,jsonify, request as flask_req
@@ -56,120 +53,74 @@ def connect_mongodb():
 
 
 def do_crawl(source_name, url, target_url):
-	headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'}
-	req_ = requests.get(target_url, headers=headers)
-	html_ = req_.text
-	soup_ = BeautifulSoup(html_, "html.parser")
-	valid_url_re = re.compile(r"^https?://\S*" + url + "/?\S*$")
-	
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'}
+    req_ = requests.get(target_url, headers=headers)
+    html_ = req_.text
+    soup_ = BeautifulSoup(html_, "html.parser")
+    valid_url_re = re.compile(r"^https?://\S*" + url + "/?\S*$")
 
-	# specify the mongodb connection, database and collection
-	db_cnx = connect_mongodb()
-	db_ = db_cnx["milo-staging"]
-	link_collection = db_.links
-	dom_collection = db_.raws
+    db_cnx = connect_mongodb()
+    db_ = db_cnx["milo-staging"]
+    link_collection = db_.links
+    dom_collection = db_.raws
 
-
-	# remove <script>, <style> and <link>
-	soup_raw = soup_
-	for tag in soup_.findAll():
-		if tag.name.lower() in ("script", "style", "link"):
-			tag.extract()
-		# remove inline style in every html tag
-		del tag["style"]
+    for tag in soup_.findAll():
+        if tag.name.lower() in ("script", "style", "link"):
+            tag.extract()
+        del tag["style"]
 
 
-	# remove comments block
-	for comment in soup_.findAll(text=lambda text:isinstance(text, Comment)):
-		comment.extract()
+    for comment in soup_.findAll(text=lambda text:isinstance(text, Comment)):
+        comment.extract()
 
 
-	# handle some non-ascii chars issue
-	html_dom_clean = filter(lambda _: _ in set(string.printable), str(soup_))
-
-<<<<<<< HEAD
-	# =================== this block line of code is temporary, to be deleted ===================
-=======
-
-	# minified dom
-	html_dom_clean = htmlmin.minify(html_dom_clean)
+    html_dom_clean = "".join(filter(lambda _: _ in set(string.printable), str(soup_)))
+    html_dom_clean = htmlmin.minify(html_dom_clean,remove_comments=True,remove_empty_space=True,remove_all_empty_space=True)
 
 
-	# save the dom page here, but before that, we've to make sure that the link caontains the actual article or news
-	# to detect the valid url, using regexp but may vary for each news sources.
-	# first, I hard-coded it:
-	target_url = target_url.split("?")[0]
-	if "detik" == source_name:
-		news_url_re = re.compile(r"^(https://(www\.)?(\S+\.)?detik\.com/[a-z\-]+/\w\-\d+/[a-z0-9\-]+)$")
-	elif "kompas" == source_name:
-		pass
-	elif "kumparan" == source_name:
-		pass
-	else:
-		pass
+    target_url = target_url.split("?")[0]
 
 
-	if news_url_re.match(target_url):
-		pass
-		# dom_collection.upsert()
+    if "detik" == source_name:
+        news_url_re = re.compile(r"^(https://(www\.)?(\S+\.)?detik\.com/[a-z\-]+/\w\-\d+/[a-z0-9\-]+)$")
+    elif "kompas" == source_name:
+        pass
+    elif "kumparan" == source_name:
+        pass
+    else:
+        pass
 
 
-	# =================== this block line of code is temporary, to be deleted ===================
-	# html_ = filter(lambda _: _ in set(string.printable), html_)
->>>>>>> 5ba19ea36185e69a95b1fa1ddd10bf3e18d527a4
-	# fhtml_raw = open(os.path.join(_BASEDIR, "html_dom_raw_sample.out"), "w")
-	# sys.stdout = fhtml_raw
-	# print(html_)
-	# sys.stdout = sys.__stdout__
-	# fhtml_raw.close()
-<<<<<<< HEAD
-    #
-	# fhtml_clean = open(os.path.join(_BASEDIR, "html_dom_clean_sample.out"), "w")
-	# sys.stdout = fhtml_clean
-	# print(soup_)
-=======
-
-	# fhtml_clean = open(os.path.join(_BASEDIR, "html_dom_clean_sample.out"), "w")
-	# sys.stdout = fhtml_clean
-	# print(htmlmin.minify(html_dom_clean))
->>>>>>> 5ba19ea36185e69a95b1fa1ddd10bf3e18d527a4
-	# sys.stdout = sys.__stdout__
-	# fhtml_clean.close()
-	# =================== this block line of code is temporary, to be deleted ===================
+    if news_url_re.match(target_url):
+        data_ = {
+            "source": source_name,
+            "url": target_url,
+            "content": html_dom_clean,
+            "status": 0,
+            "visited_at": None
+        }
+        dom_collection.update({"content": html_dom_clean, "source": source_name}, data_, upsert=True)
 
 
-	# init the mongo bulk object to upsert (update-or-insert) the link data
-	link_bulk = link_collection.initialize_ordered_bulk_op()
+    link_bulk = link_collection.initialize_ordered_bulk_op()
 
 
-	for alink in soup_.findAll("a", href=True):
-		href_ = str(alink["href"]).strip().lower()
-		
-		# remove params or arguments from url after '?'
-		href_ = href_.split("?")[0]
+    for alink in soup_.findAll("a", href=True):
+        href_ = str(alink["href"]).strip().lower()
+        href_ = href_.split("?")[0]
 
-		if valid_url_re.match(href_):
-			url_ = {"url": href_, "source": source_name}
-			# save link here, one-by-one inside loop
-			link_bulk.find(url_).upsert().update({
+        if valid_url_re.match(href_):
+            url_ = {"url": href_, "source": source_name}
+            link_bulk.find(url_).upsert().update({
 				"$setOnInsert": {"status": 0, "visited_at": None},
 				"$set": url_
 			})
 
-
-	# bulk save here, list of links...
-	try:
-		bulkop_resp = link_bulk.execute()
-<<<<<<< HEAD
-		return True
-	except Exception as  e:
-=======
-		return "ok"
-	except Exception as e:
-		return True
-	except Exception, e:
->>>>>>> 5ba19ea36185e69a95b1fa1ddd10bf3e18d527a4
-		return None
+    try:
+        bulkop_resp = link_bulk.execute()
+        return True
+    except Exception as  e:
+        return None
 
 
 
@@ -192,4 +143,4 @@ if __name__ == '__main__':
 	# app.run(debug=True)
 
 	# code below was provided for testing purpose
-	do_crawl("detik", "detik.com", "https://finance.detik.com/berita-ekonomi-bisnis/d-4332042/anggaran-beasiswa-lpdp-naik-jadi-rp-55-triliun?tag_from=wp_nhl_judul_8&_ga=2.30128319.1057623162.1544025778-523514988.1519287610")
+	do_crawl("detik", "detik.com", "https://news.detik.com/berita/d-4340977/la-nyalla-janji-tak-ulangi-kesalahan-sebar-hoax-seperti-2014?tag_from=wp_cb_detikPemilu_list&_ga=2.245502210.723175103.1544630983-1523264677.1541603029")

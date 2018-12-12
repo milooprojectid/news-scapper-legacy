@@ -28,7 +28,8 @@ def connect_mongodb():
 
 def get_dom():
     mydb = connect_mongodb()
-    dom = mydb[]
+    dom = mydb["milo-staging"].raws.find_one(sort=[('id',pymongo.DESCENDING)])
+    # print("=========",dom)
     return (dom)
 
 def getNewsKompasN():
@@ -110,9 +111,14 @@ def cleanDOM(dom):
     return(clean)
 
 
-a = getnewsKompas('https://nasional.kompas.com/read/2018/12/05/16252441/dengan-suara-meninggi-prabowo-cibir-media-massa-soal-jumlah-peserta-reuni')
-#
-print(a)
+# a = getnewsKompas('https://nasional.kompas.com/read/2018/12/05/16252441/dengan-suara-meninggi-prabowo-cibir-media-massa-soal-jumlah-peserta-reuni')
+# #
+# print(a)
+b = get_dom()
+print(b)
+c = getNewsKompasN()
+print(c)
+
 # print(getnewsKompas(a))
 
 # Flask methods below:
