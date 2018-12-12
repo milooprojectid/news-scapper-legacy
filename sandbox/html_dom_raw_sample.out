@@ -1,0 +1,3454 @@
+<!doctype html>
+<html>
+ <head>
+ <script>
+ if (typeof console.log == 'undefined') {
+ this.console = {log: function() {}, info: function() {}};
+ }
+ var __cmonErLog = [];
+ window.onerror = function (errorMsg, url, lineNumber, column, errorObj) {
+ __cmonErLog.push('Error: ' + errorMsg + ' Script: ' + url + ' Line: ' + lineNumber
+ + ' Column: ' + column + ' StackTrace: ' + errorObj);
+ return true;
+ }
+ </script>
+ <title>detikcom - Informasi Berita Terupdate Hari Ini</title>
+<meta name="description" content="Indeks berita terbaru hari ini dari peristiwa, kecelakaan, kriminal, hukum, berita unik, Politik, dan liputan khusus di Indonesia dan Internasional" itemprop="description" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://plus.google.com/+detikcom" rel="publisher" />
+ <meta property="og:type" content="article" />
+ <meta property="og:site_name" content="detiknews" />
+ <meta property="og:title" content="detikcom - Informasi Berita Terupdate Hari Ini" />
+ <meta property="og:image" content="https://cdn.detik.net.id/detik2/images/logo.jpg" />
+ <meta property="og:description" content="Indeks berita terbaru hari ini dari peristiwa, kecelakaan, kriminal, hukum, berita unik, Politik, dan liputan khusus di Indonesia dan Internasional" />
+ <meta property="og:url" content="https://detik.com/" />
+ <meta property="fb:app_id" content="187960271237149" />
+ <meta property="fb:admins" content="100000607566694" />
+ <meta property="og:image:type" content="image/jpeg" />
+ <meta property="og:image:width" content="650" />
+ <meta property="og:image:height" content="366" />
+<meta name="copyright" content="" itemprop="dateline" />
+<meta name="p:domain_verify" content="405e0728202749df914f7811375e18a0" />
+<meta name="robots" content="index, follow" />
+<meta content="Indeks berita terbaru hari ini dari peristiwa, kecelakaan, kriminal, hukum, berita unik, Politik, dan liputan khusus di Indonesia dan Internasional" itemprop="headline" />
+<meta name="keywords" content="berita hari ini, berita terkini, info berita, peristiwa, kecelakaan, kriminal, hukum, berita unik, Politik, liputan khusus, Indonesia, Internasional" itemprop="keywords" />
+<meta name="thumbnailUrl" content="https://cdn.detik.net.id/detik2/images/logo.jpg" itemprop="thumbnailUrl" />
+<meta content="https://detik.com/" itemprop="url" />
+<link rel="canonical" href="https://www.detik.com" />
+ <meta name="twitter:card" content="summary_large_image" />
+ <meta name="twitter:site" content="@detikcom" />
+ <meta name="twitter:site:id" content="@detikcom" />
+ <meta name="twitter:creator" content="@detikcom" />
+ <meta name="twitter:description" content="Indeks berita terbaru hari ini dari peristiwa, kecelakaan, kriminal, hukum, berita unik, Politik, dan liputan khusus di Indonesia dan Internasional" />
+ <meta name="twitter:image" content="https://akcdn.detik.net.id/asset/img/logo.jpg" /> <link rel="stylesheet" type="text/css" href="https://cdnstatic.detik.com/live/css/desktop/dads.css?r14">
+<script type="text/javascript" src="https://cdnstatic.detik.com/live/js/desktop/daegv2.js"></script>
+<!-- START PUBMATIC --> 
+<script type="text/javascript">
+ var PWT={}; //Initialize Namespace
+ var googletag = googletag || {};
+ googletag.cmd = googletag.cmd || [];
+ PWT.jsLoaded = function(){ //PubMatic pwt.js on load callback is used to load GPT
+ (function() {
+ var gads = document.createElement('script');
+ var useSSL = 'https:' == document.location.protocol;
+ gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+ var node = document.getElementsByTagName('script')[0];
+ node.parentNode.insertBefore(gads, node);
+ })();
+};
+(function() {
+ var purl = window.location.href;
+ var url = '//ads.pubmatic.com/AdServer/js/pwt/156981/927';
+ var profileVersionId = '';
+ if(purl.indexOf('pwtv=')>0){
+ var regexp = /pwtv=(.*?)(&|$)/g;
+ var matches = regexp.exec(purl);
+ if(matches.length >= 2 && matches[1].length > 0){
+ profileVersionId = '/'+matches[1];
+ }
+ }
+ var wtads = document.createElement('script');
+ wtads.async = true;
+ wtads.type = 'text/javascript';
+ wtads.src = url+profileVersionId+'/pwt.js';
+ var node = document.getElementsByTagName('script')[0];
+ node.parentNode.insertBefore(wtads, node);
+})();
+</script>
+<!-- END PUBMATIC --> 
+<!-- BEGIN CRITEO LOADER -->
+<script async="async" type="text/javascript" src="https://static.criteo.net/js/ld/publishertag.js"></script>
+<script>
+ window.Criteo = window.Criteo || {};
+ window.Criteo.events = window.Criteo.events || [];
+</script>
+<!-- END CRITEO LOADER -->
+<!-- Start Tag DFP -->
+<script>
+ googletag.cmd.push(function() {
+ 
+ googletag.defineSlot('/4905536/detik_desktop/wp/medium_rectangle1', [[300, 250], [300, 600]], 'div-gpt-ad-1535014012109-0').setTargeting('pos', ['medium_rectangle1']).addService(googletag.pubads());
+ googletag.defineSlot('/4905536/detik_desktop/wp/medium_rectangle2', [300, 250], 'div-gpt-ad-1535014085963-0').setTargeting('pos', ['medium_rectangle2']).addService(googletag.pubads());
+ googletag.defineSlot('/4905536/detik_desktop/wp/newsfeed1', ['fluid'], 'div-gpt-ad-1535014274004-0').setTargeting('pos', ['newsfeed1']).addService(googletag.pubads());
+ googletag.defineSlot('/4905536/detik_desktop/wp/newsfeed2', ['fluid'], 'div-gpt-ad-1535014379334-0').setTargeting('pos', ['newsfeed2']).addService(googletag.pubads());
+ googletag.defineSlot('/4905536/detik_desktop/wp/newsfeed3', ['fluid'], 'div-gpt-ad-1535014432247-0').setTargeting('pos', ['newsfeed3']).addService(googletag.pubads());
+ googletag.defineSlot('/4905536/detik_desktop/wp/leaderboard', [728, 90], 'div-gpt-ad-1535012243332-0').setTargeting('pos', ['leaderboard']).addService(googletag.pubads());
+googletag.defineSlot('/4905536/detik_desktop/wp/billboard', [970, 250], 'div-gpt-ad-1535011949711-0').setTargeting('pos', ['billboard']).addService(googletag.pubads());
+/** BEGIN CRITEO **/
+!function(){var e={
+ "160x600" : 1344326,
+ "300x250" : 757819,
+ "728x90" : 757820,
+ "320x50" : 757821,
+ "320x100" : 757822,
+ "970x250" : 1233198,
+},t="L",z=8;
+"F"!=(t=t.toUpperCase())&&"L"!=t&&"A"!=t&&(t="L");var o={placements:[]},i={},n={},a=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth,r=window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight;
+for(var d in googletag.pubads().getSlots())if(googletag.pubads().getSlots().hasOwnProperty(d)){var g=googletag.pubads().getSlots()[d],l=g.getSizes(a,r);i[b=g.getSlotElementId()]=[],n[b]=0;for(var s in l)if(l.hasOwnProperty(s)){var u=l[s],c="object"==typeof u?u.getWidth():null,h="object"==typeof u?u.getHeight():null,p="object"==typeof u?c*h:0,f=e["object"==typeof u?c+"x"+h:u]||null;f&&(n[b]=p>n[b]?p:n[b],i[b].push({slotid:b,zoneid:f,width:c,height:h,area:p}))}}
+var w=0;for(var b in i)if(i.hasOwnProperty(b))for(var m=i[b],d=0;d<m.length;d++){var v=m[d];if(w>=z)break;if(("L"!=t||v.area==n[v.slotid])&&(o.placements.push({slotid:b,zoneid:v.zoneid}),w++,"F"==t))break}
+if(o.placements.length>0){window.Criteo=window.Criteo||{},window.Criteo.events=window.Criteo.events||[],googletag.pubads().disableInitialLoad();var y=function(){googletag.cmd.push(function(){Criteo.SetDFPKeyValueTargeting(),googletag.pubads().refresh()})};
+Criteo.events.push(function(){Criteo.SetLineItemRanges("0..30:0.01"),Criteo.RequestBids(o,y,2000)})}}();
+/** END CRITEO **/
+ googletag.pubads().enableSingleRequest();
+ googletag.pubads().setTargeting('site', ['detikcom']).setTargeting('section', ['home']).setTargeting('medium', ['desktop']);
+ googletag.pubads().collapseEmptyDivs(true);
+ googletag.enableServices();
+ });
+</script>
+<!-- End Tag DFP -->
+<!-- Start Tag IAS -->
+<!-- Include the pet.js script in the header of your page or early in the body -->
+<script async='async' src='//cdn.adsafeprotected.com/iasPET.1.js'></script>
+<!-- Include this script after you've defined all GPT ad slots -->
+<script>
+// this is an *example* function. in your implementation, you will point to
+// an existing function that you use to request ads from DFP
+function requestAds() {
+googletag.cmd.push(function() {
+// display the ads on your page. replace these IDs with those on your page.
+googletag.display('div-gpt-ad-1535014085963-0'); //MR2
+});
+}
+// Set up IAS pet.js
+var iasDataHandler, __iasPET = __iasPET || {};
+__iasPET.queue = __iasPET.queue || [];
+__iasPET.pubId = '928221'; // your account manager will provide this ID
+// this is the maximum amount of time in milliseconds to wait for a PET response
+// before requesting ads without PET data. we recommend starting at 2 seconds
+// when testing and adjusting downwards as appropriate.
+// remember to replace 'requestAds' below with the function you use to request
+// ads from DFP.
+var IASPET_TIMEOUT = 4000;
+var __iasPETTimeoutRequestAds = setTimeout(requestAds, IASPET_TIMEOUT);
+// this function will be called when a PET response is received. it will
+// set the targeting data for DFP and request ads
+// remember to replace requestAds() with the function you use for requesting
+// ads from DFP
+var iasDataHandler = function(adSlotData) {
+clearTimeout(__iasPETTimeoutRequestAds);
+__iasPET.setTargetingForGPT();
+requestAds();
+};
+// make the PET request
+googletag.cmd.push(function() {
+// read the currently defined GPT ad slots for sending to the PET endpoint
+// all GPT ad slots should be defined before calling PET
+var gptSlots = googletag.pubads().getSlots();
+var iasPETSlots = [];
+for (var i = 0; i < gptSlots.length; i++) {
+var sizes = gptSlots[i].getSizes().map(function(size)
+{if (size.getWidth && size.getHeight)
+return [size.getWidth(), size.getHeight()];
+else
+return [1, 1];
+});
+iasPETSlots.push({
+ adSlotId: gptSlots[i].getSlotElementId(),
+//size: can either be a single size (e.g., [728, 90])
+// or an array of sizes (e.g., [[728, 90], [970, 90]])
+size: [[970, 250], [300, 250], [400, 130], [728, 90], [785, 440], [300, 600]],
+adUnitPath: gptSlots[i].getAdUnitPath()
+});
+}
+// make the request to PET. if your page makes multiple ad requests to DFP
+// (e.g., lazily loaded ads, infinite scrolling pages, etc.), you should make
+// a request to PET before every request to DFP
+__iasPET.queue.push({
+adSlots: iasPETSlots,
+dataHandler: iasDataHandler
+});
+});
+</script>
+<!-- End Tag IAS -->
+<!-- Start eyeota -->
+<script>
+var EO_PID='6bioi0v';
+var EO_SID='detik';
+</script>
+<script src="https://cdn.detik.net.id/libs/js-itportal/portal.dc.js?v=1.0"></script>
+<script src="https://cdnstatic.detik.com/live/js/eyeotadtk.js"></script>
+<!-- End eyeota -->
+<!-- Alexa -->
+<!--s:dtkprv-->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"JGO+j1a0CM00q/", domain:"detik.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=JGO+j1a0CM00q/" style="display:none" height="1" width="1" alt="" /></noscript>
+<!--e:dtkprv-->
+<!-- Comscore -->
+<!--s:dtkprv-->
+<!-- Begin comScore Tag -->
+<script>
+ var _comscore = _comscore || [];
+ _comscore.push({ c1: "2", c2: "8443234" });
+ (function() {
+ var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+ s.src = (document.location.protocol == "https:" ? "https://sb" : "https://b") + ".scorecardresearch.com/beacon.js";
+ el.parentNode.insertBefore(s, el);
+ })();
+</script>
+<noscript>
+ <img src="https://b.scorecardresearch.com/p?c1=2&c2=8443234&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+<!--e:dtkprv-->
+<!-- Global JS -->
+<!-- global js banner --><meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<!-- <meta http-equiv="refresh" content="900" /> -->
+<link rel="dns-prefetch" href="//images.detik.com" /><link rel="dns-prefetch" href="//apis.detik.com" /><link rel="dns-prefetch" href="https://connect.detik.com" /><link rel="dns-prefetch" href="https://newcomment.detik.com" /><link rel="dns-prefetch" href="//connect.facebook.net" /><link rel="dns-prefetch" href="https://api-read.facebook.com" /><link rel="dns-prefetch" href="//platform.twitter.com" /><link rel="dns-prefetch" href="//news.detik.com" /><link rel="dns-prefetch" href="//hot.detik.com" /><link rel="dns-prefetch" href="//sport.detik.com" /><link rel="dns-prefetch" href="//inet.detik.com" /><link rel="dns-prefetch" href="//finance.detik.com" /><link rel="dns-prefetch" href="//sport.detik.com" /><link rel="dns-prefetch" href="//oto.detik.com" /><link rel="dns-prefetch" href="//travel.detik.com" /><link rel="dns-prefetch" href="//food.detik.com" /><link rel="dns-prefetch" href="//health.detik.com" /><link rel="dns-prefetch" href="//wolipop.detik.com" /><link rel="dns-prefetch" href="http://www.cnnindonesia.com/" />
+<link href="https://cdn.detik.net.id/detik2/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel="canonical" href="https://www.detik.com/" />
+<script src="https://cdn.detik.net.id/libs/jquery/1.8.1/jquery.min.js"></script>
+<script src="https://cdn.detik.net.id/detik2/js/jquery.sticky-kit.min.js"></script>
+<script src="https://cdn.detik.net.id/detik2/js/lodash.min.js"></script>
+<script src="https://cdn.detik.net.id/detik2/js/handlebars-v3.0.1.js"></script>
+<script src="https://cdn.detik.net.id/detik2/js/md5.js"></script>
+<script src="https://cdn.detik.net.id/detik2/js/shareBox.js?131"></script>
+<script src="https://cdn.detik.net.id/detik2/js/detik.ads.controller.js?v=1.13"></script>
+<script src="https://cdnstatic.detik.com/live/js/msite/generic.ads.js"></script>
+<script>
+ var baseurl = "www.detik.com"
+</script>
+<script src="https://newrevive.detik.com/delivery/dtkspcjs.php?kanal=detikcom&env=desktop" id="spcjs" crossorigin="anonymous"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.detik.net.id/detik2/css/detikcom.style.css?ver=3.1" />
+<link type="text/css" rel="stylesheet" href="https://cdn.detik.net.id/detik2/css/detikcom.cb.css?v=3.1" />
+<link type="text/css" rel="stylesheet" href="https://cdn.detik.net.id/detik2/css/detik.ads.css?v=2.6" />
+<style type="text/css">
+ .hide {
+ display:none;
+ }
+ .ns{
+ margin: 0;
+ padding:0;
+ font-style:normal;
+ text-decoration:none;
+ }
+ .menu2 a.pildunnav {
+ color: #b4191e;
+ border: 0;
+ background: #E7D9B7;
+ background: -moz-linear-gradient(top, #E7D9B7 0%, #C5BB97 100%);
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E7D9B7), color-stop(100%, #C5BB97));
+ background: -webkit-linear-gradient(top, #E7D9B7 0%, #C5BB97 100%);
+ background: -o-linear-gradient(top, #E7D9B7 0%, #C5BB97 100%);
+ background: -ms-linear-gradient(top, #E7D9B7 0%, #C5BB97 100%);
+ background: linear-gradient(to bottom, #E7D9B7 0%, #C5BB97 100%);
+ border-radius: 10px;
+ margin: 0 0 0 5px;
+ }
+ .menu2 a.pildunnav:hover {
+ color: #b4191e;
+ background: #E7D9B7;
+ background: -moz-linear-gradient(top, #C5BB97 0%, #E7D9B7 100%);
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #C5BB97), color-stop(100%, #E7D9B7));
+ background: -webkit-linear-gradient(top, #C5BB97 0%, #E7D9B7 100%);
+ background: -o-linear-gradient(top, #C5BB97 0%, #E7D9B7 100%);
+ background: -ms-linear-gradient(top, #C5BB97 0%, #E7D9B7 100%);
+ background: linear-gradient(to bottom, #C5BB97 0%, #E7D9B7 100%)
+ }
+</style>
+<link type="text/css" rel="stylesheet" href="https://cdn.detik.net.id/detik2/css/detik.topbar_new.css?03072016" />
+<script type="text/x-handlebars" id="headline-template">
+ {{#if image}}
+ {{#eq orientation_cover 'portrait'}}
+ <article id="a{{id}}">
+ <div class="ratio3_4 box_img">
+ <div class="img_con lqd">
+ <a href="{{url}}">
+ {{{setImage image title "34" "?w=800&q=90"}}}
+ </a>
+ </div>
+ </div>
+ <div class="text">
+ <div class="date">{{getArticleDate date_published}} WIB</div>
+ <h1>
+ <a href="{{url}}">
+ {{stripTags title}}
+ </a>
+ </h1>
+ <div class="clearfix"></div>
+ <div class="label">{{site_info.sitename}}</div>
+ <div class="clearfix"></div>
+ <a href="{{url}}">
+ {{stripTags resume}}
+ </a>
+ {{else}}
+ <article id="a{{id}}">
+ <div class="date">{{getArticleDate date_published}} WIB</div>
+ <h1>
+ <a href="{{url}}">
+ {{stripTags title}}
+ </a>
+ </h1>
+ <div class="clearfix"></div>
+ <div class="ratio4_3 box_img">
+ <div class="img_con lqd">
+ <a href="{{url}}">
+ {{{setImage image title "43" "?w=800&q=90"}}}
+ </a>
+ </div>
+ </div>
+ <div class="text">
+ <div class="label">{{site_info.sitename}}</div>
+ <div class="clearfix"></div>
+ <a href="{{url}}">
+ {{stripTags resume}}
+ </a>
+ {{/eq}}
+ {{else}}
+ <article id="a{{id}}">
+ <div class="date">{{getArticleDate date_published}} WIB</div>
+ <h1>
+ <a href="{{url}}">
+ {{stripTags title}}
+ </a>
+ </h1>
+ <div class="clearfix"></div>
+ <div class="text">
+ <div class="label">{{site_info.sitename}}</div>
+ <div class="clearfix"></div>
+ <a href="{{url}}">
+ {{stripTags resume}}
+ </a>
+ <div class="clearfix"></div>
+ {{/if}}
+ <div class="hl_kait">
+ <div class="title_lh">Berita Terkait</div>
+ {{#each terkait}}
+ <article>
+ <a href="{{url}}">
+ <span>{{stripTags title}}</span>
+ </a>
+ </article>
+ {{/each}}
+ <div class="clearfix"></div>
+ </div>
+ </div>
+ <div class="clearfix"></div>
+ </article>
+ <div class="clearfix"></div>
+</script>
+<script type="text/x-handlebars" id="newsfeed-photo-template">
+ <li class="widget_mid wfotvid">
+ <article class="relative" id="a{{id}}">
+ <a href="{{url}}?tag_from=wp_wm_foto_{{addloopphotoGTM layout}}">
+ <div class="ratio16_9 box_img">
+ <div class="img_con lqd">
+ {{{setImage image title "169" "?w=600"}}}
+ </div>
+ </div>
+ <span class="ico_vf ic_fot"></span>
+ <div class="grad">
+ <div class="tl_afbelt">
+ <span class="sub_judul">{{stripTags subtitle}}</span>
+ <h3>{{stripTags title}}</h3>
+ <span class="labdate f11 mt5">{{getArticleType type}} | {{getArticleDate date_published}}</span>
+ </div>
+ <div class="clearfix"></div>
+ </div>
+ </a>
+ </article>
+ <div class="clearfix"></div>
+ </li>
+</script>
+<script type="text/x-handlebars" id="newsfeed-infografis-template">
+ <li class="widget_mid wfotvid">
+ <article class="relative" id="a{{id}}">
+ <a href="{{url}}?tag_from=wp_wm_infografis_{{addloopIGGTM layout}}">
+ <div class="ratio16_9 box_img">
+ <div class="img_con lqd">
+ {{{setImage image title "169" "?w=600"}}}
+ </div>
+ </div>
+ <div class="grad">
+ <div class="tl_afbelt">
+ <span class="sub_judul">{{stripTags subtitle}}</span>
+ <h3>{{stripTags title}}</h3>
+ </div>
+ <div class="clearfix"></div>
+ </div>
+ </a>
+ </article>
+ <div class="clearfix"></div>
+ </li>
+</script>
+<script type="text/x-handlebars" id="newsfeed-video-template">
+ <li class="widget_mid wfotvid">
+ <article class="relative" id="a{{id}}">
+ <a href="{{url}}?tag_from=wp_wm_video_{{addloopvideoGTM layout}}">
+ <div class="ratio16_9 box_img">
+ <div class="img_con lqd">
+ <span class="grad">{{{setImage image title "169" "?w=600"}}}</span>
+ </div>
+ </div>
+ <span class="ico_vf ic_vid"></span>
+ <div class="grad">
+ <div class="tl_afbelt">
+ <span class="sub_judul">{{stripTags subtitle}}</span>
+ <h3>{{stripTags title}}</h3>
+ <span class="labdate f11 mt5"><span class="l_yellow">1:17</span> | {{getArticleDate date_published}}</span>
+ </div>
+ <div class="clearfix"></div>
+ </div>
+ </a>
+ </article>
+ <div class="clearfix"></div>
+ </li>
+</script>
+<script type="text/x-handlebars" id="newsfeed-pasangmata-template">
+ <li class="widget_mid wmags wpm">
+ <article id="a{{id}}">
+ <div class="wpmt">
+ <img src="images/logo_pasangmata.png" alt="logo pasangmata.com"/></div>
+ <div class="text_wm">
+ <span class="f13">{{stripTags subtitle}}</span>
+ <h3 class="t_wm">{{stripTags title}}</h3>
+ <span class="labdate">PASANGMATA | {{getArticleDate date_published}}</span>
+ <div class="clearfix"></div>
+ <a class="but_down" href="{{title_url}}">beri kontribusi</a>
+ </div>
+ <div class="ratio1_1 box_img fr">
+ <div class="img_con lqd">
+ <a href="{{title_url}}">
+ {{{setImage image title "11" ""}}}
+ </a>
+ </div>
+ </div>
+ <div class="clearfix"></div>
+ </article>
+ </li>
+</script>
+<script type="text/x-handlebars" id="newsfeed-fem-template">
+ <li class="widget_mid wmags">
+ <article id="a{{id}}">
+ <div class="text_wm">
+ <span class="f13">{{stripTags subtitle}}</span>
+ <h3 class="t_wm">{{stripTags title}}</h3>
+ {{stripTags resume}}
+ <div class="clearfix"></div>
+ <a class="but_down fem" href="//www.detik.com/dlemagz.php?id=1590&dt={{date_created}}&u={{title_url}}">download</a>
+ </div>
+ <div class="ratio3_4 box_img fr">
+ <div class="img_con lqd">
+ <a href="https://majalah.detik.com">
+ {{{setImage image title "" "?w=300"}}}
+ </a>
+ </div>
+ </div>
+ <div class="clearfix"></div>
+ </article>
+ </li>
+</script>
+<script type="text/x-handlebars" id="newsfeed-majalah-template">
+ <li class="widget_mid wfotx">
+ <article class="relative">
+ <a href="{{url}}" id="a{{id}}">
+ <div class="ratio16_9 box_img">
+ <div class="img_con lqd">
+ <span class="grad">{{{setImage image title "169" "?w=500&q=90"}}}</span>
+ </div>
+ </div>
+ <span class="ico_vf ic_x">
+ </span>
+ <span class="sub_judulx">
+ INTERMESO
+ </span>
+ <div class="grad">
+ <div class="tl_afbelt">
+ <h3>
+ {{stripTags title}}
+ </h3>
+ "{{stripTags resume}}."
+ </div>
+ <div class="clearfix">
+ </div>
+ </div>
+ </a>
+ </article>
+ <div class="clearfix">
+ </div>
+ </li>
+</script>
+<script type="text/x-handlebars" id="newsfeed-male-template">
+ <!-- S:WIDGET DETIKX -->
+ <li class="widget_mid wfotx">
+ <article class="relative">
+ <a href="{{url}}" id="a{{id}}">
+ <div class="ratio16_9 box_img">
+ <div class="img_con lqd">
+ {{{setImage image title "169" "?w=500&q=90"}}}
+ </div>
+ </div>
+ <span class="ico_vf ic_x"></span>
+ <span class="sub_judulx">
+ {{stripTags site_info.name}}
+ </span>
+ <div class="grad">
+ <div class="tl_afbelt">
+ <h3>
+ {{stripTags title}}
+ </h3>
+ "{{stripTags resume}}."
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </div>
+ <div class="clearfix"></div>
+ </div>
+ </a>
+ </article>
+ <div class="clearfix"></div>
+ </li>
+ <!-- E:WIDGET DETIKX -->
+</script>
+<script type="text/x-handlebars" id="newsfeed-default-template">
+ <li>
+ <article id="a{{id}}">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="{{url}}?tag_from=wp_nhl_img_{{addloopNHLIMAGEGTM layout}}">{{{setImage image title "11" "" "" ""}}}</a>
+ </div>
+ <div class="sos_icon2">
+ <div class="img_sos">
+ <a href="#" onclick="shareBox.regShare(this); return false;" class="fb" data-url="{{url}}" data-title="{{title}}" data-image="{{image}}" data-desc="{{resume}}"><img src="images/ico_fbhl2.png" alt="fb share"></a>
+ <a href="#" onclick="shareBox.regShare(this); return false;" class="tw" data-url="{{url}}" data-title="{{title}}" data-image="{{image}}" data-desc="{{resume}}"><img src="images/ico_twhl2.png" alt="fb share"></a>
+ <a href="#" onclick="shareBox.regShare(this); return false;" class="gplus" data-url="{{url}}" data-title="{{title}}" data-image="{{image}}" data-desc="{{resume}}"><img src="images/ico_gphl2.png" alt="fb share"></a>
+ </div>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">{{site_info.sitename}} | {{getArticleDate date_published}}</span>
+ <span class="sub_judul">{{stripTags subtitle}}</span>
+ <a href="{{url}}?tag_from=wp_nhl_judul_{{addloopNHLGTM layout}}">
+ <h2>{{stripTags title}}</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>{{stripTags resume}}</p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+ </li>
+</script>
+<script type="text/x-handlebars" id="newsfeed-more-news-template">
+ <li class="text-center more_news more-loading hide" id="newsfeed-more-news">
+ <img src="images/loading.gif">
+ Loading More News
+ </li>
+ <li class="text-center more_news more-trigger hide" onclick="Nf.next()">
+ <span class="but_more">More News</span>
+ </li>
+</script>
+<script type="text/x-handlebars" id="newsfeed-special-article-template">
+ <li class="widget_mid specart">
+ <article id="a{{id}}">
+ <div class="desc_nhl">
+ <span class="labdate f12">{{channel_parent_name}} | {{getArticleDate date_published}}</span>
+ <span class="sub_judul">{{stripTags subtitle}}</span>
+ <a href="{{url}}?tag_from=wp_wm_berita_{{addloopspecialGTM layout}}">
+ <h2>{{stripTags title}}</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>{{stripTags resume}}</p>
+ </div>
+ <div class="ratio4_3 box_img fr">
+ <div class="img_con lqd">
+ <a href="{{url}}?tag_from=wp_wm_berita_{{addloopspecialImageGTM layout}}">{{{setImage image title "43" "?w=300"}}}</a>
+ </div>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+ </li>
+</script>
+ <!--S:TOPBAR-->
+ <script>
+(function(){
+f = 'dc', w = window, d = document;
+w['DTKCObj'] = {ts:Date.now(),args:arguments};
+w[f] = w[f] || function () {(w[f].q = w[f].q || []).push(arguments)};
+var dc = d.createElement('script'), n = new Date();
+dc.async = 1;
+dc.src = 'https://cdn.detik.net.id/libs/dc/v1/embed.js?'+n.getFullYear()+n.getMonth();
+(d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(dc);
+})({navSelector:'#framebar_new', navInsertMethod:'replaceWith', appId:2});
+var params = new Array();
+params["acctype"] = "acc-wpdetikcom";
+params["subacctype"] = "web";
+params["createddate"] = "-1";
+params["articleid"] = "-";
+params["kanalid"] = "-";
+dc('detikTracker', params);
+</script>
+ <!--E:TOPBAR-->
+ <!-- S: (script) Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NG6BTJ');</script>
+<!-- E: (script) Google Tag Manager -->
+ </head>
+ <body>
+ 
+ <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NG6BTJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+ <!--S:NAVBAR-->
+ <div id="framebar_new">
+ <div class="new_container">
+ <div class="ico_detik fm_select_area" id="ico_detik">
+ <img src="https://cdn.detik.net.id/libs/dc/v1/image/favicon_detikcom.png">
+ </div>
+ <div class="new_search">
+ <form action="https://search.detik.com/search?">
+ <input name="query" type="text" class="text">
+ <input type="hidden" name="source" value="dcnav">
+ <input type="submit" value="" class="btn_s">
+ </form>
+ </div>
+ </div>
+ </div>
+ <!--E:NAVBAR-->
+ <!--S:SKIN AD-->
+ <div class="bn_skin bn_skin1">
+ <div class="skin3">
+ <script type='text/javascript'><!--// <![CDATA[
+ OA_show('skinnerkiri'); 
+ // ]]> --></script>
+ </div>
+</div>
+<div class="bn_skin bn_skin2">
+ <div class="skin3">
+ <script type='text/javascript'><!--// <![CDATA[
+ OA_show('skinnerkanan'); 
+ // ]]> --></script> 
+ </div>
+</div> <!--E:SKIN AD-->
+ <!--S:TOP BANNER-->
+ <!--E:TOP BANNER-->
+ <!--S:BOTTOM BANNER-->
+ <!--E:BOTTOM BANNER-->
+ <!--S:popups-->
+ <script src='https://www.googletagservices.com/tag/js/gpt.js'>
+ googletag.pubads().definePassback('/4905536/detik_desktop/wp/pop_ups', [1, 1]).setTargeting('pos', ['pop_ups']).display();
+</script> <!--E:popups-->
+ <!--S:OTP BANNER-->
+ <!--E:OTP BANNER-->
+ <!--S:CONTAINER-->
+ <div class="container">
+ <!-- S:HEADER-->
+ 
+<style>
+ .logodetik_pildun {
+ padding: 0px 0;
+ width: 260px;
+ }
+ @media screen and (min-width: 1025px) and (max-width: 1280px) {
+ .logodetik_pildun {
+ padding: 10px 0;
+ width: 220px;
+ }
+ }
+</style>
+<div class="header">
+ <a href=/ ><img src=https://cdn.detik.net.id/detik2/images/logodetikcom.png?3 class="logodetik" alt="detikcom"/></a> <!--S:LEADERBOARD-->
+ 
+<div id="leaderboard" class="fr">
+<!-- /4905536/detik_desktop/wp/leaderboard -->
+<div id='div-gpt-ad-1535012243332-0' style='height:90px; width:728px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1535012243332-0'); });
+</script>
+</div>
+</div> <!--E:LEADERBOARD-->
+</div>
+<div class="header_top">
+ <div class="menu">
+ <ul>
+ <li>
+ <a href="https://news.detik.com" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="detikNews" >detikNews</a>
+ </li>
+ <li>
+ <a href="https://finance.detik.com" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="detikFinance" >detikFinance</a>
+ </li>
+ <li>
+ <a href="https://hot.detik.com" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="detikHot" >detikHot</a>
+ </li>
+ <li>
+ <a href="https://inet.detik.com" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="detiki-Net" >detiki-Net</a>
+ </li>
+ <li>
+ <a href="//sport.detik.com" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="detikSport" >detikSport</a>
+ </li>
+ <li>
+ <a href="https://oto.detik.com" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="detikOto" >detikOto</a>
+ </li>
+ <li>
+ <a href="https://travel.detik.com" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="detikTravel" >detikTravel</a>
+ </li>
+ <li>
+ <a href="https://food.detik.com" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="detikFood" >detikFood</a>
+ </li>
+ <li>
+ <a href="https://health.detik.com" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="detikHealth" >detikHealth</a>
+ </li>
+ <li>
+ <a href="https://wolipop.detik.com" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="Wolipop" >Wolipop</a>
+ </li>
+ <li>
+ <a href="https://news.detik.com/indeks" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="Indeks" >Indeks</a>
+ </li>
+ </ul>
+ <div class="clearfix"></div>
+ </div>
+ <div class="menu2">
+ <a href="//adsmart.detik.com?utm_source=detikcom&utm_medium=navbar" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="Adsmart <span>New</span>" class="new">Adsmart <span>New</span></a> &middot <a href="https://20.detik.com" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="20DETIK" >20DETIK</a> &middot <a href="https://foto.detik.com" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="detikFoto" >detikFoto</a> &middot <a href="https://x.detik.com/" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="detikX" >detikX</a> &middot <a href="//sport.detik.com/sepakbola" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="Sepakbola" >Sepakbola</a> &middot <a href="//pasangmata.detik.com" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="Pasangmata" >Pasangmata</a> &middot <a href="https://event.detik.com" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="Event" class="new">Event</a> &middot <a href="//www.haibunda.com" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="Haibunda" class="new">Haibunda</a> &middot <a href="https://www.detik.com/pemilu" data-category="GA WP New Detikcom 2015" data-action="Navbar Atas" data-label="detikPemilu <span>New</span>" class="new">detikPemilu <span>New</span></a> <script type='text/javascript'><!--// <![CDATA[
+OA_show('navbar'); 
+// ]]> --></script> <script type='text/javascript'><!--// <![CDATA[
+OA_show('navbar2'); 
+// ]]> --></script> <script type='text/javascript'><!--// <![CDATA[
+OA_show('navbar3'); 
+// ]]> --></script> </div>
+</div>
+ <!-- E:HEADER-->
+ <!--S:billboard-->
+ 
+<div id="billboard_banner"> 
+<div class="bb_banner" style="display: block;">
+ 
+<!-- /4905536/detik_desktop/wp/billboard -->
+<div id='div-gpt-ad-1535011949711-0' style='height:250px; width:970px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1535011949711-0'); });
+</script>
+</div>
+ </div>
+</div> <!--E:billboard-->
+ <!--S:BILLBOARD MORNING FRIENDS-->
+ <!--E:BILLBOARD MORNING FRIENDS-->
+ <!-- S:CONTENT-->
+ <div class="content" data-sticky_parent>
+ <div class="label_notsb" style="display:none;">
+ <b id="live_type"></b>
+ <span id="live_title"></span> <a href="https://20.detik.com/">Selengkapnya</a>
+ <span class="butx">+</span>
+ <div class="clearfix"></div>
+</div>
+<script type="text/javascript">
+ var live = {
+ listen:function () {
+ if(window.WebSocket) {
+ var ws = new WebSocket('wss://push.detik.com/ws/20detik');
+ ws.onopen = function(){
+ // console.info('Nf listening..')
+ };
+ ws.onmessage = function(me){
+ // console.info('Nf got messages');
+ if(me.data) {
+ var d = JSON.parse(me.data)
+ if(typeof d.type != 'undefined'){
+ if(d.status == 'on'){
+ setTimeout(function(){ location.reload() }, 10000);
+ }
+ else if(d.status == 'off'){
+ setTimeout(function(){ location.reload() }, 10000);
+ }
+ }
+ }
+ }
+ }
+ }
+ }
+ $(document).ready(function() {
+ $.getJSON( "https://apis.detik.com/v1/d20/search?limit=1", function( data ) {
+ var lv = data.livestreaming;
+ if (lv.status == "on") {
+ var live_title = lv.program+' : ';
+ if (lv.type == 'livestreaming20d') {
+ // live_title = 'Live Streaming: ';
+ }else if(lv.type == 'breakingnews20d'){
+ // live_title = 'Breaking News: ';
+ $('.label_notsb').addClass('l_break');
+ }
+ $('#live_type').append(live_title);
+ $('.label_notsb').show();
+ $('#live_title').append(lv.title);
+ }
+ });
+ live.listen();
+ })
+</script>
+ <!--S:SLIDE BERITA UTAMA-->
+ <div class="beritautamanw">
+ <div class="head_bn">
+ <div class="title">Berita Utama</div>
+ <div class="tagging">
+ <span>Tag Populer</span>
+ <a href="https://www.detik.com/tag/trans-papua">#trans papua</a>
+ <a href="https://www.detik.com/tag/lindswell-kwok">#lindswell kwok</a>
+ <a href="https://www.detik.com/tag/dubes-arab-saudi">#dubes arab saudi</a>
+ <a href="https://www.detik.com/tag/nh-dini-meninggal-dunia">#nh dini meninggal dunia</a>
+ </div>
+ </div>
+ <div class="clearfix"></div>
+ <div class="img_bn">
+ <a href="https://news.detik.com/read/2018/12/05/190828/4331836/10/kapolda-metro-larang-anggotanya-foto-pose-satu-dan-dua-jari" data-category="GA WP New Detikcom 2015" data-action="Berita Utama" data-label="List Berita">
+ <div class="ratio4_3 box_img">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/11/28/eaab61fc-5cf5-4570-bcb2-932a4a996140_43.jpeg?w=250&q=80" alt="Kapolda Metro Larang Anggotanya Foto Pose Satu dan Dua Jari" title="Kapolda Metro Larang Anggotanya Foto Pose Satu dan Dua Jari" class="" /> </div>
+ <div class="text">
+ Kapolda Metro Larang Anggotanya Foto Pose Satu dan Dua Jari </div>
+ </div>
+ </a>
+ <a href="https://news.detik.com/read/2018/12/05/183502/4331789/10/tim-tni-polri-temukan-15-jenazah-pekerja-trans-papua-korban-kkb" data-category="GA WP New Detikcom 2015" data-action="Berita Utama" data-label="List Berita">
+ <div class="ratio4_3 box_img">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/04/3b651641-1736-4b32-a914-cd94d0f7646e_43.jpeg?w=250&q=80" alt="Tim TNI-Polri Temukan 15 Jenazah Pekerja Trans Papua Korban KKB" title="Tim TNI-Polri Temukan 15 Jenazah Pekerja Trans Papua Korban KKB" class="" /> </div>
+ <div class="text">
+ Tim TNI-Polri Temukan 15 Jenazah Pekerja Trans Papua Korban KKB </div>
+ </div>
+ </a>
+ <a href="https://finance.detik.com/read/2018/12/05/174927/4331756/6/dolar-as-balik-ke-rp-14400-an-rupiah-jadi-juru-kunci-di-asia" data-category="GA WP New Detikcom 2015" data-action="Berita Utama" data-label="List Berita">
+ <div class="ratio4_3 box_img">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/10/08/5ef262b9-fd7b-4ef5-b77f-a92767fb41e5_43.jpeg?w=250&q=80" alt="Dolar AS Balik ke Rp 14.400-an, Rupiah Jadi Juru Kunci di Asia" title="Dolar AS Balik ke Rp 14.400-an, Rupiah Jadi Juru Kunci di Asia" class="" /> </div>
+ <div class="text">
+ Dolar AS Balik ke Rp 14.400-an, Rupiah Jadi Juru Kunci di Asia </div>
+ </div>
+ </a>
+ <a href="https://wolipop.detik.com/read/2018/12/05/164429/4331625/1137/viral-ibu-hamil-ini-terharu-ngidamnya-ingin-bertemu-jokowi-terwujud" data-category="GA WP New Detikcom 2015" data-action="Berita Utama" data-label="List Berita">
+ <div class="ratio4_3 box_img">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/cea91a1e-da1a-4eb9-8912-5d11a642fcfb_43.jpeg?w=250&q=80" alt="Viral, Ibu Hamil Ini Terharu Ngidamnya Ingin Bertemu Jokowi Terwujud" title="Viral, Ibu Hamil Ini Terharu Ngidamnya Ingin Bertemu Jokowi Terwujud" class="" /> </div>
+ <div class="text">
+ Viral, Ibu Hamil Ini Terharu Ngidamnya Ingin Bertemu Jokowi Terwujud </div>
+ </div>
+ </a>
+ <a href="https://finance.detik.com/read/2018/12/05/150754/4331471/6/saham-saratoga-yang-dijual-sandi-ternyata-sepi-transaksi" data-category="GA WP New Detikcom 2015" data-action="Berita Utama" data-label="List Berita">
+ <div class="ratio4_3 box_img">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/09/28/7b4ea018-2df8-4f7d-b87b-7de7f04fab62_43.mpo?w=250&q=80" alt="Saham Saratoga yang Dijual Sandi Ternyata Sepi Transaksi" title="Saham Saratoga yang Dijual Sandi Ternyata Sepi Transaksi" class="" /> </div>
+ <div class="text">
+ Saham Saratoga yang Dijual Sandi Ternyata Sepi Transaksi </div>
+ </div>
+ </a>
+ 
+ </div>
+ <div class="clearfix"></div>
+</div>
+ <!--E:SLIDE BERITA UTAMA-->
+ <!--S:HEADLINE-->
+ <div class="headline">
+ 
+ <!-- landscape -->
+ <div class="box_hl_new" id="headline-container">
+ <article id="a4332000">
+ <div class="date"><span>detikNews</span>Rabu, 05 Des 2018 22:05 WIB</div>
+ <h1>
+ <a href="https://news.detik.com/berita/d-4332000/siapa-teman-wanita-yang-ngamar-bersama-wawan?tag_from=wp_hl_judul" data-category="GA WP New Detikcom 2015" data-action="HL" data-label="List Berita">
+ Siapa Teman Wanita yang 'Ngamar' Bersama Wawan </a>
+ </h1>
+ <div class="clearfix"></div>
+ <div class="ratio4_3 box_img">
+ <div class="img_con lqd">
+ <a href="https://news.detik.com/berita/d-4332000/siapa-teman-wanita-yang-ngamar-bersama-wawan?tag_from=wp_hl_img" data-category="GA WP New Detikcom 2015" data-action="HL" data-label="List Berita">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/08/15/e83eabe8-c5f9-4de5-b121-392149cabcf3_43.jpeg?w=800&q=60" alt="Siapa Teman Wanita yang Ngamar Bersama Wawan" title="Siapa Teman Wanita yang Ngamar Bersama Wawan" class="" /> </a>
+ </div>
+ </div>
+ <div class="text">
+ <div class="clearfix"></div>
+ <a href="https://news.detik.com/berita/d-4332000/siapa-teman-wanita-yang-ngamar-bersama-wawan?tag_from=wp_hl_desc" data-category="GA WP New Detikcom 2015" data-action="HL" data-label="List Berita">
+ Tubagus Chaeri Wardana (Wawan) diketahui ikut menyuap eks Kalapas Sukamiskin Wahid Husen untuk menginap di hotel bersama teman wanitanya. <br><div class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></div>
+ </a>
+ 
+ <div class="hl_kait">
+ <div class="title_lh">Berita Terkait</div>
+ <article>
+ <a href="https://news.detik.com/berita/d-4268757/dua-hari-berturut-turut-fuad-amin-dan-wawan-diperiksa-kpk?tag_from=wp_hl_terkait" data-category="GA WP New Detikcom 2015" data-action="HL" data-label="Berita Terkait">
+ <span>Dua Hari Berturut-turut Fuad Amin dan Wawan Diperiksa KPK</span>
+ </a>
+ </article>
+ <article>
+ <a href="https://news.detik.com/berita/d-4158661/wawan-adik-atut-dipindah-dari-lapas-sukamiskin-ke-rutan-kpk?tag_from=wp_hl_terkait" data-category="GA WP New Detikcom 2015" data-action="HL" data-label="Berita Terkait">
+ <span>Wawan Adik Atut Dipindah dari Lapas Sukamiskin ke Rutan KPK</span>
+ </a>
+ </article>
+ <div class="clearfix"></div>
+ </div>
+ </div>
+ <div class="clearfix"></div>
+ </article>
+ <div class="clearfix"></div>
+ </div>
+ <!--S:IMSAKIYAH-->
+ <!--E:IMSAKIYAH-->
+ <!--S:PIALADUNIA-->
+ <!--E:PIALADUNIA-->
+ </div>
+ <!--E:HEADLINE-->
+ <!--S:RIGHT CONTENT-->
+ <div class="r_content">
+ <!--BANNER SCR-->
+ <div class="mb15">
+<!-- /4905536/detik_desktop/wp/medium_rectangle1 -->
+<div id='div-gpt-ad-1535014012109-0'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1535014012109-0'); });
+</script>
+</div>
+</div> <!--BANNER SCR-->
+ <!--BANNER SCR-->
+ 
+<div class="mb15">
+<!-- /4905536/detik_desktop/wp/medium_rectangle2 -->
+<div id='div-gpt-ad-1535014085963-0' style='height:250px; width:300px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1535014085963-0'); });
+</script>
+</div>
+</div> <!--BANNER SCR-->
+ <div class="clearfix"></div>
+ <div id="mf_channelbox"></div>
+ 
+ <!-- S:Pemilu -->
+ <!-- S:cb right -->
+<div class="boxlr mb15 pemilu2019">
+ <div class="title_lr">
+ <a href="https://www.detik.com/pemilu?tag_from=wp_cb_detikPemilu_logo" class="head_click"></a>
+ <a class="moreas" href="https://www.detik.com/pemilu?tag_from=wp_cb_detikPemilu_more">+</a>
+ <div class="clearfix"></div>
+ </div>
+ <ul class="list_news1 list_news2 list_news3">
+ <li>
+ <article>
+ <a href="https://news.detik.com/berita/d-4331998/pramono-anung-elektabilitas-jokowi-maruf-jadi-lebih-kuat?tag_from=wp_cb_detikPemilu_hl">
+ <div class="ratio16_9 box_img fl mr10">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/05/07/6314cb88-7fdd-499f-93b3-06183151607b_169.jpeg?w=750&q=90" alt="Pramono Anung: Elektabilitas Jokowi-Maruf Jadi Lebih Kuat" title="Pramono Anung: Elektabilitas Jokowi-Maruf Jadi Lebih Kuat" class="" /> </div>
+ </div>
+ <div class="clearfix pt10"></div>
+ <span class="sub_judul"></span>
+ <h3><span>Pramono Anung: Elektabilitas Jokowi-Ma'ruf Jadi Lebih Kuat</span></h3>
+ <span class="labdate f11 mt5 mb5">Rabu, 05 Des 2018 21:54</span>
+ </a>
+ </article>
+ </li>
+ <li>
+ <article>
+ <a href="https://news.detik.com/berita/d-4331854/tonton-diskusi-hangat-reuni-212-dan-guncangan-elektoral?tag_from=wp_cb_detikPemilu_list">
+ <div class="ratio4_3 box_img fl mr10">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/02/6b53f62c-1fcd-4e7b-9d2d-4128957b2ea9_43.jpeg?w=100&q=" alt="Tonton! Diskusi Hangat Reuni 212 dan Guncangan Elektoral" title="Tonton! Diskusi Hangat Reuni 212 dan Guncangan Elektoral" class="" /> </div>
+ </div>
+ <div class="title_ln">
+ <span class="sub_judul"></span>
+ <h3><span>Tonton! Diskusi Hangat Reuni 212 dan Guncangan Elektoral</span></h3>
+ <span class="labdate f11 mt5 mb5">Rabu, 05 Des 2018 21:25</span>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <li>
+ <article>
+ <a href="https://news.detik.com/berita/d-4331750/kpu-bahas-usulan-korupsi-orba-masuk-jadi-materi-debat-capres?tag_from=wp_cb_detikPemilu_list">
+ <div class="ratio4_3 box_img fl mr10">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/04/04/c02d2a8c-dcf3-4926-98ce-81f7f3c55e44_43.jpeg?w=100&q=" alt="KPU Bahas Usulan Korupsi Orba Masuk Jadi Materi Debat Capres" title="KPU Bahas Usulan Korupsi Orba Masuk Jadi Materi Debat Capres" class="" /> </div>
+ </div>
+ <div class="title_ln">
+ <span class="sub_judul"></span>
+ <h3><span>KPU Bahas Usulan Korupsi Orba Masuk Jadi Materi Debat Capres</span></h3>
+ <span class="labdate f11 mt5 mb5">Rabu, 05 Des 2018 17:56</span>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ </ul>
+ <div class="clearfix"></div>
+</div>
+<!-- E:cb right -->
+ <!-- E:Pemilu -->
+ <!--S:FOKUS-->
+ <div class="boxlr mb15">
+ <div class="title_lr">
+ <span>Fokus</span> <a href="//www.detik.com/fokus?tag_from=wp_cb_fokus_more" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="Indeks Sticky">+</a>
+ <div class="clearfix"></div>
+ </div>
+ <ul class="list_fokus list_fokus_add">
+ 
+ <li>
+ <article>
+ <a href="https://news.detik.com/indeksfokus/4300/31-pekerja-trans-papua-dibunuh/berita?tag_from=wp_cb_fokus_hl" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="ratio16_9 box_img">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/04/e7fb6e65-5d66-45fe-81ea-c09d8987f02b_169.jpeg?w=300&q=60" alt="31 Pekerja Trans Papua Dibunuh"/>
+ </div>
+ </div>
+ <div class="num_fokus">01</div>
+ <div class="title_lnf">
+ <h2><span>31 Pekerja Trans Papua Dibunuh</span></h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://sport.detik.com/highlight/4301/lindswell-kwok-berhijab/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">02</div>
+ <div class="title_lnf">
+ <h2>
+ <span>Lindswell Kwok Berhijab </span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://hot.detik.com/indeksfokus/4304/nh-dini-meninggal-dunia/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">03</div>
+ <div class="title_lnf">
+ <h2>
+ <span>Nh Dini Meninggal Dunia</span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://finance.detik.com/fokus/3426/dolar-as-lengser-dari-rp-15000/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">04</div>
+ <div class="title_lnf">
+ <h2>
+ <span>Dolar AS Lengser dari Rp 15.000</span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://travel.detik.com/indeksfokus/4289/rebutan-pantai-anyer/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">05</div>
+ <div class="title_lnf">
+ <h2>
+ <span>Rebutan Pantai Anyer</span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://sport.detik.com/sepakbola/indeksfokus/4305/mu-vs-arsenal/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">06</div>
+ <div class="title_lnf">
+ <h2>
+ <span>MU vs Arsenal</span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://hot.detik.com/indeksfokus/4255/sisca-dewi-dibui/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">07</div>
+ <div class="title_lnf">
+ <h2>
+ <span>Sisca Dewi Dibui </span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://finance.detik.com/fokus/2441/sah-ri-caplok-freeport/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">08</div>
+ <div class="title_lnf">
+ <h2>
+ <span>Sah! RI Caplok Freeport</span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://hot.detik.com/indeksfokus/4268/gisel-gugat-cerai-gading/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">09</div>
+ <div class="title_lnf">
+ <h2>
+ <span>Gisel Gugat Cerai Gading!</span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://sport.detik.com/sepakbola/indeksfokus/4299/ballon-dor-2018-milik-modric/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">10</div>
+ <div class="title_lnf">
+ <h2>
+ <span>Ballon d&#039;Or 2018 Milik Modric</span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ </ul>
+</div>
+ <!--E:FOKUS-->
+ <!--S:LIFESTYLE-->
+ <div class="boxlr mb15">
+ <div class="title_lr bg_lifestyle">
+ <span>Lifestyle</span>
+ <!-- <a href="#">+</a> -->
+ <div class="clearfix"></div>
+ </div>
+ <ul class="list_news1 list_news2">
+ 
+ <li>
+ <article>
+ <a href="https://food.detik.com/readfoto/2018/12/05/172220/4332019/484/youtuber-cilik-berpenghasilan-tertinggi-ini-suka-bikin-pizza-dan-pancake?tag_from=wp_cb_lifestyle_hl" data-category="GA WP New Detikcom 2015" data-action="Lifestyle" data-label="List Berita">
+ <div class="ratio16_9 box_img fl mr10">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/visual/2018/12/05/7c37ddab-95cc-4842-b79c-69e6b4942920_169.jpeg?w=300&q=" alt="YouTuber Cilik Berpenghasilan Tertinggi Ini Suka Bikin Pizza dan Pancake" title="YouTuber Cilik Berpenghasilan Tertinggi Ini Suka Bikin Pizza dan Pancake" class="" /> </div>
+ <!-- <span class="lbl llife">Travel</span> -->
+ </div>
+ <div class="clearfix pt10"></div>
+ <h3>
+ <span>YouTuber Cilik Berpenghasilan Tertinggi Ini Suka Bikin Pizza dan Pancake</span>
+ </h3> <span class="labdate f11 mt5 mb5">Rabu, 05/12/2018 17:22 WIB</span>
+ </a>
+ </article>
+ </li>
+ 
+ 
+ <li>
+ <article>
+ <a href="https://travel.detik.com/read/2018/12/05/221555/4332018/1382/pengamat-pariwisata-tiket-masuk-usd-500-ke-komodo-tak-masuk-akal?tag_from=wp_cb_lifestyle_list" data-category="GA WP New Detikcom 2015" data-action="Lifestyle" data-label="List Berita">
+ <div class="ratio4_3 box_img fl mr10">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/visual/2016/11/18/e041d395-4577-48b9-98be-4ba270702633_43.jpg?w=&q=" alt="Pengamat Pariwisata: Tiket Masuk USD 500 ke Komodo Tak Masuk Akal" title="Pengamat Pariwisata: Tiket Masuk USD 500 ke Komodo Tak Masuk Akal" class="" /> </div>
+ </div>
+ <div class="title_ln">
+ <h3>
+ <span class="normal"><!--<span class="sub_judul ls">Travel</span> -->
+ Pengamat Pariwisata: Tiket Masuk USD 500 ke Komodo Tak Masuk Akal </span>
+ </h3>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://travel.detik.com/read/2018/12/05/215207/4331997/1382/negara-timur-tengah-salip-singapura-sebagai-pemegang-paspor-terkuat?tag_from=wp_cb_lifestyle_list" data-category="GA WP New Detikcom 2015" data-action="Lifestyle" data-label="List Berita">
+ <div class="ratio4_3 box_img fl mr10">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/visual/2018/12/05/8068773f-c57e-4f5f-8c0b-e31309876171_43.jpeg?w=&q=" alt="Negara Timur Tengah Salip Singapura Sebagai Pemegang Paspor Terkuat" title="Negara Timur Tengah Salip Singapura Sebagai Pemegang Paspor Terkuat" class="" /> </div>
+ </div>
+ <div class="title_ln">
+ <h3>
+ <span class="normal"><!--<span class="sub_judul ls">Travel</span> -->
+ Negara Timur Tengah Salip Singapura Sebagai Pemegang Paspor Terkuat </span>
+ </h3>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://oto.detik.com/read/2018/12/05/213052/4331978/648/bus-listrik-moeldoko-banjir-pesanan?tag_from=wp_cb_lifestyle_list" data-category="GA WP New Detikcom 2015" data-action="Lifestyle" data-label="List Berita">
+ <div class="ratio4_3 box_img fl mr10">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/visual/2018/03/02/d535fb5e-2836-4f81-b9a9-c8701614cab6_43.jpeg?w=&q=" alt="Bus Listrik Moeldoko Banjir Pesanan" title="Bus Listrik Moeldoko Banjir Pesanan" class="" /> </div>
+ </div>
+ <div class="title_ln">
+ <h3>
+ <span class="normal"><!--<span class="sub_judul ls">Travel</span> -->
+ Bus Listrik Moeldoko Banjir Pesanan </span>
+ </h3>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://travel.detik.com/read/2018/12/05/213227/4331979/1382/polemik-turis-bayar-usd-500-buat-lihat-komodo?tag_from=wp_cb_lifestyle_list" data-category="GA WP New Detikcom 2015" data-action="Lifestyle" data-label="List Berita">
+ <div class="ratio4_3 box_img fl mr10">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/visual/2016/10/31/aae36475-dec6-48af-94b2-ee304ee7a6a0_43.jpg?w=&q=" alt="Polemik Turis Bayar USD 500 Buat Lihat Komodo" title="Polemik Turis Bayar USD 500 Buat Lihat Komodo" class="" /> </div>
+ </div>
+ <div class="title_ln">
+ <h3>
+ <span class="normal"><!--<span class="sub_judul ls">Travel</span> -->
+ Polemik Turis Bayar USD 500 Buat Lihat Komodo </span>
+ </h3>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://food.detik.com/readfoto/2018/12/05/184040/4331956/484/serunya-janisaa-pradja-teman-dekat-mike-lewis-yang-doyan-wine?tag_from=wp_cb_lifestyle_list" data-category="GA WP New Detikcom 2015" data-action="Lifestyle" data-label="List Berita">
+ <div class="ratio4_3 box_img fl mr10">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/visual/2018/12/05/33bb2af0-b1d4-4053-98b7-e098324e503a_43.jpeg?w=&q=" alt="Serunya Janisaa Pradja, &#039;Teman Dekat&#039; Mike Lewis yang Doyan Wine" title="Serunya Janisaa Pradja, &#039;Teman Dekat&#039; Mike Lewis yang Doyan Wine" class="" /> </div>
+ </div>
+ <div class="title_ln">
+ <h3>
+ <span class="normal"><!--<span class="sub_judul ls">Travel</span> -->
+ Serunya Janisaa Pradja, &#039;Teman Dekat&#039; Mike Lewis yang Doyan Wine </span>
+ </h3>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ </ul>
+</div>
+ <!--E:LIFESTYLE-->
+ <!--S:DETIKX-->
+ <div class="boxlr mb15 dtx">
+ <div class="title_lr">
+ <a href="https://x.detik.com?tag_from=wp_cb_detikx_logo"><img src="https://cdn.detik.net.id/detik2/images/logo_detikx.png" alt=""></a>
+ <div class="clearfix"></div>
+ </div>
+ <ul class="list_fokus" >
+ <li class="satu_fokus">
+ <article>
+ <a href="https://x.detik.com/detail/investigasi/20181203/Wajah-Baru-di-Pemuda-Muhammadiyah/index.php?tag_from=wp_cb_detikx_list">
+ <div class="ratio4_3 box_img fl ">
+ <div class="img_con lqd">
+ <span class="grad">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/02/5335346c-de6a-4d2c-9173-2c5d2f7166a0_43.jpeg?w=300&q=90" alt="" title="" class="" /> </span>
+ </div>
+ </div>
+ <div class="tl_vidfot">
+ <span class="sub_judul">Investigasi</span>
+ <h3><span>Wajah Baru di Pemuda Muhammadiyah</span></h3>
+ <span class="labdate f11">2018/12/03 22:37:42 WIB</span>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ </ul>
+</div>
+ <!--E:DETIKX-->
+ <!--BANNER SCR-->
+ <div class="mb15">
+<script type='text/javascript'><!--// <![CDATA[
+OA_show('mediumrectangle3'); 
+// ]]> --></script></div> <!--BANNER SCR-->
+ <!--BANNER SCR-->
+ <div class="mb15">
+<script type='text/javascript'><!--// <![CDATA[
+OA_show('mediumrectangle4'); 
+// ]]> --></script></div> <!--BANNER SCR-->
+ <!--S:Haibunda-->
+ <div class="boxlr mb15 haibunda">
+ <div class="title_lr">
+ <a href="https://haibunda.com?tag_from=wp_cb_haibunda_logo">
+ <img src="https://cdn.detik.net.id/detik2/images/logo_haibunda.png" alt="Logo Haibunda">
+ </a>
+ <div class="clearfix"></div>
+ </div>
+ <ul class="list_news1 list_news2 list_news3">
+ <li>
+ <article>
+ <a href="https://www.haibunda.com/psikologi/d-4331951/20-nama-bayi-perempuan-dengan-arti-harum?tag_from=wp_cb_haibunda_hl">
+ <div class="ratio16_9 box_img fl mr10">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/e6518821-b0af-434c-8102-4a949be6bed3_169.jpeg?w=450&q=90" alt="20 Nama Bayi Perempuan dengan Arti Harum" title="20 Nama Bayi Perempuan dengan Arti Harum" class="" /> </div>
+ </div>
+ <div class="clearfix pt10"></div>
+ <span class="sub_judul">psikologi</span>
+ <h3><span>20 Nama Bayi Perempuan dengan Arti Harum</span></h3>
+ <span class="labdate f11 mt5 mb5">Rabu, 05 Des 2018 21:00 WIB</span>
+ </a>
+ </article>
+ </li>
+ <li>
+ <article>
+ <a href="https://www.haibunda.com/mom-life/d-4331937/liburan-ke-italia-jessica-iskandar-ajari-el-barack-peduli-sesama?tag_from=wp_cb_haibunda_list">
+ <div class="ratio4_3 box_img fl mr10">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/04/19/98d5cba9-381c-4f91-8d67-526c85acf5ed_11.jpeg?w=250&q=90" alt="Liburan ke Italia, Jessica Iskandar Ajari El Barack Peduli Sesama" title="Liburan ke Italia, Jessica Iskandar Ajari El Barack Peduli Sesama" class="" /> </div>
+ </div>
+ <div class="title_ln">
+ <h3><span>Liburan ke Italia, Jessica Iskandar Ajari El Barack Peduli Sesama</span></h3>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <li>
+ <article>
+ <a href="https://www.haibunda.com/psikologi/d-4331907/tips-mengasuh-anak-dari-ibunda-kate-middleton?tag_from=wp_cb_haibunda_list">
+ <div class="ratio4_3 box_img fl mr10">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/103b1862-778e-4b36-8bbc-e6eea31a69d0_11.jpeg?w=250&q=90" alt="Tips Mengasuh Anak dari Ibunda Kate Middleton" title="Tips Mengasuh Anak dari Ibunda Kate Middleton" class="" /> </div>
+ </div>
+ <div class="title_ln">
+ <h3><span>Tips Mengasuh Anak dari Ibunda Kate Middleton</span></h3>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ </ul>
+ <div class="clearfix"></div>
+</div>
+ <!--E:Haibunda-->
+ <!--S:DETIKFORUM-->
+ <div class="boxlr mb15">
+ <div class="title_lr">
+ <span>detik forum</span> <a href="//forum.detik.com?tag_from=wp_cb_forum_more" data-category="GA WP New Detikcom 2015" data-action="Detik Forum" data-label="Indeks">+</a>
+ <div class="clearfix"></div>
+ </div>
+ <ul class="list_news1">
+ 
+ <li>
+ <article>
+ <a href="http://forum.detik.com/akhirnya-aura-kasih-pamer-pacar-bulenya-nih-oh-ganteng-t1866299.html?tag_from=wp_cb_forum_list" data-category="GA WP New Detikcom 2015" data-action="Detik Forum" data-label="List Berita">
+ <div class="ratio1_1 box_img fl mr8">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/forum/wp/images/slide_terpopuler/slide_terpopuler-1543991555-aura.jpeg" alt="Akhirnya Aura Kasih Pamer Pacar Bulenya Nih, Oh Ganteng!" title="Akhirnya Aura Kasih Pamer Pacar Bulenya Nih, Oh Ganteng!" class="" /> </div>
+ </div>
+ <div class="title_ln">
+ <h2>
+ <span>
+ Akhirnya Aura Kasih Pamer Pacar Bulenya Nih, Oh Ganteng! <span class="labdate f11 normal">Rabu, 05/12/2018 11:31 490230</span>
+ <span class="posted">Posted By : auliaeon</span>
+ </span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="http://forum.detik.com/gaya-reggae-ala-via-vallen-trending-cover-lagu-selow-t1866502.html?tag_from=wp_cb_forum_list" data-category="GA WP New Detikcom 2015" data-action="Detik Forum" data-label="List Berita">
+ <div class="ratio1_1 box_img fl mr8">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/forum/wp/images/slide_terpopuler/slide_terpopuler-1543997118-via.jpg" alt="Trending Via Vallen Cover `Lagu Reggae`, Semoga Gak Masalah Lagi Yah!" title="Trending Via Vallen Cover `Lagu Reggae`, Semoga Gak Masalah Lagi Yah!" class="" /> </div>
+ </div>
+ <div class="title_ln">
+ <h2>
+ <span>
+ Trending Via Vallen Cover `Lagu Reggae`, Semoga Gak Masalah Lagi Yah! <span class="labdate f11 normal">Rabu, 05/12/2018 14:56 490372</span>
+ <span class="posted">Posted By : matsuko</span>
+ </span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ </ul>
+</div>
+ <!--E:DETIKFORUM-->
+ <!--S:KOLOM-->
+<div class="boxlr mb15">
+ <div class="title_lr">
+ <span>Kolom</span>
+ <a href="https://news.detik.com/kolom?tag_from=wp_cb_kolom_more">+</a>
+ <div class="clearfix"></div>
+ </div>
+ <ul class="list_news1 popugc">
+ <li class="title_box">
+ <b>Kirim Opini Anda</b>
+ Kami tunggu tulisan Anda seputar politik, isu sosial dan peristiwa yang terjadi di sekitar Anda. Dapatkan poin dan jadilah bagian dari Kolomnis detikcom.
+ <div class="clearfix"></div>
+ <a href="//www.detik.com/dapur/panduan-kolumnis?tag_from=wp_cb_kolom_panduan" class="pand"><span class="itat">i</span>Panduan</a>
+ <a class="krm_ug" href="https://news.detik.com/kolom/kirim?tag_from=wp_cb_kolom_kirim">Kirim Tulisan</a>
+ <div class="clearfix"></div>
+ </li>
+ <li>
+ <article>
+ <a href="https://news.detik.com/kolom/d-4331602/nh-dini-pada-sebuah-kenangan?tag_from=wp_cb_kolom_list">
+ <div class="box_img ratiobox mr10 fl">
+ <div class="ratiobox_content lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/04/1816a08b-f27f-422e-867f-2eecc36dab97_11.jpeg?w=100&q=" alt="Nh Dini: Pada Sebuah Kenangan" title="Nh Dini: Pada Sebuah Kenangan" class="" /> </div>
+ </div>
+ <div class="title_ln">
+ <h2>
+ <span>
+ Nh Dini: Pada Sebuah Kenangan <span class="labdate f11 normal">Penulis : Mumu Aloha</span>
+ </span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <li>
+ <article>
+ <a href="https://news.detik.com/kolom/d-4331512/membaca-nh-dini-hari-ini?tag_from=wp_cb_kolom_list">
+ <div class="box_img ratiobox mr10 fl">
+ <div class="ratiobox_content lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/08/31/e6b813ab-0a30-4b48-8d94-5eca7b145e5f_11.jpeg?w=100&q=" alt="Membaca Nh Dini Hari Ini" title="Membaca Nh Dini Hari Ini" class="" /> </div>
+ </div>
+ <div class="title_ln">
+ <h2>
+ <span>
+ Membaca Nh Dini Hari Ini <span class="labdate f11 normal">Penulis : Okky Madasari</span>
+ </span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ </ul>
+</div>
+<!--E:KOLOM-->
+ <!--BANNER SCR-->
+ <div class="mb15">
+<script type='text/javascript'><!--// <![CDATA[
+OA_show('mediumrectangle5'); 
+// ]]> --></script></div> <!--BANNER SCR-->
+ <!--S:FOTO SIDEBAR-->
+ <div class="boxlr mb15">
+ <div class="title_lr">
+ <span>Foto</span> <a href="https://foto.detik.com?tag_from=wp_cb_foto_more" data-category="GA WP New Detikcom 2015" data-action="Foto" data-label="Indeks">+</a>
+ <div class="clearfix"></div>
+ </div>
+ <ul class="list_fokus" >
+ <li class="satu_fokus">
+ <article>
+ <a href="https://news.detik.com/readfoto/2018/12/05/221105/4332005/157/1/ponakan-novanto-dan-pengusaha-made-oka-divonis-10-tahun-penjara?tag_from=wp_cb_foto_list" data-category="GA WP New Detikcom 2015" data-action="Foto" data-label="List Slide Berita 1">
+ <div class="ratio4_3 box_img fl ">
+ <div class="img_con lqd">
+ <span class="grad">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/da060e54-5fab-4b82-be48-6a896d8970a3.jpeg?w=350" alt="Ponakan Novanto dan Pengusaha Made Oka Divonis 10 Tahun Penjara" title="Ponakan Novanto dan Pengusaha Made Oka Divonis 10 Tahun Penjara" class="" /> </span>
+ </div>
+ </div>
+ <span class="ico_vf ic_fot"></span>
+ <div class="tl_vidfot">
+ <h3>
+ <span>Ponakan Novanto dan Pengusaha Made Oka Divonis 10 Tahun Penjara</span>
+ </h3>
+ <span class="labdate f11">Foto | Rabu, 05/12/2018 22:14 WIB</span>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <li class="satu_fokus">
+ <article>
+ <a href="https://finance.detik.com/readfoto/2018/12/05/184852/4331989/461/1/momen-jokowi-minta-menteri-genjot-pembangunan-sdm?tag_from=wp_cb_foto_list" data-category="GA WP New Detikcom 2015" data-action="Foto" data-label="List Slide Berita 2">
+ <div class="ratio4_3 box_img fl ">
+ <div class="img_con lqd">
+ <span class="grad">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/1f5729c7-5275-4388-88c4-808f375d68db.jpeg?w=350" alt="Momen Jokowi Minta Menteri Genjot Pembangunan SDM" title="Momen Jokowi Minta Menteri Genjot Pembangunan SDM" class="" /> </span>
+ </div>
+ </div>
+ <span class="ico_vf ic_fot"></span>
+ <div class="tl_vidfot">
+ <h3>
+ <span>Momen Jokowi Minta Menteri Genjot Pembangunan SDM</span>
+ </h3>
+ <span class="labdate f11">Foto | Rabu, 05/12/2018 21:56 WIB</span>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <li class="satu_fokus">
+ <article>
+ <a href="https://inet.detik.com/readfoto/2018/12/05/171352/4331965/1146/1/si-penjiplak-iphone-bikin-ponsel-yang-punya-proyektor?tag_from=wp_cb_foto_list" data-category="GA WP New Detikcom 2015" data-action="Foto" data-label="List Slide Berita 3">
+ <div class="ratio4_3 box_img fl ">
+ <div class="img_con lqd">
+ <span class="grad">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/eed83e24-ede5-4b37-be0b-92ea051ae847_169.jpeg?w=350" alt="Si Penjiplak iPhone Bikin Ponsel yang Punya Proyektor" title="Si Penjiplak iPhone Bikin Ponsel yang Punya Proyektor" class="" /> </span>
+ </div>
+ </div>
+ <span class="ico_vf ic_fot"></span>
+ <div class="tl_vidfot">
+ <h3>
+ <span>Si Penjiplak iPhone Bikin Ponsel yang Punya Proyektor</span>
+ </h3>
+ <span class="labdate f11">Foto | Rabu, 05/12/2018 21:32 WIB</span>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <li class="satu_fokus">
+ <article>
+ <a href="https://sport.detik.com/sepakbola/readfoto/2018/12/05/192805/4331874/548/1/persebaya-jalani-sesi-latihan-jelang-lawan-psis-semarang?tag_from=wp_cb_foto_list" data-category="GA WP New Detikcom 2015" data-action="Foto" data-label="List Slide Berita 4">
+ <div class="ratio4_3 box_img fl ">
+ <div class="img_con lqd">
+ <span class="grad">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/1d7ba197-662a-4d4b-9a4a-7c9f4f485837.jpeg?w=350" alt="Persebaya Jalani Sesi Latihan Jelang Lawan PSIS Semarang" title="Persebaya Jalani Sesi Latihan Jelang Lawan PSIS Semarang" class="" /> </span>
+ </div>
+ </div>
+ <span class="ico_vf ic_fot"></span>
+ <div class="tl_vidfot">
+ <h3>
+ <span>Persebaya Jalani Sesi Latihan Jelang Lawan PSIS Semarang</span>
+ </h3>
+ <span class="labdate f11">Foto | Rabu, 05/12/2018 19:37 WIB</span>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ </ul>
+ <div id="fot_page"></div>
+</div>
+ <!--E:FOTO SIDEBAR-->
+ <!--S:STICKY RIGHT-->
+ <div class="sticky" data-sticky_column>
+ <!--S:FOKUS2-->
+ <div class="boxlr mb15">
+ <div class="title_lr">
+ <span>Fokus</span> <a href="//www.detik.com/fokus?tag_from=wp_cb_fokus_more" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="Indeks Sticky">+</a>
+ <div class="clearfix"></div>
+ </div>
+ <ul class="list_fokus list_fokus_add">
+ 
+ <li>
+ <article>
+ <a href="https://news.detik.com/indeksfokus/4300/31-pekerja-trans-papua-dibunuh/berita?tag_from=wp_cb_fokus_hl" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="ratio16_9 box_img">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/04/e7fb6e65-5d66-45fe-81ea-c09d8987f02b_169.jpeg?w=300&q=60" alt="31 Pekerja Trans Papua Dibunuh"/>
+ </div>
+ </div>
+ <div class="num_fokus">01</div>
+ <div class="title_lnf">
+ <h2><span>31 Pekerja Trans Papua Dibunuh</span></h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://sport.detik.com/highlight/4301/lindswell-kwok-berhijab/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">02</div>
+ <div class="title_lnf">
+ <h2>
+ <span>Lindswell Kwok Berhijab </span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://hot.detik.com/indeksfokus/4304/nh-dini-meninggal-dunia/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">03</div>
+ <div class="title_lnf">
+ <h2>
+ <span>Nh Dini Meninggal Dunia</span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://finance.detik.com/fokus/3426/dolar-as-lengser-dari-rp-15000/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">04</div>
+ <div class="title_lnf">
+ <h2>
+ <span>Dolar AS Lengser dari Rp 15.000</span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://travel.detik.com/indeksfokus/4289/rebutan-pantai-anyer/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">05</div>
+ <div class="title_lnf">
+ <h2>
+ <span>Rebutan Pantai Anyer</span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://sport.detik.com/sepakbola/indeksfokus/4305/mu-vs-arsenal/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">06</div>
+ <div class="title_lnf">
+ <h2>
+ <span>MU vs Arsenal</span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://hot.detik.com/indeksfokus/4255/sisca-dewi-dibui/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">07</div>
+ <div class="title_lnf">
+ <h2>
+ <span>Sisca Dewi Dibui </span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://finance.detik.com/fokus/2441/sah-ri-caplok-freeport/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">08</div>
+ <div class="title_lnf">
+ <h2>
+ <span>Sah! RI Caplok Freeport</span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://hot.detik.com/indeksfokus/4268/gisel-gugat-cerai-gading/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">09</div>
+ <div class="title_lnf">
+ <h2>
+ <span>Gisel Gugat Cerai Gading!</span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://sport.detik.com/sepakbola/indeksfokus/4299/ballon-dor-2018-milik-modric/berita?tag_from=wp_cb_fokus_list" data-category="GA WP New Detikcom 2015" data-action="Fokus Sticky" data-label="List Berita Sticky">
+ <div class="num_fokus">10</div>
+ <div class="title_lnf">
+ <h2>
+ <span>Ballon d&#039;Or 2018 Milik Modric</span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ </ul>
+</div>
+ <!--E:FOKUS2-->
+ </div>
+ <!--E:STICKY RIGHT-->
+ </div>
+ <!--E:RIGHT CONTENT-->
+ <!--S:LEFT CONTENT-->
+ <div class="l_content">
+ <!--BANNER SQR2-->
+ <!--BANNER SQR2-->
+ <!--BANNER CB2-->
+ <!-- S:Channelbox --> 
+<div id="scl1" class="mb15">
+<style>
+ @font-face {
+ font-family: "MuseoSansW01-Rounded700";
+ src: url("https://cdn.detik.net.id/detik2/font/luwak/7438bbf176f4cce037dbe179c0e5aece.eot");
+ src: url("https://cdn.detik.net.id/detik2/font/luwak/7438bbf176f4cce037dbe179c0e5aece.eot?#iefix") format("embedded-opentype"),
+ url("https://cdn.detik.net.id/detik2/font/luwak/7438bbf176f4cce037dbe179c0e5aece.woff2") format("woff2"),
+ url("https://cdn.detik.net.id/detik2/font/luwak/7438bbf176f4cce037dbe179c0e5aece.woff") format("woff"),
+ url("https://cdn.detik.net.id/detik2/font/luwak/7438bbf176f4cce037dbe179c0e5aece.ttf") format("truetype"),
+ url("https://cdn.detik.net.id/detik2/font/luwak/7438bbf176f4cce037dbe179c0e5aece.svg#MuseoSansW01-Rounded700") format("svg");
+ }
+ 
+ .kalbe-box {
+ width: 100%;
+ background: #f5ffdc;
+ position: relative;
+ border: 1px solid #98cd2d;
+ }
+ .kalbe-box > a > img {
+ max-width: 250px;
+ height: auto;
+ border-top: 4px solid #98cd2d;
+ }
+ .kalbe-news-title-mini:hover {
+ color: #98cd2d;
+ transition: all .5s ease;
+ }
+ .kalbe-line {
+ border-bottom: 1px dashed #98cd2d;
+ }
+ .kalbe-news-box-mini {
+ padding: 5px;
+ min-height: 70px;
+ }
+ .kalbe-news-img-mini {
+ height: 70px;
+ width: 70px;
+ float: left;
+ margin-right: 10px;
+ }
+ .kalbe-news-img-mini > img {
+ height: 70px;
+ width: 70px;
+ object-fit: cover;
+ }
+ .kalbe-news-title-mini {
+ width: 160px;
+ display: inline-block;
+ font-family: 'MuseoSansW01-Rounded700';
+ font-size: 15px;
+ }
+ .kalbe-news-date {
+ color: #8c8c8c;
+ font-style: italic;
+ display: block;
+ margin: 5px 0;
+ letter-spacing: 0.1px;
+ padding-left: 80px;
+ }
+ </style>
+<div class="kalbe-box mb15">
+<script type='text/javascript'><!--// <![CDATA[
+OA_show('channelbox2'); 
+// ]]> --></script>
+ 
+ <a href="https://www.haibunda.com/kehamilan/d-4329712/tips-untuk-ibu-hamil-agar-babymoon-tetap-aman" target="_blank">
+ <div class="kalbe-news-box-mini kalbe-line">
+ <div class="kalbe-news-img-mini">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/04/9dce0a72-d53b-4f0f-b2d7-cddd8b9a40cb_11.jpeg?w=150&q=90" alt="Tips untuk Ibu Hamil agar Babymoon Tetap Aman" title="Tips untuk Ibu Hamil agar Babymoon Tetap Aman" class="" />
+ </div>
+ <div class="kalbe-news-title-mini">
+ Tips untuk Ibu Hamil agar Babymoon Tetap Aman
+ </div>
+ <span class="kalbe-news-date">
+ Selasa, 04 Des 2018 13:03
+ </span>
+ </div>
+ </a>
+ 
+ <a href="https://www.haibunda.com/kehamilan/d-4327855/hal-yang-sering-diabaikan-calon-ibu-saat-program-hamil" target="_blank">
+ <div class="kalbe-news-box-mini ">
+ <div class="kalbe-news-img-mini">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/03/10428c5d-8864-4532-a981-5051362f0caa_11.jpeg?w=150&q=90" alt="Hal yang Sering Diabaikan Calon Ibu Saat Program Hamil" title="Hal yang Sering Diabaikan Calon Ibu Saat Program Hamil" class="" />
+ </div>
+ <div class="kalbe-news-title-mini">
+ Hal yang Sering Diabaikan Calon Ibu Saat Program Hamil
+ </div>
+ <span class="kalbe-news-date">
+ Senin, 03 Des 2018 10:16
+ </span>
+ </div>
+ </a>
+ 
+ </div>
+ </div>
+<!-- E:Channelbox --> <!--BANNER CB2-->
+ <!--S:20detik -->
+ <!-- S: BOX 20DETIK -->
+<div class="boxlr mb15 ddtk_box">
+ <div class="title_lr title_lr2">
+ <span>VIDEO TERPOPULER</span>
+ <a href="https://20.detik.com?tag_from=wp_cb_videoTerpopuler_more">+</a>
+ <div class="clearfix"></div>
+ </div>
+ <ul class="list_news1 list_news2">
+ 
+ 
+ <li>
+ <article>
+ <a href="https://20.detik.com/detikflash/20181205-181205075/polisi-tingkatkan-kasus-ceramah-habib-bahar-bin-smith-ke-penyidikan?tag_from=wp_cb_videoTerpopuler_hl">
+ <div class="ratio16_9 box_img fl mr10">
+ <span class="play2d p1st"></span>
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/videoservice/AdminTV/2018/12/05/Polisi_Tingkatkan_Kasus_Ceramah_Ha_NtvYDzr-20181205184427-custom.jpg?w=230" alt="Polisi Tingkatkan Kasus Ceramah Habib Bahar bin Smith ke Penyidikan" title="Polisi Tingkatkan Kasus Ceramah Habib Bahar bin Smith ke Penyidikan" class="" /> </div>
+ </div>
+ <div class="clearfix pt10"></div>
+ <div class="text-center">
+ <span class="sub">detikFlash</span>
+ <h2><span>Polisi Tingkatkan Kasus Ceramah Habib Bahar bin Smith ke Penyidikan</span></h2>
+ </div>
+ </a>
+ </article>
+ </li>
+ 
+ 
+ <li>
+ <article>
+ <a href="https://20.detik.com/detikflash/20181205-181205085/alumni-main-ke-kampus-terciduk-bawa-narkoba?tag_from=wp_cb_videoTerpopuler_list">
+ <div class="ratio1_1 box_img fl mr10">
+ <span class="play2d"></span>
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/videoservice/AdminTV/2018/12/05/Alumni_Main_di_Kampus_Terciduk_Baw_nHyQ2Tb-20181205203354-custom.jpg?w=70" alt="Alumni Main ke Kampus Terciduk Bawa Narkoba" title="Alumni Main ke Kampus Terciduk Bawa Narkoba" class="" /> </div>
+ </div>
+ <span class="sub">detikFlash</span>
+ <div class="title_ln">
+ <h2><span class="normal">Alumni Main ke Kampus Terciduk Bawa Narkoba</span></h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ 
+ <li>
+ <article>
+ <a href="https://20.detik.com/e-flash/20181205-181205083/melihat-proses-kremasi-sastrawan-besar-nh-dini?tag_from=wp_cb_videoTerpopuler_list">
+ <div class="ratio1_1 box_img fl mr10">
+ <span class="play2d"></span>
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/videoservice/AdminTV/2018/12/05/Kremasi_Sastrawan_Besar_Nh_Dini_Be_mx1Vzj1-20181205201408-custom.jpg?w=70" alt="Melihat Proses Kremasi Sastrawan Besar Nh Dini" title="Melihat Proses Kremasi Sastrawan Besar Nh Dini" class="" /> </div>
+ </div>
+ <span class="sub">e-Flash</span>
+ <div class="title_ln">
+ <h2><span class="normal">Melihat Proses Kremasi Sastrawan Besar Nh Dini</span></h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ 
+ <li>
+ <article>
+ <a href="https://20.detik.com/detikflash/20181205-181205063/serangan-ulat-bulu-meluas-warga-pilih-tutup-warung?tag_from=wp_cb_videoTerpopuler_list">
+ <div class="ratio1_1 box_img fl mr10">
+ <span class="play2d"></span>
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/videoservice/AdminTV/2018/12/05/Serangan_Ulat_Bulu_Meluas_Warga_Pi_qQ25WSJ-20181205164422-custom.jpg?w=70" alt="Serangan Ulat Bulu Meluas, Warga Pilih Tutup Warung" title="Serangan Ulat Bulu Meluas, Warga Pilih Tutup Warung" class="" /> </div>
+ </div>
+ <span class="sub">detikFlash</span>
+ <div class="title_ln">
+ <h2><span class="normal">Serangan Ulat Bulu Meluas, Warga Pilih Tutup Warung</span></h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ 
+ <li>
+ <article>
+ <a href="https://20.detik.com/detikflash/20181205-181205052/prabowo-emak-emak-paling-pertama-merasakan-negara-ini-tak-beres?tag_from=wp_cb_videoTerpopuler_list">
+ <div class="ratio1_1 box_img fl mr10">
+ <span class="play2d"></span>
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/videoservice/AdminTV/2018/12/05/Emak-emak_Paling_Pertama_Merasakan-20181205160244-custom.jpg?w=70" alt="Prabowo: Emak-emak Paling Pertama Merasakan Negara Ini Tak Beres" title="Prabowo: Emak-emak Paling Pertama Merasakan Negara Ini Tak Beres" class="" /> </div>
+ </div>
+ <span class="sub">detikFlash</span>
+ <div class="title_ln">
+ <h2><span class="normal">Prabowo: Emak-emak Paling Pertama Merasakan Negara Ini Tak Beres</span></h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ </ul>
+</div>
+<!-- E : BOX 20DETIK -->
+ <!--E:20detik -->
+ <!--S:MOST POPULAR-->
+ 
+<div class="boxlr mb15 box_popcom" >
+ <div class="title_lr" id="tab-popcom">
+ <a href="#box-pop" class="selected"><span>Most<br>Popular</span></a>
+ <a href="#box-com"><span>Most<br>Commented</span></a>
+ <!-- <a href="#">+</a> -->
+ <div class="clearfix"></div>
+ </div>
+ <div id="box-pop">
+ <ul class="list_fokus">
+ 
+ <li>
+ <article>
+ <a href="https://hot.detik.com/celeb/d-4331953/pelan-pelan-ovi-sovianti-ceritakan-keputusannya-pindah-agama?tag_from=wp_cb_mostPopular_list" data-category="GA WP New Detikcom 2015" data-action="Most Popular " data-label="List Berita ">
+ <div class="num_fokus2 round">1</div>
+ <div class="title_lnf">
+ <h2><span class="normal">Pelan-pelan Ovi Sovianti Ceritakan Keputusannya Pindah Agama</span></h2>
+ <!-- <span class="date">Rabu 05 2018, 21:14 WIB</span> -->
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://news.detik.com/berita/d-4331920/video-relawan-jokowi-bagi-minuman-di-reuni-212-beredar-di-medsos?tag_from=wp_cb_mostPopular_list" data-category="GA WP New Detikcom 2015" data-action="Most Popular " data-label="List Berita ">
+ <div class="num_fokus2 round">2</div>
+ <div class="title_lnf">
+ <h2><span class="normal">Video Relawan Jokowi Bagi Minuman di Reuni 212 Beredar di Medsos</span></h2>
+ <!-- <span class="date">Rabu 05 2018, 20:24 WIB</span> -->
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://hot.detik.com/celeb/d-4331858/tak-cuma-inneke-ini-artis-dan-model-yang-pakai-bilik-asmara-di-penjara?tag_from=wp_cb_mostPopular_list" data-category="GA WP New Detikcom 2015" data-action="Most Popular " data-label="List Berita ">
+ <div class="num_fokus2 round">3</div>
+ <div class="title_lnf">
+ <h2><span class="normal">Tak Cuma Inneke, Ini Artis dan Model yang Pakai 'Bilik Asmara' di Penjara</span></h2>
+ <!-- <span class="date">Rabu 05 2018, 19:20 WIB</span> -->
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://news.detik.com/berita/d-4331789/tim-tni-polri-temukan-15-jenazah-pekerja-trans-papua-korban-kkb?tag_from=wp_cb_mostPopular_list" data-category="GA WP New Detikcom 2015" data-action="Most Popular " data-label="List Berita ">
+ <div class="num_fokus2 round">4</div>
+ <div class="title_lnf">
+ <h2><span class="normal">Tim TNI-Polri Temukan 15 Jenazah Pekerja Trans Papua Korban KKB</span></h2>
+ <!-- <span class="date">Rabu 05 2018, 18:39 WIB</span> -->
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://news.detik.com/berita/d-4331954/sikap-tegas-jokowi-respons-penembakan-brutal-di-papua?tag_from=wp_cb_mostPopular_list" data-category="GA WP New Detikcom 2015" data-action="Most Popular " data-label="List Berita ">
+ <div class="num_fokus2 round">5</div>
+ <div class="title_lnf">
+ <h2><span class="normal">Sikap Tegas Jokowi Respons Penembakan Brutal di Papua</span></h2>
+ <!-- <span class="date">Rabu 05 2018, 21:17 WIB</span> -->
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://news.detik.com/berita/d-4331927/prabowo-kritik-media-soal-reuni-212-ini-penjelasan-gerindra?tag_from=wp_cb_mostPopular_list" data-category="GA WP New Detikcom 2015" data-action="Most Popular " data-label="List Berita ">
+ <div class="num_fokus2 round">6</div>
+ <div class="title_lnf">
+ <h2><span class="normal">Prabowo Kritik Media soal Reuni 212, Ini Penjelasan Gerindra</span></h2>
+ <!-- <span class="date">Rabu 05 2018, 20:32 WIB</span> -->
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://health.detik.com/berita-detikhealth/d-4331916/dear-pria-simak-saran-dari-dokter-agar-mr-p-tetap-kuat-naik?tag_from=wp_cb_mostPopular_list" data-category="GA WP New Detikcom 2015" data-action="Most Popular " data-label="List Berita ">
+ <div class="num_fokus2 round">7</div>
+ <div class="title_lnf">
+ <h2><span class="normal">Dear Pria, Simak Saran dari Dokter Agar Mr P Tetap Kuat 'Naik'</span></h2>
+ <!-- <span class="date">Rabu 05 2018, 20:19 WIB</span> -->
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://health.detik.com/berita-detikhealth/d-4331832/inilah-gunanya-bilik-cinta-seperti-yang-digunakan-fahmi-dan-inneke?tag_from=wp_cb_mostPopular_list" data-category="GA WP New Detikcom 2015" data-action="Most Popular " data-label="List Berita ">
+ <div class="num_fokus2 round">8</div>
+ <div class="title_lnf">
+ <h2><span class="normal">Inilah Gunanya Bilik Cinta, Seperti yang Digunakan Fahmi dan Inneke</span></h2>
+ <!-- <span class="date">Rabu 05 2018, 19:09 WIB</span> -->
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://health.detik.com/fotohealth/d-4331889/usir-flu-dan-sinus-dengan-5-pijatan-ringan-di-tangan-seperti-ini?tag_from=wp_cb_mostPopular_list" data-category="GA WP New Detikcom 2015" data-action="Most Popular " data-label="List Berita ">
+ <div class="num_fokus2 round">9</div>
+ <div class="title_lnf">
+ <h2><span class="normal">Usir Flu dan Sinus dengan 5 Pijatan Ringan di Tangan Seperti Ini</span></h2>
+ <!-- <span class="date">Rabu 05 2018, 19:53 WIB</span> -->
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ <li>
+ <article>
+ <a href="https://travel.detik.com/travel-news/d-4331979/polemik-turis-bayar-usd-500-buat-lihat-komodo?tag_from=wp_cb_mostPopular_list" data-category="GA WP New Detikcom 2015" data-action="Most Popular " data-label="List Berita ">
+ <div class="num_fokus2 round">10</div>
+ <div class="title_lnf">
+ <h2><span class="normal">Polemik Turis Bayar USD 500 Buat Lihat Komodo</span></h2>
+ <!-- <span class="date">Rabu 05 2018, 21:35 WIB</span> -->
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ </ul>
+ <div class="a-center">
+ <a href="//www.detik.com/mostpopular?utm_source=wp%20detikcom&utm_medium=box%20mostpop&utm_campaign=mostpop?tag_from=wp_cb_mostPopular_more" data-category="GA WP New Detikcom 2015" data-action="Most Popular " data-label="Indeks " class="btn_more">Selengkapnya</a>
+ </div>
+ </div>
+ <div id="box-com">
+ <ul class="list_fokus box-commented">
+ <li>
+ <article>
+ <a href="https://news.detik.com/read/2018/12/01/174227/4326175/10/habib-bahar-lebih-baik-busuk-di-penjara-daripada-minta-maaf?tag_from=wp_cb_mostcommented_list" data-category="GA WP New Detikcom 2015" data-action="Most Commented " data-label="List Berita ">
+ <div class="num">
+ 1580 <span>Komentar</span>
+ </div>
+ <div class="title_lnf">
+ <h2>Habib Bahar: Lebih Baik Busuk di Penjara daripada Minta Maaf</h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <li>
+ <article>
+ <a href="https://news.detik.com/read/2018/11/29/145048/4322970/10/pa-212-bela-habib-bahar-soal-jokowi-kayaknya-banci-itu-kritik?tag_from=wp_cb_mostcommented_list" data-category="GA WP New Detikcom 2015" data-action="Most Commented " data-label="List Berita ">
+ <div class="num">
+ 1104 <span>Komentar</span>
+ </div>
+ <div class="title_lnf">
+ <h2>PA 212 Bela Habib Bahar soal &#39;Jokowi Kayaknya Banci&#39;: Itu Kritik</h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <li>
+ <article>
+ <a href="https://m.detik.com/oto/berita/d-4324687/pajak-motor-dihapus-dan-sim-seumur-hidup-setuju-tidak?tag_from=wp_cb_mostcommented_list" data-category="GA WP New Detikcom 2015" data-action="Most Commented " data-label="List Berita ">
+ <div class="num">
+ 976 <span>Komentar</span>
+ </div>
+ <div class="title_lnf">
+ <h2>Pajak Motor Dihapus dan SIM Seumur Hidup, Setuju Tidak?</h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <li>
+ <article>
+ <a href="https://news.detik.com/berita/4326366/penjelasan-lengkap-habib-bahar-bin-smith-soal-ceramah-jokowi-banci?tag_from=wp_cb_mostcommented_list" data-category="GA WP New Detikcom 2015" data-action="Most Commented " data-label="List Berita ">
+ <div class="num">
+ 881 <span>Komentar</span>
+ </div>
+ <div class="title_lnf">
+ <h2>Penjelasan Lengkap Habib Bahar bin Smith Soal Ceramah 'Jokowi Banci'</h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <li>
+ <article>
+ <a href="https://news.detik.com/read/2018/11/29/121713/4322637/10/ini-transkrip-habib-bahar-bin-smith-sebut-jokowi-kayaknya-banci?tag_from=wp_cb_mostcommented_list" data-category="GA WP New Detikcom 2015" data-action="Most Commented " data-label="List Berita ">
+ <div class="num">
+ 869 <span>Komentar</span>
+ </div>
+ <div class="title_lnf">
+ <h2>Ini Transkrip Habib Bahar bin Smith Sebut Jokowi Kayaknya Banci</h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <li>
+ <article>
+ <a href="https://news.detik.com/read/2018/12/01/124848/4325839/10/panitia-reuni-212-kami-batal-undang-jokowi-dan-rezimnya?tag_from=wp_cb_mostcommented_list" data-category="GA WP New Detikcom 2015" data-action="Most Commented " data-label="List Berita ">
+ <div class="num">
+ 850 <span>Komentar</span>
+ </div>
+ <div class="title_lnf">
+ <h2>Panitia Reuni 212: Kami Batal Undang Jokowi dan Rezimnya</h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <li>
+ <article>
+ <a href="https://news.detik.com/berita/d-4324412/sandiaga-habib-bahar-tokoh-agama-yang-disampaikan-penuh-makna/komentar?tag_from=wp_cb_mostcommented_list" data-category="GA WP New Detikcom 2015" data-action="Most Commented " data-label="List Berita ">
+ <div class="num">
+ 818 <span>Komentar</span>
+ </div>
+ <div class="title_lnf">
+ <h2>Sandiaga: Habib Bahar Tokoh Agama, yang Disampaikan Penuh Makna</h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <li>
+ <article>
+ <a href="https://news.detik.com/read/2018/11/29/100159/4322389/10/polisi-tangani-pelaporan-habib-bahar-bin-smith-jokowi-kayaknya-banci?tag_from=wp_cb_mostcommented_list" data-category="GA WP New Detikcom 2015" data-action="Most Commented " data-label="List Berita ">
+ <div class="num">
+ 797 <span>Komentar</span>
+ </div>
+ <div class="title_lnf">
+ <h2>Polisi Tangani Pelaporan Habib Bahar bin Smith &#39;Jokowi Kayaknya Banci&#39;</h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <li>
+ <article>
+ <a href="https://news.detik.com/read/2018/11/29/160646/4323122/10/fadli-zon-soal-habib-bahar-sebut-jokowi-haid-nggak-usah-baper?tag_from=wp_cb_mostcommented_list" data-category="GA WP New Detikcom 2015" data-action="Most Commented " data-label="List Berita ">
+ <div class="num">
+ 794 <span>Komentar</span>
+ </div>
+ <div class="title_lnf">
+ <h2>Fadli Zon soal Habib Bahar Sebut &#39;Jokowi Haid&#39;: Nggak Usah Baper</h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <li>
+ <article>
+ <a href="https://news.detik.com/read/2018/12/02/104435/4326760/10/lagu-astaghfirullah-punya-presiden-si-raja-bohong-diputar-di-reuni-212?tag_from=wp_cb_mostcommented_list" data-category="GA WP New Detikcom 2015" data-action="Most Commented " data-label="List Berita ">
+ <div class="num">
+ 783 <span>Komentar</span>
+ </div>
+ <div class="title_lnf">
+ <h2>Lagu &#39;Astaghfirullah Punya Presiden Si Raja Bohong&#39; Diputar di Reuni 212</h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ </ul>
+<!--
+ <div class="a-center">
+ <a href="#" class="btn_more">Selengkapnya</a>
+ </div>
+-->
+ </div>
+</div>
+ <!--E:MOST POPULAR-->
+ <!--S:PASANGMATA-->
+ <div class="boxlr mb15">
+ <div class="title_lr bg_pasangmata">
+ <center>
+ <a data-category="GA WP New Detikcom 2015" data-action="Box Pasang Mata" data-label="Indeks" href="https://pasangmata.detik.com?tag_from=wp_cb_pasangmata_logo">
+ <img style="padding-top: 0px" width="200" src="https://cdn.detik.net.id/detik2/images/logo_pasangmata.png?19" alt="logo Pasang Mata">
+ </a>
+ </center>
+ <div class="clearfix"></div>
+ </div>
+ <div class="pasangmata__title blue">
+ Punya info seputar peristiwa menarik yang terjadi di sekitarmu? Kirim foto atau videonya ke pasangmata.com </div>
+ <ul class="list_news1 list_news2 pasangmata">
+ <li>
+ <article>
+ <a data-category="GA WP New Detikcom 2015" data-action="Box Pasang Mata" data-label="List Artikel" href="https://pasangmata.detik.com/contribution/328485?tag_from=wp_cb_pasangmata_hl">
+ <div class="ratio16_9 box_img fl mr10 mb10">
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/pasma/2018/12/05/15439904741362441987.jpg?w=300&q=90" alt="img_list">
+ </div>
+ </div>
+ <h2>
+ <span>Diduga Sakit, Sahri Ditemukan Meninggal di Atas Pance</span>
+ </h2>
+ <span class="labdate f11 mt5 mb5">Wednesday, 05/12/2018 14:03 WIB</span>
+ </a>
+ <div class="text-center">
+ <a href="https://pasangmata.detik.com/topic/1?tag_from=wp_cb_pasangmata_topik" class="btn__line blue">LIHAT TOPIK #UMUM</a>
+ </div>
+ </article>
+ </li>
+ </ul>
+</div>
+ <!--E:PASANGMATA-->
+ <!--BANNER SCL-->
+ <div id="scl2" class="mb15">
+<script type='text/javascript'><!--// <![CDATA[
+OA_show('square2'); 
+// ]]> --></script></div> <!--BANNER SCL-->
+ <!--S:SEREMONIA-->
+ <!--E:SEREMONIA-->
+ <!--S:ETALASE-->
+ <!--E:ETALASE-->
+ <!--BANNER SCL-->
+ <div id="scl3" class="mb15">
+<script type='text/javascript'><!--// <![CDATA[
+OA_show('square3'); 
+// ]]> --></script></div> <!--BANNER SCL-->
+ <!--S:SUARA PEMBACA-->
+ <div class="boxlr mb15">
+ <div class="title_lr">
+ <span>Suara Pembaca</span>
+ <a data-category="GA WP New Detikcom 2015" data-action="Suara Pembaca " data-label="Indeks" href="https://news.detik.com/suara-pembaca?tag_from=wp_cb_suaraPembaca_more">+</a>
+ <div class="clearfix"></div>
+ </div>
+ <ul class="list_news1">
+ <li>
+ <article>
+ <a data-category="GA WP New Detikcom 2015" data-action="Suara Pembaca " data-label="List Berita " href="https://news.detik.com/suara-pembaca/d-4317748/7-bulan-menunggu-migrasi-dari-speedy-ke-indihome?tag_from=wp_cb_suaraPembaca_list">
+ <!--<div class="ratio1_1 box_img fl mr10">
+ <div class="img_con lqd">
+ <!--</div>
+ </div>-->
+ <div class="title_ln title_ln2">
+ <h2>
+ <span>
+ 7 Bulan Menunggu Migrasi dari Speedy ke IndiHome <span class="labdate f11 normal">Senin 26 2018, 14:31 WIB</span>
+ </span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <li>
+ <article>
+ <a data-category="GA WP New Detikcom 2015" data-action="Suara Pembaca " data-label="List Berita " href="https://news.detik.com/suara-pembaca/d-4317554/menunggu-paket-jne-yang-tak-kunjung-datang?tag_from=wp_cb_suaraPembaca_list">
+ <!--<div class="ratio1_1 box_img fl mr10">
+ <div class="img_con lqd">
+ <!--</div>
+ </div>-->
+ <div class="title_ln title_ln2">
+ <h2>
+ <span>
+ Menunggu Paket JNE yang Tak Kunjung Datang <span class="labdate f11 normal">Senin 26 2018, 13:05 WIB</span>
+ </span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <li>
+ <article>
+ <a data-category="GA WP New Detikcom 2015" data-action="Suara Pembaca " data-label="List Berita " href="https://news.detik.com/suara-pembaca/d-4331455/paket-jdid-tidak-sampai-refund-lama?tag_from=wp_cb_suaraPembaca_list">
+ <!--<div class="ratio1_1 box_img fl mr10">
+ <div class="img_con lqd">
+ <!--</div>
+ </div>-->
+ <div class="title_ln title_ln2">
+ <h2>
+ <span>
+ Paket JD.ID tidak Sampai, Refund Lama <span class="labdate f11 normal">Rabu 05 2018, 15:11 WIB</span>
+ </span>
+ </h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ <div class="text-center">
+ <a class="but_down opini" href="https://news.detik.com/suara-pembaca?tag_from=wp_cb_suaraPembaca_kirim" target="_blank">Kirim Suara Anda</a>
+ </div>
+ </ul>
+</div>
+ <!--E:SUARA PEMBACA-->
+ <!--S:STICKY LEFT-->
+ <div class="sticky" data-sticky_column>
+ <!-- S: BOX 20DETIK -->
+<div class="boxlr mb15 ddtk_box">
+ <div class="title_lr title_lr2">
+ <span>VIDEO TERPOPULER</span>
+ <a href="https://20.detik.com?tag_from=wp_cb_videoTerpopuler_more">+</a>
+ <div class="clearfix"></div>
+ </div>
+ <ul class="list_news1 list_news2">
+ 
+ 
+ <li>
+ <article>
+ <a href="https://20.detik.com/detikflash/20181205-181205075/polisi-tingkatkan-kasus-ceramah-habib-bahar-bin-smith-ke-penyidikan?tag_from=wp_cb_videoTerpopuler_hl">
+ <div class="ratio16_9 box_img fl mr10">
+ <span class="play2d p1st"></span>
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/videoservice/AdminTV/2018/12/05/Polisi_Tingkatkan_Kasus_Ceramah_Ha_NtvYDzr-20181205184427-custom.jpg?w=230" alt="Polisi Tingkatkan Kasus Ceramah Habib Bahar bin Smith ke Penyidikan" title="Polisi Tingkatkan Kasus Ceramah Habib Bahar bin Smith ke Penyidikan" class="" /> </div>
+ </div>
+ <div class="clearfix pt10"></div>
+ <div class="text-center">
+ <span class="sub">detikFlash</span>
+ <h2><span>Polisi Tingkatkan Kasus Ceramah Habib Bahar bin Smith ke Penyidikan</span></h2>
+ </div>
+ </a>
+ </article>
+ </li>
+ 
+ 
+ <li>
+ <article>
+ <a href="https://20.detik.com/detikflash/20181205-181205085/alumni-main-ke-kampus-terciduk-bawa-narkoba?tag_from=wp_cb_videoTerpopuler_list">
+ <div class="ratio1_1 box_img fl mr10">
+ <span class="play2d"></span>
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/videoservice/AdminTV/2018/12/05/Alumni_Main_di_Kampus_Terciduk_Baw_nHyQ2Tb-20181205203354-custom.jpg?w=70" alt="Alumni Main ke Kampus Terciduk Bawa Narkoba" title="Alumni Main ke Kampus Terciduk Bawa Narkoba" class="" /> </div>
+ </div>
+ <span class="sub">detikFlash</span>
+ <div class="title_ln">
+ <h2><span class="normal">Alumni Main ke Kampus Terciduk Bawa Narkoba</span></h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ 
+ <li>
+ <article>
+ <a href="https://20.detik.com/e-flash/20181205-181205083/melihat-proses-kremasi-sastrawan-besar-nh-dini?tag_from=wp_cb_videoTerpopuler_list">
+ <div class="ratio1_1 box_img fl mr10">
+ <span class="play2d"></span>
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/videoservice/AdminTV/2018/12/05/Kremasi_Sastrawan_Besar_Nh_Dini_Be_mx1Vzj1-20181205201408-custom.jpg?w=70" alt="Melihat Proses Kremasi Sastrawan Besar Nh Dini" title="Melihat Proses Kremasi Sastrawan Besar Nh Dini" class="" /> </div>
+ </div>
+ <span class="sub">e-Flash</span>
+ <div class="title_ln">
+ <h2><span class="normal">Melihat Proses Kremasi Sastrawan Besar Nh Dini</span></h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ 
+ <li>
+ <article>
+ <a href="https://20.detik.com/detikflash/20181205-181205063/serangan-ulat-bulu-meluas-warga-pilih-tutup-warung?tag_from=wp_cb_videoTerpopuler_list">
+ <div class="ratio1_1 box_img fl mr10">
+ <span class="play2d"></span>
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/videoservice/AdminTV/2018/12/05/Serangan_Ulat_Bulu_Meluas_Warga_Pi_qQ25WSJ-20181205164422-custom.jpg?w=70" alt="Serangan Ulat Bulu Meluas, Warga Pilih Tutup Warung" title="Serangan Ulat Bulu Meluas, Warga Pilih Tutup Warung" class="" /> </div>
+ </div>
+ <span class="sub">detikFlash</span>
+ <div class="title_ln">
+ <h2><span class="normal">Serangan Ulat Bulu Meluas, Warga Pilih Tutup Warung</span></h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ 
+ <li>
+ <article>
+ <a href="https://20.detik.com/detikflash/20181205-181205052/prabowo-emak-emak-paling-pertama-merasakan-negara-ini-tak-beres?tag_from=wp_cb_videoTerpopuler_list">
+ <div class="ratio1_1 box_img fl mr10">
+ <span class="play2d"></span>
+ <div class="img_con lqd">
+ <img src="https://akcdn.detik.net.id/community/media/visual/videoservice/AdminTV/2018/12/05/Emak-emak_Paling_Pertama_Merasakan-20181205160244-custom.jpg?w=70" alt="Prabowo: Emak-emak Paling Pertama Merasakan Negara Ini Tak Beres" title="Prabowo: Emak-emak Paling Pertama Merasakan Negara Ini Tak Beres" class="" /> </div>
+ </div>
+ <span class="sub">detikFlash</span>
+ <div class="title_ln">
+ <h2><span class="normal">Prabowo: Emak-emak Paling Pertama Merasakan Negara Ini Tak Beres</span></h2>
+ </div>
+ <div class="clearfix"></div>
+ </a>
+ </article>
+ </li>
+ 
+ </ul>
+</div>
+<!-- E : BOX 20DETIK -->
+ </div>
+ <!--S:STICKY LEFT-->
+ </div>
+ <!--E:LEFT CONTENT-->
+ <!--S:MID CONTENT-->
+ 
+<div class="m_content" id="newsfeed-anchor-container">
+ <div class="title_feed sticky" data-sticky_column>
+ <div class="t_lfl">News Feed</div>
+ <div class="t_lfm_box hide" id="notif-container">
+ <a href="//www.detik.com/?tag_from=wp_nhl_terbaru" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Notif Berita Terbaru" class="t_lfm"> <em class="ns count">9</em> Berita Terbaru</a>
+ </div>
+ <div class="t_lfs">
+ <ul class="sf-menu">
+ <li><a href="//news.detik.com/indeks?tag_from=wp_nhl_indeks" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="indeks" >+</a></li>
+ </ul>
+ </div>
+ <div class="clearfix"></div>
+ </div>
+ <ul class="list_feed" id="newsfeed-container" style="display: block !important">
+ <!-- S:PromoBox center -->
+ <div style="margin:10px 1px 1px 0 ; text-align:center">
+ <script type='text/javascript'><!--// <![CDATA[
+ OA_show('promobox'); 
+ // ]]> --></script>
+</div> <!-- E:PromoBox center -->
+ <!-- Hide Production -->
+ <li class="native_newsfeed_video_judul">
+ <!-- S:Native Video 1 -->
+ <!-- E:Native Video 1 -->
+ </li>
+ <li>
+ <article id="a4332018">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://travel.detik.com/travel-news/d-4332018/pengamat-pariwisata-tiket-masuk-usd-500-ke-komodo-tak-masuk-akal?tag_from=wp_nhl_img_1" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2016/11/18/e041d395-4577-48b9-98be-4ba270702633_11.jpg?w=200&q=100" alt="Pengamat Pariwisata: Tiket Masuk USD 500 ke Komodo Tak Masuk Akal" title="Pengamat Pariwisata: Tiket Masuk USD 500 ke Komodo Tak Masuk Akal" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikTravel | Rabu, 05 Des 2018 22:20 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://travel.detik.com/travel-news/d-4332018/pengamat-pariwisata-tiket-masuk-usd-500-ke-komodo-tak-masuk-akal?tag_from=wp_nhl_judul_1" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Pengamat Pariwisata: Tiket Masuk USD 500 ke Komodo Tak Masuk Akal</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Pengamat Pariwisata, Tedjo Iskandar mengomentari isu tiket masuk ke Pulau Komodo, NTT. Menurutnya, harganya tak masuk akal dan malah bisa ditinggalkan turis. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--S:center1 --><!--E:center1 --><!--S:adv_center newsfeed--><!-- /4905536/detik_desktop/wp/newsfeed1 -->
+<div id='div-gpt-ad-1535014274004-0'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1535014274004-0'); });
+</script>
+</div><!--E:adv_center newsfeed--><li>
+ <article id="a4332005">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://news.detik.com/foto-news/d-4332005/ponakan-novanto-dan-pengusaha-made-oka-divonis-10-tahun-penjara?tag_from=wp_nhl_img_2" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/da060e54-5fab-4b82-be48-6a896d8970a3_11.jpeg?w=200&q=100" alt="Ponakan Novanto dan Pengusaha Made Oka Divonis 10 Tahun Penjara" title="Ponakan Novanto dan Pengusaha Made Oka Divonis 10 Tahun Penjara" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikNews | Rabu, 05 Des 2018 22:14 WIB</span>
+ <span class="sub_judul">Foto News</span>
+ <a href="https://news.detik.com/foto-news/d-4332005/ponakan-novanto-dan-pengusaha-made-oka-divonis-10-tahun-penjara?tag_from=wp_nhl_judul_2" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Ponakan Novanto dan Pengusaha Made Oka Divonis 10 Tahun Penjara</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Keponakan Setya Novanto, Irvanto Hendra Pambudi bersama pengusaha Made Oka Masagung menjalani sidang di Pengadilan Tipikor. Keduanya divonis 10 tahun penjara. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--S:newsfeednhl4 --> <!--E:newsfeednhl4 --><li>
+ <article id="a4332002">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://finance.detik.com/berita-ekonomi-bisnis/d-4332002/prediksi-ekonomi-ri-kepala-bkpm-tahun-depan-akan-lebih-baik?tag_from=wp_nhl_img_3" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2017/02/22/b2e2c407-b506-46f4-bbd9-c5c3812138e5_11.jpg?w=200&q=100" alt="Prediksi Ekonomi RI, Kepala BKPM: Tahun Depan akan Lebih Baik" title="Prediksi Ekonomi RI, Kepala BKPM: Tahun Depan akan Lebih Baik" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikFinance | Rabu, 05 Des 2018 22:12 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://finance.detik.com/berita-ekonomi-bisnis/d-4332002/prediksi-ekonomi-ri-kepala-bkpm-tahun-depan-akan-lebih-baik?tag_from=wp_nhl_judul_3" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Prediksi Ekonomi RI, Kepala BKPM: Tahun Depan akan Lebih Baik</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Kepala BKPM Thomas Lembong memprediksi kondisi ekonomi Indonesia. Menurut Thomas, tahun depan akan lebih baik dari tahun ini. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<li>
+ <article id="a4332003">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://sport.detik.com/sepakbola/liga-inggris/d-4332003/andy-robertson-calon-kapten-masa-depan-liverpool?tag_from=wp_nhl_img_4" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/ebf70a3d-0824-4ee5-8a60-7b0cafca9884_11.jpeg?w=200&q=100" alt="Andy Robertson Calon Kapten Masa Depan Liverpool" title="Andy Robertson Calon Kapten Masa Depan Liverpool" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">Sepakbola | Rabu, 05 Des 2018 22:09 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://sport.detik.com/sepakbola/liga-inggris/d-4332003/andy-robertson-calon-kapten-masa-depan-liverpool?tag_from=wp_nhl_judul_4" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Andy Robertson Calon Kapten Masa Depan Liverpool</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Bek kiri Liverpool, Andrew Robertson, dianggap mampu menjadi kapten Liverpool di masa depan. itu semua berkat performa luar biasanya dalam dua musim terakhir. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--S:CENTERADS--> <!--E:CENTERADS--><!--S:parallax1--><script type='text/javascript'><!--// <![CDATA[
+OA_show('parallax1'); 
+// ]]> --></script><!--E:parallax1--><!--S:WIDGET SPESIAL ARTIKEL-->
+<li class="widget_mid specart">
+ <article id="a4331852">
+ <div class="desc_nhl">
+ <span class="labdate f11">detikNews | Rabu 05 2018, 19:17 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://news.detik.com/berita/d-4331852/istana-reuni-212-berhasil-kita-juga-bersyukur?tag_from=wp_wm_berita_1" data-category="GA WP New Detikcom 2015" data-action="Widget" data-label="Widget Spesial Artikel">
+ <h2>Istana: Reuni 212 Berhasil, Kita Juga Bersyukur</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ Seskab Pramono Anung memuji kegiatan Reuni 212. Pramono mengatakan kegiatan itu berhasil dan patut disyukuri. </div>
+ <div class="ratio4_3 box_img fr">
+ <div class="img_con lqd">
+ <a href="https://news.detik.com/berita/d-4331852/istana-reuni-212-berhasil-kita-juga-bersyukur?tag_from=wp_wm_berita_1" data-category="GA WP New Detikcom 2015" data-action="Widget" data-label="Widget Spesial Artikel">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/08/13/5936da11-2051-4ae4-8262-e3753627f4f0_43.jpeg?w=300&q=80" alt="Istana: Reuni 212 Berhasil, Kita Juga Bersyukur" title="Istana: Reuni 212 Berhasil, Kita Juga Bersyukur" class="" /> </a>
+ </div>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--E:WIDGET SPESIAL ARTIKEL-->
+<!--S:adv_center newsfeed--><!-- /4905536/detik_desktop/wp/newsfeed2 -->
+<div id='div-gpt-ad-1535014379334-0'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1535014379334-0'); });
+</script>
+</div><!--E:adv_center newsfeed--><li>
+ <article id="a4332001">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://hot.detik.com/celeb/d-4332001/bahagianya-priyanka-chopra-dan-nick-jonas-pernikahannya-dihadiri-pm-india?tag_from=wp_nhl_img_5" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/99c57851-6950-47f7-9190-c9c2aad73571_11.jpeg?w=200&q=100" alt="Bahagianya Priyanka Chopra dan Nick Jonas Pernikahannya Dihadiri PM India" title="Bahagianya Priyanka Chopra dan Nick Jonas Pernikahannya Dihadiri PM India" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikHot | Rabu, 05 Des 2018 22:06 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://hot.detik.com/celeb/d-4332001/bahagianya-priyanka-chopra-dan-nick-jonas-pernikahannya-dihadiri-pm-india?tag_from=wp_nhl_judul_5" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Bahagianya Priyanka Chopra dan Nick Jonas Pernikahannya Dihadiri PM India</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Priyanka Chopra dan Nick Jonas bahagia saat pernikahan dihadiri oleh Perdana Menteri (PM) India, Shri Narendra Modi. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<li>
+ <article id="a4331999">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://news.detik.com/berita/d-4331999/kasus-limbah-sawit-kpk-dalami-suap-ke-anggota-dprd-kalteng?tag_from=wp_nhl_img_6" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/11/23/a9fa44b1-b5cf-4a4f-b38a-67caec7bfc0b_11.jpeg?w=200&q=100" alt="Kasus Limbah Sawit, KPK Dalami Suap ke Anggota DPRD Kalteng" title="Kasus Limbah Sawit, KPK Dalami Suap ke Anggota DPRD Kalteng" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikNews | Rabu, 05 Des 2018 21:57 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://news.detik.com/berita/d-4331999/kasus-limbah-sawit-kpk-dalami-suap-ke-anggota-dprd-kalteng?tag_from=wp_nhl_judul_6" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Kasus Limbah Sawit, KPK Dalami Suap ke Anggota DPRD Kalteng</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ KPK hari ini memeriksa 4 saksi terkait dugaan suap fungsi pengawasan limbah sawit di Kalimantan Tengah. KPK mendalami peran tersangka Edy Sapurta Suradja (ESS). </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--S:Carousell --><script type='text/javascript'><!--// <![CDATA[
+OA_show('carousell'); 
+// ]]> --></script><!--E:Carousell --><!--:WIDGET VIDEO-->
+ <li class="widget_mid wfotvid">
+ <article class="relative">
+ <a href="https://news.detik.com/detiktv/d-4331694/prabowo-emak-emak-paling-pertama-rasakan-negara-ini-tak-beres?tag_from=wp_wm_video_1" data-category="GA WP New Detikcom 2015" data-action="Widget" data-label="Widget Artikel Video">
+ <div class="ratio16_9 box_img">
+ <div class="img_con lqd">
+ <span class="grad"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/289589d1-d6cc-4575-881b-09827f03daab_43.jpeg?w=600&q=" alt="Prabowo: Emak-emak Paling Pertama Rasakan Negara Ini Tak Beres" title="Prabowo: Emak-emak Paling Pertama Rasakan Negara Ini Tak Beres" class="" /></span>
+ </div>
+ </div>
+ <span class="ico_vf ic_vid"></span>
+ <div class="grad">
+ <div class="tl_afbelt">
+ <span class="sub_judul">20Detik</span>
+ <h3>Prabowo: Emak-emak Paling Pertama Rasakan Negara Ini Tak Beres</h3>
+ <span class="labdate f11 mt5">Rabu 05 2018, 17:17 WIB</span>
+ </div>
+ <div class="clearfix"></div>
+ </div>
+ </a>
+ </article>
+ <div class="clearfix"></div>
+ </li>
+ <!--E:WIDGET VIDEO-->
+<li>
+ <article id="a4331989">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://finance.detik.com/foto-bisnis/d-4331989/momen-jokowi-minta-menteri-genjot-pembangunan-sdm?tag_from=wp_nhl_img_7" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/1f5729c7-5275-4388-88c4-808f375d68db_11.jpeg?w=200&q=100" alt="Momen Jokowi Minta Menteri Genjot Pembangunan SDM" title="Momen Jokowi Minta Menteri Genjot Pembangunan SDM" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikFinance | Rabu, 05 Des 2018 21:56 WIB</span>
+ <span class="sub_judul">Foto Bisnis</span>
+ <a href="https://finance.detik.com/foto-bisnis/d-4331989/momen-jokowi-minta-menteri-genjot-pembangunan-sdm?tag_from=wp_nhl_judul_7" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Momen Jokowi Minta Menteri Genjot Pembangunan SDM</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Presiden Jokowi memimpin sidang kabinet paripurna (SKP) tentang capaian tahun ke4 RPJMN 2015-2019. Jokowi minta kementerian fokus kembangkan SDM. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--S:adv_center newsfeed--><!-- /4905536/detik_desktop/wp/newsfeed3 -->
+<div id='div-gpt-ad-1535014432247-0'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1535014432247-0'); });
+</script>
+</div><!--E:adv_center newsfeed--><!--S:native video 2 --><li class="native_newsfeed_video_judul"><script type='text/javascript'><!--// <![CDATA[
+OA_show('nativevideo2'); 
+// ]]> --></script></li><!--E:native video 2 --><!--S:CENTERADS--><li class="newsfeed-ads">
+<div id="center ads" class="c_ads">
+ <script type='text/javascript'><!--// <![CDATA[
+ OA_show('center2'); 
+ // ]]> --></script>
+</div>
+</li><!--E:CENTERADS--><li>
+ <article id="a4331997">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://travel.detik.com/travel-news/d-4331997/negara-timur-tengah-salip-singapura-sebagai-pemegang-paspor-terkuat?tag_from=wp_nhl_img_8" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/8068773f-c57e-4f5f-8c0b-e31309876171_11.jpeg?w=200&q=100" alt="Negara Timur Tengah Salip Singapura Sebagai Pemegang Paspor Terkuat" title="Negara Timur Tengah Salip Singapura Sebagai Pemegang Paspor Terkuat" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikTravel | Rabu, 05 Des 2018 21:55 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://travel.detik.com/travel-news/d-4331997/negara-timur-tengah-salip-singapura-sebagai-pemegang-paspor-terkuat?tag_from=wp_nhl_judul_8" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Negara Timur Tengah Salip Singapura Sebagai Pemegang Paspor Terkuat</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Kini, Singapura tak lagi jadi pemilik paspor terkuat di dunia. Posisinya baru saja direbut negara Timur Tengah ini. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--S:WIDGET SPESIAL ARTIKEL-->
+<li class="widget_mid specart">
+ <article id="a4331789">
+ <div class="desc_nhl">
+ <span class="labdate f11">detikNews | Rabu 05 2018, 18:39 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://news.detik.com/berita/d-4331789/tim-tni-polri-temukan-15-jenazah-pekerja-trans-papua-korban-kkb?tag_from=wp_wm_berita_2" data-category="GA WP New Detikcom 2015" data-action="Widget" data-label="Widget Spesial Artikel">
+ <h2>Tim TNI-Polri Temukan 15 Jenazah Pekerja Trans Papua Korban KKB</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ Personel gabungan TNI-Polri telah menemukan 15 jenazah pekerja proyek jembatan di jalur Trans Papua yang dibantai kelompok kriminal bersenjata (KKB). </div>
+ <div class="ratio4_3 box_img fr">
+ <div class="img_con lqd">
+ <a href="https://news.detik.com/berita/d-4331789/tim-tni-polri-temukan-15-jenazah-pekerja-trans-papua-korban-kkb?tag_from=wp_wm_berita_2" data-category="GA WP New Detikcom 2015" data-action="Widget" data-label="Widget Spesial Artikel">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/04/3b651641-1736-4b32-a914-cd94d0f7646e_43.jpeg?w=300&q=80" alt="Tim TNI-Polri Temukan 15 Jenazah Pekerja Trans Papua Korban KKB" title="Tim TNI-Polri Temukan 15 Jenazah Pekerja Trans Papua Korban KKB" class="" /> </a>
+ </div>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--E:WIDGET SPESIAL ARTIKEL-->
+<li>
+ <article id="a4331998">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://news.detik.com/berita/d-4331998/pramono-anung-elektabilitas-jokowi-maruf-jadi-lebih-kuat?tag_from=wp_nhl_img_9" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/05/07/6314cb88-7fdd-499f-93b3-06183151607b_11.jpeg?w=200&q=100" alt="Pramono Anung: Elektabilitas Jokowi-Maruf Jadi Lebih Kuat" title="Pramono Anung: Elektabilitas Jokowi-Maruf Jadi Lebih Kuat" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikNews | Rabu, 05 Des 2018 21:54 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://news.detik.com/berita/d-4331998/pramono-anung-elektabilitas-jokowi-maruf-jadi-lebih-kuat?tag_from=wp_nhl_judul_9" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Pramono Anung: Elektabilitas Jokowi-Ma'ruf Jadi Lebih Kuat</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Politikus PDIP Pramono Anung tak sepakat jika ada pihak yang menyebut elektabiltas Jokowi-Ma'ruf Amin menurun. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--S:WIDGET CNN--><li class="widget_mid wfotvid widget_cnbc">
+ <article class="relative">
+ <a data-category="GA WP New Detikcom Mobile 2015" data-action="CNBC Indonesia" data-label="List Berita" href="https://www.cnbcindonesia.com/news/20181205202618-8-45149/kpr-bagi-aparat-negara-diusulkan-bebas-pengecekan-ojk?tag_from=wp_wm_cnbc">
+ <img src="https://cdn.detik.net.id/detik2/images/cnbc_logo.png" alt="" class="cnbc_logo">
+ <div class="ratio16_9 box_img">
+ <div class="img_con lqd imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://akcdn.detik.net.id/visual/2018/01/04/3a163327-1afd-4bd5-85f7-b32d13751995_169.jpeg?w=715&amp;q=90&quot;); background-size: cover; background-position: center top; background-repeat: no-repeat;">
+ <img src="//akcdn.detik.net.id/visual/2018/12/05/5ff02163-227e-4b33-9848-03de98a58949.png?w=450" alt="" title="" class="" /> </div>
+ </div>
+ <div class="grad">
+ <div class="tl_afbelt">
+ <span class="sub_judul">Video</span>
+ <h3>KPR bagi Aparat Negara Diusulkan Bebas Pengecekan OJK</h3>
+ <span class="labdate f11 mt5">CNBC Indonesia | Rabu 05 2018, 22:04</span>
+ </div>
+ <div class="clearfix"></div>
+ </div>
+ </a>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--E:WIDGET CNN--><li>
+ <article id="a4331988">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://news.detik.com/berita/d-4331988/kpk-tahan-2-tersangka-proyek-jalan-bengkalis?tag_from=wp_nhl_img_10" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/9b057f78-34b3-4345-8fb1-777c219a6d2f_11.jpeg?w=200&q=100" alt="KPK Tahan 2 Tersangka Proyek Jalan Bengkalis" title="KPK Tahan 2 Tersangka Proyek Jalan Bengkalis" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikNews | Rabu, 05 Des 2018 21:50 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://news.detik.com/berita/d-4331988/kpk-tahan-2-tersangka-proyek-jalan-bengkalis?tag_from=wp_nhl_judul_10" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>KPK Tahan 2 Tersangka Proyek Jalan Bengkalis</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ KPK menahan dua tersangka korupsi proyek jalan di Bengkalis, Riau. Keduanya ditahan di tempat berbeda </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<li>
+ <article id="a4331987">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://sport.detik.com/sepakbola/liga-indonesia/d-4331987/akan-dipertahankan-untuk-liga-1-ini-kata-pelatih-pss-sleman?tag_from=wp_nhl_img_11" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/d3f23717-5038-42b2-a8c1-b35ea5421952_11.png?w=200&q=100" alt="Akan Dipertahankan Untuk Liga 1, Ini Kata Pelatih PSS Sleman" title="Akan Dipertahankan Untuk Liga 1, Ini Kata Pelatih PSS Sleman" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">Sepakbola | Rabu, 05 Des 2018 21:48 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://sport.detik.com/sepakbola/liga-indonesia/d-4331987/akan-dipertahankan-untuk-liga-1-ini-kata-pelatih-pss-sleman?tag_from=wp_nhl_judul_11" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Akan Dipertahankan Untuk Liga 1, Ini Kata Pelatih PSS Sleman</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Manajer PSS Sleman, Sismantoro, menyebutkan bahwa pelatih Seto Nurdiyantoro akan dipertahankan untuk menahkodai skuat Super Elang Jawa di Liga 1 Indonesia 2019. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--S:CENTERADS--><li class="newsfeed-ads">
+<div id="center ads" class="c_ads">
+ <script type='text/javascript'><!--// <![CDATA[
+ OA_show('center3'); 
+ // ]]> --></script>
+</div>
+</li><!--E:CENTERADS--><!--S:WIDGET SPESIAL ARTIKEL-->
+<li class="widget_mid specart">
+ <article id="a4331756">
+ <div class="desc_nhl">
+ <span class="labdate f11">detikFinance | Rabu 05 2018, 18:08 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://finance.detik.com/bursa-dan-valas/d-4331756/dolar-as-balik-ke-rp-14400-an-rupiah-jadi-juru-kunci-di-asia?tag_from=wp_wm_berita_3" data-category="GA WP New Detikcom 2015" data-action="Widget" data-label="Widget Spesial Artikel">
+ <h2>Dolar AS Balik ke Rp 14.400-an, Rupiah Jadi Juru Kunci di Asia</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ Rupiah hari ini berada di posisi juru kunci mata uang di Asia lantaran jatuh paling dalam terhadap dolar AS. </div>
+ <div class="ratio4_3 box_img fr">
+ <div class="img_con lqd">
+ <a href="https://finance.detik.com/bursa-dan-valas/d-4331756/dolar-as-balik-ke-rp-14400-an-rupiah-jadi-juru-kunci-di-asia?tag_from=wp_wm_berita_3" data-category="GA WP New Detikcom 2015" data-action="Widget" data-label="Widget Spesial Artikel">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/10/08/5ef262b9-fd7b-4ef5-b77f-a92767fb41e5_43.jpeg?w=300&q=80" alt="Dolar AS Balik ke Rp 14.400-an, Rupiah Jadi Juru Kunci di Asia" title="Dolar AS Balik ke Rp 14.400-an, Rupiah Jadi Juru Kunci di Asia" class="" /> </a>
+ </div>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--E:WIDGET SPESIAL ARTIKEL-->
+<li>
+ <article id="a4331986">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://sport.detik.com/sport-lain/d-4331986/jelang-proliga-2019-amalia-fajrina-antusias-tapi?tag_from=wp_nhl_img_12" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/24c087da-8ba5-42a1-b6b7-79cdc4c5a30b_11.png?w=200&q=100" alt="Jelang Proliga 2019, Amalia Fajrina Antusias tapi..." title="Jelang Proliga 2019, Amalia Fajrina Antusias tapi..." class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikSport | Rabu, 05 Des 2018 21:45 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://sport.detik.com/sport-lain/d-4331986/jelang-proliga-2019-amalia-fajrina-antusias-tapi?tag_from=wp_nhl_judul_12" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Jelang Proliga 2019, Amalia Fajrina Antusias tapi...</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Proliga 2019 akan bergulir akhir pekan ini. Open spiker PGN Popsivo Polwan Amalia Fajrina mengaku antusias, namun juga gugup. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--S:WIDGET CNN--><li id="news-8608" class="widget_mid cnnid" style="height: auto !important;">
+ <article>
+ <div class="desc_nhl">
+ <a onclick="_gaq.push(['_setAccount', 'UA-51806390-1'], ['_trackEvent', 'WP Detikcom', 'Native Widget NHL Detikcom', 'List Berita']);" data-category="WP Detikcom" data-action="Native Widget NHL Detikcom" data-label="List Berita" href="https://www.cnnindonesia.com/nasional/20181204202154-20-351146/pemprov-dki-akan-copot-jpo-tosari-ganti-pelican-crossing?tag_from=wp_wm_cnn"><h2>Pemprov DKI Akan Copot JPO Tosari, Ganti Pelican Crossing</h2></a>
+ <span class="labdate f11">CNN Indonesia | Rabu 5 Desember, 05:40 WIB</span>
+ Pemprov DKI memastikan JPO baru diturunkan jika pelican sudah terpasang, pembangunannya dimulai pada Rabu (5/12).
+ </div>
+ <div class="ratio4_3 box_img fr">
+ <div class="img_con lqd imgLiquid_bgSize imgLiquid_ready" style="background-image: url(https://akcdn.detik.net.id/community/media/visual/2018/11/22/feee8f18-e0e4-4898-a846-0d026f234974_169.jpeg?w=620?w=350); background-size: cover; background-position: 50% 0%; background-repeat: no-repeat;">
+ <a onclick="_gaq.push(['_setAccount', 'UA-51806390-1'], ['_trackEvent', 'WP Detikcom', 'Native Widget NHL Detikcom', 'List Berita']);" data-category="WP Detikcom" data-action="Native Widget NHL Detikcom" data-label="List Berita" href="https://www.cnnindonesia.com/nasional/20181204202154-20-351146/pemprov-dki-akan-copot-jpo-tosari-ganti-pelican-crossing?tag_from=wp_wm_cnn" style="display: block; width: 100%; height: 100%;"><img src="https://akcdn.detik.net.id/community/media/visual/2018/11/22/feee8f18-e0e4-4898-a846-0d026f234974_169.jpeg?w=620?w=350" alt="img_list" style="display: none;"></a>
+ </div>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+ </li><!--E:WIDGET CNN--><li>
+ <article id="a4331982">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://news.detik.com/berita/d-4331982/jubir-ky-dicecar-31-pertanyaan-oleh-polisi-soal-pungutan-rp-150-juta?tag_from=wp_nhl_img_13" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/11/28/848b039a-958f-431d-b802-38e61dd1bd17_11.jpeg?w=200&q=100" alt="Jubir KY Dicecar 31 Pertanyaan oleh Polisi soal Pungutan Rp 150 Juta" title="Jubir KY Dicecar 31 Pertanyaan oleh Polisi soal Pungutan Rp 150 Juta" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikNews | Rabu, 05 Des 2018 21:42 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://news.detik.com/berita/d-4331982/jubir-ky-dicecar-31-pertanyaan-oleh-polisi-soal-pungutan-rp-150-juta?tag_from=wp_nhl_judul_13" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Jubir KY Dicecar 31 Pertanyaan oleh Polisi soal Pungutan Rp 150 Juta</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Jubir KY Farid Wajdi diperiksa penyidik Polda Metro Jaya soal pungutan Rp 150 juta untuk pertandingan tenis. Farid dicecar 31 pertanyaan oleh penyidik. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<li>
+ <article id="a4331983">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://hot.detik.com/movie/d-4331983/banyak-yang-berminat-sesuai-aplikasi-nonton-bareng-penyandang-tuli?tag_from=wp_nhl_img_14" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/0f001095-1371-48cb-be89-22c6666fcfbe_11.jpeg?w=200&q=100" alt="Banyak yang Berminat, Sesuai Aplikasi Nonton Bareng Penyandang Tuli" title="Banyak yang Berminat, Sesuai Aplikasi Nonton Bareng Penyandang Tuli" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikHot | Rabu, 05 Des 2018 21:39 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://hot.detik.com/movie/d-4331983/banyak-yang-berminat-sesuai-aplikasi-nonton-bareng-penyandang-tuli?tag_from=wp_nhl_judul_14" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Banyak yang Berminat, 'Sesuai Aplikasi' Nonton Bareng Penyandang Tuli</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Film 'Sesuai Aplikasi' adakan nobar dengan 120 penyandang tuli. Hal itu dilakukan sebagai bentuk apresiasi dari film tersebut. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--S:WIDGET SPESIAL ARTIKEL-->
+<li class="widget_mid specart">
+ <article id="a4331805">
+ <div class="desc_nhl">
+ <span class="labdate f11">detikInet | Rabu 05 2018, 18:48 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://inet.detik.com/cyberlife/d-4331805/tips-twitter-ala-sutopopn-harus-receh-dan-jangan-baper?tag_from=wp_wm_berita_4" data-category="GA WP New Detikcom 2015" data-action="Widget" data-label="Widget Spesial Artikel">
+ <h2>Tips Twitter ala @Sutopo_PN, Harus Receh dan Jangan Baper</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ Sutopo Purwo Nugroho, atau yang lebih dikenal dengan akun Twitternya @Sutopo_PN, merupakan salah satu figur berpengaruh di Twitter. </div>
+ <div class="ratio4_3 box_img fr">
+ <div class="img_con lqd">
+ <a href="https://inet.detik.com/cyberlife/d-4331805/tips-twitter-ala-sutopopn-harus-receh-dan-jangan-baper?tag_from=wp_wm_berita_4" data-category="GA WP New Detikcom 2015" data-action="Widget" data-label="Widget Spesial Artikel">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2017/09/25/b89830d4-1c5b-407e-ab45-5ce66e62cd17_43.jpg?w=300&q=80" alt="Tips Twitter ala @Sutopo_PN, Harus Receh dan Jangan Baper" title="Tips Twitter ala @Sutopo_PN, Harus Receh dan Jangan Baper" class="" /> </a>
+ </div>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--E:WIDGET SPESIAL ARTIKEL-->
+<!--S:Native Adsmart 1 --><script type='text/javascript'><!--// <![CDATA[
+OA_show('newsfeed5'); 
+// ]]> --></script><!--E:Native Adsmart 1 --><li>
+ <article id="a4331981">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://news.detik.com/berita/d-4331981/kritik-prabowo-untuk-media-pasca-reuni-212?tag_from=wp_nhl_img_15" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/2571e0d0-ae1b-4c5a-85b9-93b5a9e84b04_11.jpeg?w=200&q=100" alt="Kritik Prabowo untuk Media Pasca-Reuni 212" title="Kritik Prabowo untuk Media Pasca-Reuni 212" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikNews | Rabu, 05 Des 2018 21:38 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://news.detik.com/berita/d-4331981/kritik-prabowo-untuk-media-pasca-reuni-212?tag_from=wp_nhl_judul_15" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Kritik Prabowo untuk Media Pasca-Reuni 212</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Reuni 212 sudah berlalu, berjalan tertib. Ada kritik dari Prabowo Subianto untuk media terkait pemberitaan Reuni 212, yang digelar di Monas beberapa waktu lalu. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--S:parallax2--><script type='text/javascript'><!--// <![CDATA[
+OA_show('parallax2'); 
+// ]]> --></script><!--E:parallax2--><li>
+ <article id="a4331978">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://oto.detik.com/berita/d-4331978/bus-listrik-moeldoko-banjir-pesanan?tag_from=wp_nhl_img_16" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/03/02/d535fb5e-2836-4f81-b9a9-c8701614cab6_11.jpeg?w=200&q=100" alt="Bus Listrik Moeldoko Banjir Pesanan" title="Bus Listrik Moeldoko Banjir Pesanan" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikOto | Rabu, 05 Des 2018 21:36 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://oto.detik.com/berita/d-4331978/bus-listrik-moeldoko-banjir-pesanan?tag_from=wp_nhl_judul_16" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Bus Listrik Moeldoko Banjir Pesanan</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ MAB (Mobil Anak Bangsa), merek bus listrik milik Kepala Staf Kepresidenan Jenderal (Purn) Moeldoko diakui sudah banyak yang memesan. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<li>
+ <article id="a4331979">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://travel.detik.com/travel-news/d-4331979/polemik-turis-bayar-usd-500-buat-lihat-komodo?tag_from=wp_nhl_img_17" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2016/10/31/aae36475-dec6-48af-94b2-ee304ee7a6a0_11.jpg?w=200&q=100" alt="Polemik Turis Bayar USD 500 Buat Lihat Komodo" title="Polemik Turis Bayar USD 500 Buat Lihat Komodo" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikTravel | Rabu, 05 Des 2018 21:35 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://travel.detik.com/travel-news/d-4331979/polemik-turis-bayar-usd-500-buat-lihat-komodo?tag_from=wp_nhl_judul_17" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Polemik Turis Bayar USD 500 Buat Lihat Komodo</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Pemprov NTT berencana memberlakukan tiket USD 500 pada turis yang berkunjung ke Pulau Komodo. Banyak perdebatan, tentang harganya yang dinilai kemahalan. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--S:WIDGET SPESIAL ARTIKEL-->
+<li class="widget_mid specart">
+ <article id="a4331858">
+ <div class="desc_nhl">
+ <span class="labdate f11">detikHot | Rabu 05 2018, 19:20 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://hot.detik.com/celeb/d-4331858/tak-cuma-inneke-ini-artis-dan-model-yang-pakai-bilik-asmara-di-penjara?tag_from=wp_wm_berita_5" data-category="GA WP New Detikcom 2015" data-action="Widget" data-label="Widget Spesial Artikel">
+ <h2>Tak Cuma Inneke, Ini Artis dan Model yang Pakai 'Bilik Asmara' di Penjara</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ Bukan cuma Inneke. Bilik asmara juga pernah digunakan oleh artis dan model saat menjenguk pasangan mereka di penjara. Ini ulasannya: </div>
+ <div class="ratio4_3 box_img fr">
+ <div class="img_con lqd">
+ <a href="https://hot.detik.com/celeb/d-4331858/tak-cuma-inneke-ini-artis-dan-model-yang-pakai-bilik-asmara-di-penjara?tag_from=wp_wm_berita_5" data-category="GA WP New Detikcom 2015" data-action="Widget" data-label="Widget Spesial Artikel">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2016/07/29/43cd2147-9fd0-4806-936d-b854eeea37f0_43.jpg?w=300&q=80" alt="Tak Cuma Inneke, Ini Artis dan Model yang Pakai Bilik Asmara di Penjara" title="Tak Cuma Inneke, Ini Artis dan Model yang Pakai Bilik Asmara di Penjara" class="" /> </a>
+ </div>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--E:WIDGET SPESIAL ARTIKEL-->
+<li>
+ <article id="a4331976">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://news.detik.com/berita/d-4331976/pro-kontra-usulan-parpol-dibiayai-pemerintah?tag_from=wp_nhl_img_18" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/11/23/91ac5a9e-6b47-4ca0-a147-3febdcee91ed_11.jpeg?w=200&q=100" alt="Pro-Kontra Usulan Parpol Dibiayai Pemerintah" title="Pro-Kontra Usulan Parpol Dibiayai Pemerintah" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikNews | Rabu, 05 Des 2018 21:34 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://news.detik.com/berita/d-4331976/pro-kontra-usulan-parpol-dibiayai-pemerintah?tag_from=wp_nhl_judul_18" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Pro-Kontra Usulan Parpol Dibiayai Pemerintah</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Ketua KPK Agus Rahardjo mengusulkan agar partai politik dibiayai pemerintah. Ada parpol yang setuju, ada pula yang tidak. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--S:Native Adsmart 2 --><script type='text/javascript'><!--// <![CDATA[
+OA_show('newsfeed6'); 
+// ]]> --></script><!--E:Native Adsmart 2 --><li>
+ <article id="a4331965">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://inet.detik.com/fotoinet/d-4331965/si-penjiplak-iphone-bikin-ponsel-yang-punya-proyektor?tag_from=wp_nhl_img_19" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/eed83e24-ede5-4b37-be0b-92ea051ae847_11.jpeg?w=200&q=100" alt="Si Penjiplak iPhone Bikin Ponsel yang Punya Proyektor" title="Si Penjiplak iPhone Bikin Ponsel yang Punya Proyektor" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikInet | Rabu, 05 Des 2018 21:32 WIB</span>
+ <span class="sub_judul">FotoINET</span>
+ <a href="https://inet.detik.com/fotoinet/d-4331965/si-penjiplak-iphone-bikin-ponsel-yang-punya-proyektor?tag_from=wp_nhl_judul_19" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Si Penjiplak iPhone Bikin Ponsel yang Punya Proyektor</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Vendor asal Hong Kong bernama Blackview yang sempat menjiplak iPhone X milik Apple kini mengeluarkan ponsel nyeleneh yang ditanami proyektor. Seperti apa? </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<li>
+ <article id="a4331956">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://food.detik.com/foto-kuliner/d-4331956/serunya-janisaa-pradja-teman-dekat-mike-lewis-yang-doyan-wine?tag_from=wp_nhl_img_20" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/33bb2af0-b1d4-4053-98b7-e098324e503a_11.jpeg?w=200&q=100" alt="Serunya Janisaa Pradja, Teman Dekat Mike Lewis yang Doyan Wine" title="Serunya Janisaa Pradja, Teman Dekat Mike Lewis yang Doyan Wine" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikFood | Rabu, 05 Des 2018 21:32 WIB</span>
+ <span class="sub_judul">Galeri Foto</span>
+ <a href="https://food.detik.com/foto-kuliner/d-4331956/serunya-janisaa-pradja-teman-dekat-mike-lewis-yang-doyan-wine?tag_from=wp_nhl_judul_20" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Serunya Janisaa Pradja, 'Teman Dekat' Mike Lewis yang Doyan Wine</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Mike Lewis kembali dikabarkan dekat dengan wanita cantik. Wanita bernama Janisaa Pradja ini sudah sering terlihat makan bersama Mike. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<li>
+ <article id="a4331980">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://finance.detik.com/berita-ekonomi-bisnis/d-4331980/aturan-masih-digodok-jumlah-usaha-terbuka-untuk-asing-diubah--lagi?tag_from=wp_nhl_img_21" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/10/18/d9666dce-9fcb-4e60-83c2-96bbd902354e_11.jpeg?w=200&q=100" alt="Aturan Masih Digodok, Jumlah Usaha Terbuka untuk Asing Diubah Lagi" title="Aturan Masih Digodok, Jumlah Usaha Terbuka untuk Asing Diubah Lagi" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikFinance | Rabu, 05 Des 2018 21:30 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://finance.detik.com/berita-ekonomi-bisnis/d-4331980/aturan-masih-digodok-jumlah-usaha-terbuka-untuk-asing-diubah--lagi?tag_from=wp_nhl_judul_21" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Aturan Masih Digodok, Jumlah Usaha Terbuka untuk Asing Diubah Lagi</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Revisi aturan daftar negatif investasi (DNI) sedang digodok. Rencananya aturan tersebut akan dituangkan lewat Peraturan Presiden (Perpres). </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<li>
+ <article id="a4331955">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://news.detik.com/berita/d-4331955/jokowi-lantik-plt-gubernur-riau-dan-bengkulu-pekan-depan-di-istana?tag_from=wp_nhl_img_22" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/01/3675cc4e-a88a-445e-8031-731602041527_11.jpeg?w=200&q=100" alt="Jokowi Lantik Plt Gubernur Riau dan Bengkulu Pekan Depan di Istana" title="Jokowi Lantik Plt Gubernur Riau dan Bengkulu Pekan Depan di Istana" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikNews | Rabu, 05 Des 2018 21:28 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://news.detik.com/berita/d-4331955/jokowi-lantik-plt-gubernur-riau-dan-bengkulu-pekan-depan-di-istana?tag_from=wp_nhl_judul_22" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Jokowi Lantik Plt Gubernur Riau dan Bengkulu Pekan Depan di Istana</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Presiden Jokowi akan melantik Plt Gubernur Riau dan Bengkulu di Istana Kepresidenan Jakarta pekan depan. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--S:WIDGET SPESIAL ARTIKEL-->
+<li class="widget_mid specart">
+ <article id="a4331803">
+ <div class="desc_nhl">
+ <span class="labdate f11">detikNews | Rabu 05 2018, 18:40 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://news.detik.com/berita/d-4331803/diadukan-ke-dkpp-soal-212-anggota-bawaslu-saya-yakin-sesuai-aturan?tag_from=wp_wm_berita_6" data-category="GA WP New Detikcom 2015" data-action="Widget" data-label="Widget Spesial Artikel">
+ <h2>Diadukan ke DKPP soal 212, Anggota Bawaslu: Saya Yakin Sesuai Aturan</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ Anggota Bawaslu Ratna Dewi Pettalolo meyakini pernyataannya soal acara Reuni 212 sudah sesuai aturan. </div>
+ <div class="ratio4_3 box_img fr">
+ <div class="img_con lqd">
+ <a href="https://news.detik.com/berita/d-4331803/diadukan-ke-dkpp-soal-212-anggota-bawaslu-saya-yakin-sesuai-aturan?tag_from=wp_wm_berita_6" data-category="GA WP New Detikcom 2015" data-action="Widget" data-label="Widget Spesial Artikel">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/06/27/f19abec8-3471-41c6-bdcf-46d7d8f7d119_43.jpeg?w=300&q=80" alt="Diadukan ke DKPP soal 212, Anggota Bawaslu: Saya Yakin Sesuai Aturan" title="Diadukan ke DKPP soal 212, Anggota Bawaslu: Saya Yakin Sesuai Aturan" class="" /> </a>
+ </div>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--E:WIDGET SPESIAL ARTIKEL-->
+<li>
+ <article id="a4331954">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://news.detik.com/berita/d-4331954/sikap-tegas-jokowi-respons-penembakan-brutal-di-papua?tag_from=wp_nhl_img_23" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/1f5729c7-5275-4388-88c4-808f375d68db_11.jpeg?w=200&q=100" alt="Sikap Tegas Jokowi Respons Penembakan Brutal di Papua" title="Sikap Tegas Jokowi Respons Penembakan Brutal di Papua" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikNews | Rabu, 05 Des 2018 21:17 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://news.detik.com/berita/d-4331954/sikap-tegas-jokowi-respons-penembakan-brutal-di-papua?tag_from=wp_nhl_judul_23" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Sikap Tegas Jokowi Respons Penembakan Brutal di Papua</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ "Saya telah memerintahkan Panglima TNI dan Kapolri mengejar dan menangkap seluruh pelaku tindakan biadab dan tidak berperikemanusiaan tersebut," kata Jokowi. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<li>
+ <article id="a4331984">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://finance.detik.com/berita-ekonomi-bisnis/d-4331984/yakin-ekonomi-lebih-baik-bos-bank-mandiri-rupiah-menguat?tag_from=wp_nhl_img_24" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/8124f958-91d8-4fb5-9c4c-cc94eb7462dd_11.jpeg?w=200&q=100" alt="Yakin Ekonomi Lebih Baik, Bos Bank Mandiri: Rupiah Menguat" title="Yakin Ekonomi Lebih Baik, Bos Bank Mandiri: Rupiah Menguat" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikFinance | Rabu, 05 Des 2018 21:15 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://finance.detik.com/berita-ekonomi-bisnis/d-4331984/yakin-ekonomi-lebih-baik-bos-bank-mandiri-rupiah-menguat?tag_from=wp_nhl_judul_24" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Yakin Ekonomi Lebih Baik, Bos Bank Mandiri: Rupiah Menguat</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Bos Bank Mandiri memproyeksikan kondisi ekonomi Indonesia akan lebih baik mulai akhir tahun 2018. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<li>
+ <article id="a4331953">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://hot.detik.com/celeb/d-4331953/pelan-pelan-ovi-sovianti-ceritakan-keputusannya-pindah-agama?tag_from=wp_nhl_img_25" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/10/12/8b8248d1-4677-46b0-af78-3ca01762f86b_11.png?w=200&q=100" alt="Pelan-pelan Ovi Sovianti Ceritakan Keputusannya Pindah Agama" title="Pelan-pelan Ovi Sovianti Ceritakan Keputusannya Pindah Agama" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikHot | Rabu, 05 Des 2018 21:14 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://hot.detik.com/celeb/d-4331953/pelan-pelan-ovi-sovianti-ceritakan-keputusannya-pindah-agama?tag_from=wp_nhl_judul_25" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Pelan-pelan Ovi Sovianti Ceritakan Keputusannya Pindah Agama</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Setelah resmi menikah dengan Franky Ilham Roring, Ovi Sovianti memilih pindah keyakinan. Ovi pun menceritakan perjalanannya memilih memeluk Kristen. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<li>
+ <article id="a4331952">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://sport.detik.com/sepakbola/liga-indonesia/d-4331952/apakah-el-loco-gonzales-bakal-dipertahankan-pss?tag_from=wp_nhl_img_26" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/86b9e74f-6eea-448e-9d0c-31d8908bce59_11.jpeg?w=200&q=100" alt="Apakah El Loco Gonzales Bakal Dipertahankan PSS?" title="Apakah El Loco Gonzales Bakal Dipertahankan PSS?" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">Sepakbola | Rabu, 05 Des 2018 21:12 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://sport.detik.com/sepakbola/liga-indonesia/d-4331952/apakah-el-loco-gonzales-bakal-dipertahankan-pss?tag_from=wp_nhl_judul_26" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Apakah 'El Loco' Gonzales Bakal Dipertahankan PSS?</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Manajemen PSS Sleman bakal mempertahankan 60 persen materi pemain untuk Liga 1 musim depan. Apakah Cristian 'El Loco' Gonzales termasuk nama yang dipertahankan? </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<li>
+ <article id="a4331941">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://news.detik.com/detiktv/d-4331941/alumni-main-ke-kampus-terciduk-bawa-narkoba?tag_from=wp_nhl_img_27" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2016/10/31/6df2b500-34ab-498e-92d4-dccb3166446e_11.jpg?w=200&q=100" alt="Alumni Main ke Kampus Terciduk Bawa Narkoba" title="Alumni Main ke Kampus Terciduk Bawa Narkoba" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikNews | Rabu, 05 Des 2018 21:07 WIB</span>
+ <span class="sub_judul">20Detik</span>
+ <a href="https://news.detik.com/detiktv/d-4331941/alumni-main-ke-kampus-terciduk-bawa-narkoba?tag_from=wp_nhl_judul_27" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Alumni Main ke Kampus Terciduk Bawa Narkoba</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Tonton THE POLICE saat tim gabungan Polres Jaksel dan BNN merazia kampus untuk upaya pencegahan <a href="https://www.detik.com/tag/narkoba/" target="_blank"><strong>penyalahgunaan narkoba</strong></a>. Dan hasilnya sungguh tak terduga loh. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--S:WIDGET SPESIAL ARTIKEL-->
+<li class="widget_mid specart">
+ <article id="a4331783">
+ <div class="desc_nhl">
+ <span class="labdate f11">detikNews | Rabu 05 2018, 18:30 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://news.detik.com/berita-jawa-barat/d-4331783/wawan-suap-kalapas-sukamiskin-buat-ngamar-masih-sampai-sekarang?tag_from=wp_wm_berita_7" data-category="GA WP New Detikcom 2015" data-action="Widget" data-label="Widget Spesial Artikel">
+ <h2>Wawan Suap Kalapas Sukamiskin buat 'Ngamar', Masih Sampai Sekarang?</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ Tubagus Chaeri Wardana alias Wawan disebut menyuap eks Kalapas Sukamiskin Wahid Husen untuk ngamar bersama teman wanitanya di hotel. Masihkan sampai sekarang? </div>
+ <div class="ratio4_3 box_img fr">
+ <div class="img_con lqd">
+ <a href="https://news.detik.com/berita-jawa-barat/d-4331783/wawan-suap-kalapas-sukamiskin-buat-ngamar-masih-sampai-sekarang?tag_from=wp_wm_berita_7" data-category="GA WP New Detikcom 2015" data-action="Widget" data-label="Widget Spesial Artikel">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/08/15/6a37d3ff-66c5-440b-99b2-7da947d41eee_43.jpeg?w=300&q=80" alt="Wawan Suap Kalapas Sukamiskin buat Ngamar, Masih Sampai Sekarang?" title="Wawan Suap Kalapas Sukamiskin buat Ngamar, Masih Sampai Sekarang?" class="" /> </a>
+ </div>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<!--E:WIDGET SPESIAL ARTIKEL-->
+<li>
+ <article id="a4331950">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://hot.detik.com/music/d-4331950/selain-konser-di-bioskop-the-rain-juga-bakal-putarkan-film-pendek?tag_from=wp_nhl_img_28" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/a69deb1a-8e5e-4000-990b-59162c5d0222_11.jpeg?w=200&q=100" alt="Selain Konser di Bioskop, The Rain Juga Bakal Putarkan Film Pendek" title="Selain Konser di Bioskop, The Rain Juga Bakal Putarkan Film Pendek" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikHot | Rabu, 05 Des 2018 21:02 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://hot.detik.com/music/d-4331950/selain-konser-di-bioskop-the-rain-juga-bakal-putarkan-film-pendek?tag_from=wp_nhl_judul_28" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Selain Konser di Bioskop, The Rain Juga Bakal Putarkan Film Pendek</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Ada banyak kejutan yang disiapkan oleh The Rain untuk para penggemarnya. Salah satu kejutan tersebut akan mereka gelar di konser perdananya. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<li>
+ <article id="a4331947">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://sport.detik.com/sepakbola/liga-indonesia/d-4331947/manajer-pss-sleman-seto-akan-dipertahankan-sebagai-pelatih?tag_from=wp_nhl_img_29" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/d3f23717-5038-42b2-a8c1-b35ea5421952_11.png?w=200&q=100" alt="Manajer PSS Sleman: Seto Akan Dipertahankan Sebagai Pelatih" title="Manajer PSS Sleman: Seto Akan Dipertahankan Sebagai Pelatih" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">Sepakbola | Rabu, 05 Des 2018 20:52 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://sport.detik.com/sepakbola/liga-indonesia/d-4331947/manajer-pss-sleman-seto-akan-dipertahankan-sebagai-pelatih?tag_from=wp_nhl_judul_29" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Manajer PSS Sleman: Seto Akan Dipertahankan Sebagai Pelatih</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Manajemen PSS Sleman, Sismantoro, tak menggeser Seto Nurdiantoro dari kursi pelatih Super Elang Jawa di Liga 1 2019. Kontrak segera dibicarakan. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<li>
+ <article id="a4331944">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://oto.detik.com/mobil/d-4331944/bentley-listrik-ini-cantik-abis?tag_from=wp_nhl_img_30" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/04/b3842cc4-5f39-42b1-8a45-d41347b79192_11.jpeg?w=200&q=100" alt="Bentley Listrik Ini Cantik Abis!" title="Bentley Listrik Ini Cantik Abis!" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikOto | Rabu, 05 Des 2018 20:51 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://oto.detik.com/mobil/d-4331944/bentley-listrik-ini-cantik-abis?tag_from=wp_nhl_judul_30" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Bentley Listrik Ini Cantik Abis!</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Persaingan mobil listrik bakal makin memanas, karena produsen mobil inggris Bentley akhirnya memutuskan untuk bisa melahirkan mobil listrik. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<li>
+ <article id="a4331942">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://finance.detik.com/berita-ekonomi-bisnis/d-4331942/pemerintah-kucurkan-dana-kelurahan-rp-3-triliun-tahun-depan?tag_from=wp_nhl_img_31" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/10/23/8e6a463e-d548-470e-ac17-4814c1d5a78f_11.jpeg?w=200&q=100" alt="Pemerintah Kucurkan Dana Kelurahan Rp 3 Triliun Tahun Depan" title="Pemerintah Kucurkan Dana Kelurahan Rp 3 Triliun Tahun Depan" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikFinance | Rabu, 05 Des 2018 20:48 WIB</span>
+ <span class="sub_judul"></span>
+ <a href="https://finance.detik.com/berita-ekonomi-bisnis/d-4331942/pemerintah-kucurkan-dana-kelurahan-rp-3-triliun-tahun-depan?tag_from=wp_nhl_judul_31" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Pemerintah Kucurkan Dana Kelurahan Rp 3 Triliun Tahun Depan</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Anggaran sebesar Rp 3 triliun akan dicairkan tahun depan untuk kebutuhan dana kelurahan. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+<li>
+ <article id="a4331931">
+ <div class="ratio9_8 box_img fl mr10">
+ <div class="img_con lqd">
+ <a href="https://finance.detik.com/foto-bisnis/d-4331931/saat-susi-bertemu-pangeran-albert-di-monaco?tag_from=wp_nhl_img_32" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel"> <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/05/6e950b86-3991-427f-bde4-ece66a9eef84_11.jpeg?w=200&q=100" alt="Saat Susi Bertemu Pangeran Albert di Monaco" title="Saat Susi Bertemu Pangeran Albert di Monaco" class="" /></a>
+ </div>
+ </div>
+ <div class="desc_nhl">
+ <span class="labdate f12">detikFinance | Rabu, 05 Des 2018 20:42 WIB</span>
+ <span class="sub_judul">Foto Bisnis</span>
+ <a href="https://finance.detik.com/foto-bisnis/d-4331931/saat-susi-bertemu-pangeran-albert-di-monaco?tag_from=wp_nhl_judul_32" data-category="GA WP New Detikcom 2015" data-action="Newsfeed / NHL" data-label="Artikel" >
+ <h2>Saat Susi Bertemu Pangeran Albert di Monaco</h2>
+ <span class="lengkap">Selengkapnya <img src="https://cdn.detik.net.id/detik2/images/arrow_right2.png" alt=""></span>
+ </a>
+ <p>
+ Menteri Kelautan dan Perikanan RI Susi Pudjiastuti bertemu dengan Pangeran Albert II dari Monaco. Begini momennya. </p>
+ </div>
+ </article>
+ <div class="clearfix"></div>
+</li>
+ <li class="text-center more_news more-loading hide" id="newsfeed-more-news">
+ <img src="https://cdn.detik.net.id/detik2/images/loading.gif">Loading More News
+ </li>
+ <li class="text-center more_news more-trigger">
+ <a href="#" onclick="dataLayer.push({'event' : 'gaTriggerEvent', 'gaEventCategory' : 'fitur', 'gaEventAction' : 'klik button more news', 'gaEventLabel' : 'newsfeed'}); return false;"><span class="but_more">More News</span></a>
+ <!-- <span class="but_more">More News</span> -->
+ </li>
+ </ul>
+</div>
+<script type="text/javascript" charset="utf-8">
+ var LASTDATE = new Date('2018/12/05 20:42:20');
+ var STRLASTDATE = '2018/12/05 20:42:20';
+ var LAST_LOOP_GTM = 7;
+ var LAST_LOOP_VIDEOGTM = 1;
+ var LAST_LOOP_PHOTOGTM = 0;
+ var LAST_LOOP_INFOGRAFIS = 0;
+ var LAST_LOOP_NHL = 32;
+</script>
+ <!--E:MID CONTENT-->
+ <div class="clearfix"></div>
+ </div>
+ <!-- E:CONTENT-->
+ <!-- E:FOOTER-->
+ <div class="footer">
+ <div class="foot1">
+ <div class="fl"><a href="//www.detik.com"><img src="/images/logo_detik_footer.png" alt="detikcom"></a></div>
+ <div class="fr">
+ <div class="share_bottom">
+ <a data-category="WP Kanal Berita" data-action="Footer WP" data-label="Sosmed" style="padding: 0 !important;" href="https://www.facebook.com/detikcom"><img src="https://cdn.detik.net.id/news/images/foot_fb.png" alt="facebook detikcom" title="facebook detikcom"></a>
+ <a data-category="WP Kanal Berita" data-action="Footer WP" data-label="Sosmed" style="padding: 0 !important;" href="https://twitter.com/detikcom"><img src="https://cdn.detik.net.id/news/images/foot_tw.png" alt="twitter detikcom" title="twitter detikcom"></a>
+<a data-category="WP Kanal Berita" data-action="Footer WP" data-label="Sosmed" style="padding: 0 !important;" href="https://www.linkedin.com/company/detik-com/"><img src="https://cdn.detik.net.id/detik2/images/foot_linkedin.png" alt="linkedin detikcom" title="linkedin detikcom"></a> 
+<a data-category="WP Kanal Berita" data-action="Footer WP" data-label="Sosmed" style="padding: 0 !important;" href="https://instagram.com/detikcom/"><img src="https://cdn.detik.net.id/news/images/foot_insta.png" alt="instagram detikcom" title="instagram detikcom"></a>
+ </div>
+ </div>
+ <div class="clearfix"></div>
+ </div>
+ <div class="clearfix"></div>
+ <div class="foot2">
+ <div class="fl">
+ 
+ <div class="pl5">Copyright &commat; 2018 detikcom, All right reserved &middot;
+ <a target="_blank" href="//detik.com/dapur/redaksi">Redaksi</a> &middot;
+ <a target="_blank" href="//detik.com/dapur/pedoman-media">Pedoman Media Siber</a> &middot;
+ <a target="_blank" href="//microsite.detik.com/vacancy">Karir</a> &middot;
+ <a target="_blank" href="//detik.com/dapur/kotak-pos">Kotak Pos</a> &middot;
+ <a target="_blank" href="//detik.com/dapur/beriklan">Info Iklan</a> &middot;
+ <a target="_blank" href="//detik.com/dapur/privacy-policy">Privacy Policy</a> &middot;
+ <a target="_blank" href="//detik.com/dapur/disclaimer">Disclaimer</a>
+ </div>
+ </div>
+ <div class="clearfix"></div>
+ </div>
+</div>
+ <!-- E:FOOTER-->
+ </div>
+ <!--E:CONTAINER-->
+ <script type="application/ld+json">
+ {
+ "@context": "http://schema.org",
+ "@type": "WebSite",
+ "url": "https://www.detik.com/",
+ "potentialAction": {
+ "@type": "SearchAction",
+ "target": "https://www.detik.com/search/searchall?query={search_term_string}",
+ "query-input": "required name=search_term_string"
+ }
+ }
+ </script>
+ </body>
+ <script src="https://cdn.detik.net.id/detik2/js/detikwp.js?v=1.2.4"></script>
+<script src="https://cdn.detik.net.id/detik2/js/it.js?v=1.0.1"></script>
+<script src="https://cdn.detik.net.id/detik2/js/refresh.js?v=2.2.2.5"></script>
+ 
+ <!-- s:push notif -->
+ <script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+ <script src="https://cdn.detik.net.id/libs/js-itportal/firebase-msg.js?v=3.2"></script>
+ <!-- e:push notif -->
+ 
+ <script>
+ $(window).bind('load', function() {
+ if (__cmonErLog.length)
+ console.log(__cmonErLog);
+ });
+ </script>
+ <!-- S:breaking news -->
+ <script type="text/javascript">
+ $('.container').on('click', 'span.vidbnc', function(){
+ $('.videobn').removeClass('aside').addClass('videobn2').removeClass('videobn');
+ });
+ $(window).scroll(function (event) {
+ var scroll = $(window).scrollTop();
+ var ot = $(".m_content").offset().top;
+ $('.videobn').toggleClass('aside', (scroll >= ot));
+ });
+ $(window).scroll();
+ $(document).ready(function(){
+ setTimeout(function(){
+ $(document.body).trigger("sticky_kit:recalc");
+ }, 2000);
+ });
+ </script>
+ <!-- E:breaking news -->
+</html>
+<!--cached @ 1544023410--><!--replaced--><!--0--><!--replaced--><!--0-->

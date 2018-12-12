@@ -25,14 +25,9 @@ import sys
 import pymongo
 import requests
 import warnings
-<<<<<<< HEAD
-from bs4 import BeautifulSoup
-from flask import Flask, request as flask_req,jsonify
-=======
-from bs4 import BeautifulSoup, Comment
-from flask import Flask, request as flask_req
->>>>>>> 2005c6b3a56087a9e9f21165a513c1d29fda84c5
 
+from bs4 import BeautifulSoup, Comment
+from flask import Flask,jsonify, request as flask_req
 
 
 warnings.filterwarnings("ignore")
@@ -77,21 +72,17 @@ def do_crawl(source_name, url, target_url):
 
 
 	# =================== this block line of code is temporary, to be deleted ===================
-	fhtml_raw = open(os.path.join(_BASEDIR, "html_dom_raw_sample.out"), "w")
-	sys.stdout = fhtml_raw
-	print(html_)
-	sys.stdout = sys.__stdout__
-	fhtml_raw.close()
-
-
-	fhtml_clean = open(os.path.join(_BASEDIR, "html_dom_clean_sample.out"), "w")
-	sys.stdout = fhtml_clean
-	print(soup_)
-	sys.stdout = sys.__stdout__
-	fhtml_clean.close()
-
-
-	quit()
+	# fhtml_raw = open(os.path.join(_BASEDIR, "html_dom_raw_sample.out"), "w")
+	# sys.stdout = fhtml_raw
+	# print(html_)
+	# sys.stdout = sys.__stdout__
+	# fhtml_raw.close()
+    #
+	# fhtml_clean = open(os.path.join(_BASEDIR, "html_dom_clean_sample.out"), "w")
+	# sys.stdout = fhtml_clean
+	# print(soup_)
+	# sys.stdout = sys.__stdout__
+	# fhtml_clean.close()
 	# =================== this block line of code is temporary, to be deleted ===================
 
 
@@ -117,13 +108,8 @@ def do_crawl(source_name, url, target_url):
 	# bulk save here, list of links...
 	try:
 		bulkop_resp = link_bulk.execute()
-<<<<<<< HEAD
-		return "ok"
-	except Exception as e:
-=======
 		return True
-	except Exception, e:
->>>>>>> 2005c6b3a56087a9e9f21165a513c1d29fda84c5
+	except Exception as  e:
 		return None
 
 
@@ -136,12 +122,7 @@ def crawl():
 	url_target = flask_req.form.get("url_target")
 
 	if do_crawl(source_name, url, url_target):
-<<<<<<< HEAD
-
 		return jsonify({"response": "ok"})
-=======
-		return 
->>>>>>> 2005c6b3a56087a9e9f21165a513c1d29fda84c5
 	else:
 		return jsonify({"response": "not ok"})
 
