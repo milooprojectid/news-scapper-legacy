@@ -12,12 +12,10 @@
 
 from __future__ import division
 from bs4 import BeautifulSoup, Comment
-import re, sys, pymongo, requests, warnings
+import src.utils.mongodb as mongo
+import re, sys, requests, warnings
 
 warnings.filterwarnings("ignore")
-
-def connect_mongodb():
-    return pymongo.MongoClient("mongodb://sakoju:E107112358@178.128.98.252:2017/milo-staging?authSource=admin")
 
 def do_crawl(source_name, url, target_url):
     headers = {
@@ -28,8 +26,7 @@ def do_crawl(source_name, url, target_url):
     valid_url_re = re.compile(r"^https?://\S*" + url + "/?\S*$")
 
     # specify the mongodb connection, database and collection
-    db_cnx = connect_mongodb()
-    db_ = db_cnx["milo-staging"]
+    db_ = mongo.getInstance()
     link_collection = db_.links
 
     # remove <script>, <style> and <link>
@@ -56,7 +53,7 @@ def do_crawl(source_name, url, target_url):
     sys.stdout = sys.__stdout__
     fhtml_clean.close()
 
-    quit()
+    # quit()
 
     # init the mongo bulk object to upsert (update-or-insert) the link data
     link_bulk = link_collection.initialize_ordered_bulk_op()
@@ -85,4 +82,4 @@ def do_crawl(source_name, url, target_url):
 
 if __name__ == '__main__':
     # app.run(debug=True)
-    do_crawl("detik", "detik.com", "https://www.detik.com")
+    do_crawl("viva", "viva.co.id", "https://www.viva.co.id/")
