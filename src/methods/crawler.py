@@ -16,11 +16,11 @@
 # Run code: python news_crawler.py
 # curl POST -X https://api_host_name_or_ip:api_port_number/crawl {"source": "...", "url": "...", "url_target": "..."}
 
-
 from __future__ import division
-import re, os, string, htmlmin, requests, warnings
-from bs4 import BeautifulSoup, Comment
+import re, os, string, warnings
 import src.utils.mongodb as mongo
+from package import htmlmin, requests
+from package.bs4 import BeautifulSoup, Comment
 
 warnings.filterwarnings("ignore")
 _BASEDIR = os.path.dirname(os.path.realpath(__file__))
