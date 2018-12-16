@@ -17,13 +17,9 @@
 # curl POST -X https://api_host_name_or_ip:api_port_number/crawl {"source": "...", "url": "...", "url_target": "..."}
 
 from __future__ import division
-import re, os, string, warnings
+from bs4 import BeautifulSoup, Comment
+import re, string, htmlmin, requests
 import src.utils.mongodb as mongo
-from package import htmlmin, requests
-from package.bs4 import BeautifulSoup, Comment
-
-warnings.filterwarnings("ignore")
-_BASEDIR = os.path.dirname(os.path.realpath(__file__))
 
 
 def do_crawl(source_name, url, target_url):
@@ -47,8 +43,7 @@ def do_crawl(source_name, url, target_url):
         comment.extract()
 
     html_dom_clean = "".join(filter(lambda _: _ in set(string.printable), str(soup_)))
-    html_dom_clean = htmlmin.minify(html_dom_clean, remove_comments=True, remove_empty_space=True,
-                                    remove_all_empty_space=True)
+    html_dom_clean = htmlmin.minify(html_dom_clean, remove_comments=True, remove_empty_space=True, remove_all_empty_space=True)
 
     target_url = target_url.split("?")[0]
 
@@ -89,7 +84,7 @@ def do_crawl(source_name, url, target_url):
         bulkop_resp = link_bulk.execute()
         print("insert bulk links success !!")
         return True
-    except Exception as  e:
+    except Exception as e:
         return None
 
 
