@@ -1,0 +1,20 @@
+{
+  "name": "milo-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.py",
+  "scripts": {
+    "crawl": "python main.py",
+    "deploy-staging": "./deployments/script/deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archisdiningrat/milo-scrapper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/archisdiningrat/milo-scrapper/issues"
+  },
+  "homepage": "https://github.com/archisdiningrat/milo-scrapper#readme"
+}
