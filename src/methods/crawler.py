@@ -88,10 +88,6 @@ def do_crawl(source_name, url, target_url):
         return None
 
 
-
 if __name__ == '__main__':
-    # this is the actual way to call crawl service
-    # app.run(debug=True)
-
-    # code below was provided for testing purpose
+    # TODO: improve local test method
     do_crawl("detik", "detik.com", "https://hot.detik.com/kpop/d-4340712/heboh-iklan-blackpink-dinilai-seronok-shopee-dipanggil-kpai")
