@@ -1,5 +1,5 @@
-import pymongo
+import pymongo, os
 
 def getInstance():
-    connection =  pymongo.MongoClient("mongodb://sakoju:E107112358@178.128.98.252:2017/milo-staging?authSource=admin")
+    connection =  pymongo.MongoClient(os.getenv('MONGO_CONNECTION_STRING'))
     return connection["milo-staging"]

@@ -1,5 +1,12 @@
 from src.methods.crawler import do_crawl as crawl
 from src.utils.helpers import response
+from os.path import join, dirname
+from dotenv import load_dotenv
+
+# load env
+dotenv_path = join(dirname(__file__), '.env')
+load_dotenv(dotenv_path)
+
 
 def crawler_handler(event, context):
     # TODO: validate input

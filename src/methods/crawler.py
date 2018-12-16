@@ -86,8 +86,3 @@ def do_crawl(source_name, url, target_url):
         return True
     except Exception as e:
         return None
-
-
-if __name__ == '__main__':
-    # TODO: improve local test method
-    do_crawl("detik", "detik.com", "https://hot.detik.com/kpop/d-4340712/heboh-iklan-blackpink-dinilai-seronok-shopee-dipanggil-kpai")
