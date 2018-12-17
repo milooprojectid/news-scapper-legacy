@@ -6,8 +6,7 @@
   "scripts": {
     "crawl": "python main.py",
     "deploy-stage": "./deployments/script/deploy-staging.sh",
-    "deploy-prod": "./deployments/script/deploy-production.sh",
-    "deploy-all": "./deployments/script/deploy-all.sh"
+    "deploy-prod": "./deployments/script/deploy-production.sh"
   },
   "repository": {
     "type": "git",
