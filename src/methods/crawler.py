@@ -20,9 +20,9 @@ from __future__ import division
 from bs4 import BeautifulSoup, Comment
 import re, string, htmlmin, requests
 import src.utils.mongodb as mongo
+from src.utils.regex import news_regex as regex
 
-
-def do_crawl(source_name, url, target_url):
+def do_crawl(source_alias, url, target_url):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'}
     req_ = requests.get(target_url, headers=headers)
@@ -47,25 +47,19 @@ def do_crawl(source_name, url, target_url):
 
     target_url = target_url.split("?")[0]
 
-    if "detik" == source_name:
-        news_url_re = re.compile(r"^(https://(www\.)?(\S+\.)?detik\.com/[a-z\-]+/\w*\-\d+/[a-z0-9\-]+)$")
-    elif "kompas" == source_name:
-        pass
-    elif "kumparan" == source_name:
-        pass
-    else:
-        pass
-
-    if news_url_re.match(target_url):
-        data_ = {
-            "source": source_name,
-            "url": target_url,
-            "content": html_dom_clean,
-            "status": 0,
-            "visited_at": None
-        }
-        dom_collection.update({"content": html_dom_clean, "source": source_name}, data_, upsert=True)
-        print("insert dom success !!")
+    # check regex
+    if source_alias in regex.keys():
+        news_url_re = re.compile(regex[source_alias])
+        if news_url_re.match(target_url):
+            data_ = {
+                "source": source_alias,
+                "url": target_url,
+                "content": html_dom_clean,
+                "status": 0,
+                "visited_at": None
+            }
+            dom_collection.update({"content": html_dom_clean, "source": source_alias}, data_, upsert=True)
+            print("insert dom success !!")
 
     link_bulk = link_collection.initialize_ordered_bulk_op()
 
@@ -74,14 +68,14 @@ def do_crawl(source_name, url, target_url):
         href_ = href_.split("?")[0]
 
         if valid_url_re.match(href_):
-            url_ = {"url": href_, "source": source_name}
+            url_ = {"url": href_, "source": source_alias}
             link_bulk.find(url_).upsert().update({
                 "$setOnInsert": {"status": 0, "visited_at": None},
                 "$set": url_
             })
 
     try:
-        bulkop_resp = link_bulk.execute()
+        link_bulk.execute()
         print("insert bulk links success !!")
         return True
     except Exception as e:
