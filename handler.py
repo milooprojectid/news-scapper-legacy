@@ -4,15 +4,13 @@ from os.path import join, dirname
 from dotenv import load_dotenv
 
 # load env
-dotenv_path = join(dirname(__file__), '.env')
-load_dotenv(dotenv_path)
-
+load_dotenv(join(dirname(__file__), '.env'))
 
 def crawler_handler(event, context):
     # TODO: validate input
     # TODO: map input to function dynamically
 
-    crawl("detik", "detik.com", "https://hot.detik.com/kpop/d-4340712/heboh-iklan-blackpink-dinilai-seronok-shopee-dipanggil-kpai")
+    crawl("detik", "detik.com", "https://detik.com")
     return response('crawl completed')
 
 
