@@ -103,7 +103,7 @@ def do_crawl(source_name, url, target_url):
 
 	if news_url_re.match(target_url):
 		pass
-		# dom_collection.upsert()
+		dom_collection.update({""})
 
 
 	# =================== this block line of code is temporary, to be deleted ===================
