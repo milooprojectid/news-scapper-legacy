@@ -21,6 +21,8 @@ from bs4 import BeautifulSoup, Comment
 import re, string, htmlmin, requests
 import src.utils.mongodb as mongo
 from src.utils.regex import news_regex as regex
+from src.utils.constant import *
+from time import strftime
 
 def do_crawl(source_alias, url, target_url):
     headers = {
@@ -69,8 +71,9 @@ def do_crawl(source_alias, url, target_url):
 
         if valid_url_re.match(href_):
             url_ = {"url": href_, "source": source_alias}
+            now = strftime("%Y-%m-%d %H:%M:%S")
             link_bulk.find(url_).upsert().update({
-                "$setOnInsert": {"status": 0, "visited_at": None},
+                "$setOnInsert": {"status": LINK_STATUS['NEW'], "created_at": now, "updated_at": now},
                 "$set": url_
             })
 
