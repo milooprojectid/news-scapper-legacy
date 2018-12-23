@@ -1,6 +1,7 @@
 import os
 from src.methods.crawler import do_crawl as crawl
 from src.utils.helpers import response
+from src.utils.pusher import publish
 from src.transformer.input_transformer import normalize
 from os.path import join, dirname
 from dotenv import load_dotenv
@@ -17,7 +18,10 @@ def crawler_handler(event, context):
         [source, url, target_url] = normalize(event)
 
         # crawl target url
-        crawl(source, url, target_url)
+        nLinks = crawl(source, url, target_url)
+
+        # publish event
+        publish('home', 'link-changed', {'all': nLinks, 'done': 1})
 
         return response('crawl completed')
     except:

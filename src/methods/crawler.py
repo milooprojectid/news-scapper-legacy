@@ -65,11 +65,13 @@ def do_crawl(source_alias, url, target_url):
 
     link_bulk = link_collection.initialize_ordered_bulk_op()
 
+    new = 0
     for alink in soup_.findAll("a", href=True):
         href_ = str(alink["href"]).strip().lower()
         href_ = href_.split("?")[0]
 
         if valid_url_re.match(href_):
+            new += 1
             url_ = {"url": href_, "source": source_alias}
             now = strftime("%Y-%m-%d %H:%M:%S")
             link_bulk.find(url_).upsert().update({
@@ -80,6 +82,6 @@ def do_crawl(source_alias, url, target_url):
     try:
         link_bulk.execute()
         print("insert bulk links success !!")
-        return True
+        return new
     except Exception as e:
         return None
