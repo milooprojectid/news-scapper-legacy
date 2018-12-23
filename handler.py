@@ -26,6 +26,3 @@ def crawler_handler(event, context):
         return response('crawl completed')
     except:
         return response('an error occurred', status=500)
-
-
-
