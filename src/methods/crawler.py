@@ -84,4 +84,4 @@ def do_crawl(source_alias, url, target_url):
         print("insert bulk links success !!")
         return new
     except Exception as e:
-        return None
+        return e

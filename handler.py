@@ -19,6 +19,6 @@ def crawler_handler(event, context):
         # crawl target url
         crawl(source, url, target_url)
 
-        return response('crawl completed')
+        return response('crawl completed', {'new': 0, 'done': 1})
     except:
         return response('an error occurred', status=500)
