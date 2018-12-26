@@ -1,5 +1,10 @@
-def response(message = None, content = None):
+import json
+
+def response(message = None, content = None, status = 200):
     return {
-        'message': message,
-        'content': content
+        'statusCode': status,
+        'body': json.dumps({
+            'message': message,
+            'content': content
+        })
     }
