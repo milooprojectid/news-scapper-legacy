@@ -13,10 +13,6 @@ def crawler_handler(event, context):
         if event['headers']['secret'] != os.getenv('API_SECRET'):
             return response('not authorized', status=401)
 
-<<<<<<< HEAD
-    crawl("detik", "detik.com", "https://detik.com")
-    return response('crawl completed')
-=======
         # get request input
         [source, url, target_url] = normalize(event)
 
@@ -26,4 +22,3 @@ def crawler_handler(event, context):
         return response('crawl completed', {'new': 0, 'done': 1})
     except:
         return response('an error occurred', status=500)
->>>>>>> 5648cb84a6ea54bbaeb4f30cab98542e29fe12c2

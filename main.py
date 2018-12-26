@@ -8,8 +8,8 @@ load_dotenv(join(dirname(__file__), '.env'))
 
 # local tester
 if __name__ == '__main__':
-    # source = input('source name : ')
-    # link = input('source url  : ')
-    # target = input('targer url  : ')
-    # crawl(source, link, target)
-    publish()
+    source = input('source name : ')
+    link = input('source url  : ')
+    target = input('targer url  : ')
+    crawl(source, link, target)
+    # publish()
