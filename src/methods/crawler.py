@@ -19,6 +19,7 @@
 
 
 from __future__ import division
+from pprint import pprint
 from bs4 import BeautifulSoup, Comment
 import re, string, htmlmin, requests
 import src.utils.mongodb as mongo
@@ -75,7 +76,7 @@ def do_crawl(source_alias, url, target_url):
             print("insert dom success !!")
 
     # initialize pymongo bulk upserter object to prevent inside a loop once-in-a-time upsert, insted, one-time bulk upsert
-    link_bulk = link_collection.initialize_ordered_bulk_op()
+    # link_bulk = link_collection.initialize_ordered_bulk_op()
 
     new = 0
     for alink in soup_.findAll("a", href=True):
@@ -86,18 +87,23 @@ def do_crawl(source_alias, url, target_url):
 
         if valid_url_re.match(href_):
             new += 1
-            url_ = {"url": href_, "source": source_alias}
+
+            # check if item has already exist
+            d_ = link_collection.find({"url": href_, "source": source_alias}, {"status": 1, "_id": 1})
+            is_doc_exists = d_.limit(1).count() > 0
+
             # create exact current time in a desired format
             now = strftime("%Y-%m-%d %H:%M:%S")
             # append upsert list element into pymongo bulk upserter object 
             link_bulk.find(url_).upsert().update({
-                "$setOnInsert": {"status": LINK_STATUS['NEW'], "created_at": now, "updated_at": now},
+                "$setOnInsert": {"status": LINK_STATUS['COMPLETED'], "created_at": now, "updated_at": now},
                 "$set": url_
             })
     try:
         # actual mongodb upsert process here
-        link_bulk.execute()
+        # link_bulk.execute()
         print("insert bulk links success !!")
+        db_.close()
         return new
     except Exception as e:
         return e
