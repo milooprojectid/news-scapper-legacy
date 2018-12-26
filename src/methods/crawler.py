@@ -1,13 +1,13 @@
 # Author: Fuad Ikhlasul Amal
 # Created date: 07-11-2018
-# Updated date: 05-12-2018
-# Version: 1.2
+# Updated date: 26-12-2018
+# Version: 1.3
 # Function:
 #	* perform simple grab html content from http/https web page
 # 	* find any url that refer to the self root domain url
 #	* collect the urls and grab the HTML page DOMs, save to mongodb
 #	* add Flask wrapper and provide API end-point
-#	* add regexp to classify valid-news-url and non-valid-news-url
+#	* add hard-coded regexp to classify valid-news-url and non-valid-news-url
 #	* add extract and preprocess HTML DOM elements including:
 #	*		- remove <script>, <style> and <link> tags
 #	* 		- remove inline style="" attribute from any html tag
@@ -48,24 +48,25 @@ def do_crawl(source_name, url, target_url):
     target_url = target_url.split("?")[0]
 
     if "detik" == source_name:
-        news_url_re = re.compile(r"^(https://(www\.)?(\S+\.)?detik\.com/[a-z\-]+/\w*\-\d+/[a-z0-9\-]+)$")
+        news_url_re = re.compile(r"^(https?://(www\.)?(\S+\.)?detik\.com/[a-z\-]+/\w*\-\d+/[a-z0-9\-]+)$")
     elif "kompas" == source_name:
         pass
     elif "kumparan" == source_name:
-        pass
+        news_url_re = re.compile(r"^(https?://(www\.)?(\S+\.)?kumparan\.com/@?[a-z\-]+/\w*\-\d+/[a-z0-9\-]+\d{19})$")
     else:
         pass
 
-    if news_url_re.match(target_url):
-        data_ = {
-            "source": source_name,
-            "url": target_url,
-            "content": html_dom_clean,
-            "status": 0,
-            "visited_at": None
-        }
-        dom_collection.update({"content": html_dom_clean, "source": source_name}, data_, upsert=True)
-        print("insert dom success !!")
+    if news_url_re:
+        if news_url_re.match(target_url):
+            data_ = {
+                "source": source_name,
+                "url": target_url,
+                "content": html_dom_clean,
+                "status": 0,
+                "visited_at": None
+            }
+            dom_collection.update({"content": html_dom_clean, "source": source_name}, data_, upsert=True)
+            print("insert dom success !!")
 
     link_bulk = link_collection.initialize_ordered_bulk_op()
 

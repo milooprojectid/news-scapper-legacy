@@ -12,5 +12,3 @@ def crawler_handler(event, context):
 
     crawl("detik", "detik.com", "https://detik.com")
     return response('crawl completed')
-
-
