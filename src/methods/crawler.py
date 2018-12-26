@@ -30,6 +30,7 @@ from time import strftime
 
 
 def do_crawl(source_alias, url, target_url):
+    now = strftime("%Y-%m-%d %H:%M:%S")
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'}
     req_ = requests.get(target_url, headers=headers)
@@ -68,8 +69,9 @@ def do_crawl(source_alias, url, target_url):
                 "source": source_alias,
                 "url": target_url,
                 "content": html_dom_clean,
-                "status": 0,
-                "visited_at": None
+                "status": RAW_STATUS['NEW'],
+                "created_at": now,
+                "updated_at": now
             }
             # do upsert job to dom element collection
             dom_collection.update({"content": html_dom_clean, "source": source_alias}, data_, upsert=True)
@@ -93,7 +95,7 @@ def do_crawl(source_alias, url, target_url):
             is_doc_exists = d_.limit(1).count() > 0
 
             # create exact current time in a desired format
-            now = strftime("%Y-%m-%d %H:%M:%S")
+
             # append upsert list element into pymongo bulk upserter object 
             link_bulk.find(url_).upsert().update({
                 "$setOnInsert": {"status": LINK_STATUS['COMPLETED'], "created_at": now, "updated_at": now},
