@@ -15,4 +15,4 @@ if __name__ == '__main__':
     link = 'detik.com'
     target = 'https://news.detik.com/berita/d-4352982/tgb-jadi-rebutan'
     crawl(source, link, target)
-    publish()
+    # publish()
