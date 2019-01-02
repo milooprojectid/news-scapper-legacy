@@ -30,6 +30,7 @@ from time import strftime
 
 
 def do_crawl(source_alias, url, target_url):
+    # create exact current time in a desired format
     now = strftime("%Y-%m-%d %H:%M:%S")
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'}
@@ -79,8 +80,9 @@ def do_crawl(source_alias, url, target_url):
 
     # initialize pymongo bulk upserter object to prevent inside a loop once-in-a-time upsert, insted, one-time bulk upsert
     # link_bulk = link_collection.initialize_ordered_bulk_op()
-
+    link_list = []
     new = 0
+
     for alink in soup_.findAll("a", href=True):
         # extract the value of href attribut from <a> tag
         href_ = str(alink["href"]).strip().lower()
@@ -88,22 +90,33 @@ def do_crawl(source_alias, url, target_url):
         href_ = href_.split("?")[0]
 
         if valid_url_re.match(href_):
-            new += 1
-
             # check if item has already exist
-            d_ = link_collection.find({"url": href_, "source": source_alias}, {"status": 1, "_id": 1})
-            is_doc_exists = d_.limit(1).count() > 0
+            tobe_inserted_doc = {"url": href_, "source": source_alias}
+            d_ = link_collection.find(tobe_inserted_doc, {"status": 1, "_id": 1}).limit(1)
+            doc_exists = d_.count() > 0
+            tobe_inserted_doc.update({"updated_at": now})
 
-            # create exact current time in a desired format
+            if not doc_exists:
+                tobe_inserted_doc.update({"status": LINK_STATUS["NEW"], "created_at": now})
+                new += 1
+            else:
+                if LINK_STATUS["NEW"] == d_.next()["status"]:
+                    tobe_inserted_doc.update({"status": LINK_STATUS["COMPLETED"]})
+                else:
+                    print("Link has already exists !!")
+                    continue
 
+            link_list.append(tobe_inserted_doc)
             # append upsert list element into pymongo bulk upserter object 
-            link_bulk.find(url_).upsert().update({
-                "$setOnInsert": {"status": LINK_STATUS['COMPLETED'], "created_at": now, "updated_at": now},
-                "$set": url_
-            })
+            # link_bulk.find(url_).upsert().update({
+            #     "$setOnInsert": {"status": LINK_STATUS['COMPLETED'], "created_at": now, "updated_at": now},
+            #     "$set": url_
+            # })
     try:
         # actual mongodb upsert process here
         # link_bulk.execute()
+        link_collection.insert_many(link_list)
+        del link_list
         print("insert bulk links success !!")
         db_.close()
         return new
