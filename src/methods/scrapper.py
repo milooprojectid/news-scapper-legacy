@@ -19,6 +19,10 @@ from bs4 import BeautifulSoup
 # from flask import Flask, request as flask_req,jsonify
 
 
+from newspaper import Article
+
+
+
 warnings.filterwarnings("ignore")
 # app = Flask(__name__)
 
@@ -28,12 +32,40 @@ def connect_mongodb():
 
 def get_dom():
     mydb = connect_mongodb()
-    dom = mydb["milo-staging"].raws.find_one(sort=[('id',pymongo.DESCENDING)])
+    # dom = mydb["milo-staging"].raws.find_one(sort=[('id',pymongo.DESCENDING)])
     # print("=========",dom)
-    return (dom)
+    content = mydb['milo-staging'].raws.find_one({},{'content':1, '_id': 0})
+    source = mydb['milo-staging'].raws.find_one({},{'source':1,'_id':0})
+    url = mydb['milo-staging'].raws.find_one({},{'url':1,'_id':0})
+    # print('source = ',source)
+    # print('this is lol : \n',content)
+    return (source,url,content)
+
+
+def getNews():
+    #cek dom source
+    source, url, content = get_dom()
+    source = getSourceOnly(source)
+    if source == "'detik'":
+        content = getContentOnly(content)
+        # print("=======",content)
+        corpus = getNewsDetik(content)
+        result = corpus
+    if source == "'kompas'":
+        corpus = getNewsKompasN()
+        result = corpus
+    if source == "'kumparan'":
+        corpus = getNewsKumparan()
+        result = corpus
+    # else:
+    #     corpus = 'not sure'
+    #     result = corpus
+    return (result)
+
 
 def getNewsKompasN():
     dom = get_dom()
+    dom = BeautifulSoup(dom,'html.parser')
     divnews = dom.find_all("div",{"class":"read__content"})
     title = dom.find("h1",{"class":"read__title"}).get_text()
     date = dom.find("div",{"class":"read__time"}).get_text()
@@ -49,6 +81,41 @@ def getNewsKompasN():
         "News": news
     }
 
+    return (result)
+
+def getNewsDetik(content):
+    # source,url,content = get_dom()
+    # newsHTML = content
+
+    dom = BeautifulSoup(content,'html.parser')
+    news = dom.find("div",{"class":"itp_bodycontent detail_text"}).get_text()
+    date = dom.find("div",{"class":"date"}).get_text()
+    title = dom.find("h1").get_text()
+    author = dom.find("div",{"class":"author"}).get_text()
+
+    result = {
+        "Title": title,
+        "date": date,
+        "author": author,
+        "News": news
+    }
+    return (result)
+
+
+def getNewsCNN():
+    dom = ''
+    dom  = BeautifulSoup(dom,'html.parser')
+    news = ''
+    date = dom.find('')
+    title = dom.find('')
+    author = dom.find('')
+
+    result = {
+        "Title": title,
+        "date": date,
+        "author": author,
+        "News": news
+    }
     return (result)
 
 def getnewsKompas(url):
@@ -72,11 +139,12 @@ def getnewsKompas(url):
     return (result)
 
 def getNewsKumparan(dom):
+
     divnews = dom.find_all("div",{"class":"editor-padding-8"})
     title = ''
     date = ''
     author = ''
-    news = ''
+    news = dom.find_all("span",{"data-slate-content":"true"})
     for i in divnews:
         news = news+i.get_text()
 
@@ -110,34 +178,61 @@ def cleanDOM(dom):
     clean = htmlmin.minify(dom)
     return(clean)
 
+def getContentOnly(content):
 
-# a = getnewsKompas('https://nasional.kompas.com/read/2018/12/05/16252441/dengan-suara-meninggi-prabowo-cibir-media-massa-soal-jumlah-peserta-reuni')
-# #
-# print(a)
-b = get_dom()
-print(b)
-c = getNewsKompasN()
-print(c)
+    value = str(content)
+    result = re.sub("{'content': ","",value)
+    result = re.sub("{|}","",result)
+    return (result)
 
-# print(getnewsKompas(a))
+def getSourceOnly(source):
+    value = str(source)
+    result = re.sub("{'source': ","",value)
+    result = re.sub("{|}","",result)
+    return (result)
 
-# Flask methods below:
-# @app.route("/scrap", methods=["POST"])
-# def scrap():
-#     dom = flask_req.form.get("dom")
-# 	# source_name = flask_req.form.get("source_name")
-# 	# url = flask_req.form.get("url")
-# 	# url_target = flask_req.form.get("url_target")
-#     source =''
-#     if (source == 'Kumparan'):
-#         scr = getNewsKumparan(dom)
-#     if (source == 'Kompas'):
-#         scr = getnewsKompas(dom)
-#     if (source == 'OKEZone'):
-#         scr = getNewsOKEZone(dom)
-#
-#     return jsonify(scr)
+
+
+#using nespaper library
+def article(dom):
+    article = Article('', language ='id')
+    # article.download()
+    article.html = dom
+    article.parse()
+
+    title = article.title
+    author = article.authors
+    news = article.text
+    date = article.publish_date
+
+    return(title,date, author, news)
+
+
+def saveToMongo(source, date, author, news):
+    # db_ = mongo.getInstance()
+    # link_collection = db_.links
+    # dom_collection = db_.corpus
+    data_ = {
+        "source": source,
+        "date": date,
+        "content": news,
+        "author": author
+    }
+    # do upsert job to dom element collection
+    # return dom_collection.update({"source": source,"date": date,"content": news,"author": author }, data_, upsert=True)
+
+
 
 if __name__ == '__main__':
-    # app.run(debug=True)
-    print('sumtin wong')
+    b,c,d = get_dom()
+    d = getContentOnly(d)
+
+    print("getnews no lib\n", getNews())
+
+    print('using lib indo\n',article(d))
+
+    source = getSourceOnly(b)
+    news = getNews()
+
+    # url = 'https://arabic.cnn.com/middle-east/article/2019/01/02/egypt-sisi-economic-reforms'
+    # print('using library \n',article(url))

@@ -1,7 +1,6 @@
 from src.methods.crawler import do_crawl as crawl
 from os.path import join, dirname
 from dotenv import load_dotenv
-from src.utils.pusher import publish
 
 # load env
 load_dotenv(join(dirname(__file__), '.env'))
