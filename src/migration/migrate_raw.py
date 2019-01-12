@@ -12,11 +12,12 @@ if __name__ == '__main__':
     raw_collection = db_.raws
     count = raw_collection.count_documents({})
 
-    for i in tqdm(range(0, count, 10), postfix=None):
-        data = raw_collection.find().skip(i).limit(10)
+    for i in tqdm(range(0, 66000, 10), postfix=None):
+        pass
+        # data = raw_collection.find().skip(i).limit(10)
         # for doc in data:
         #     print(doc['content'])
         #     normalize doc
         #     update doc
-        # time.sleep(0.5)
+        time.sleep(2.5)
 
