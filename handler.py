@@ -1,5 +1,5 @@
 import os
-from src.methods.crawler import do_crawl as crawl
+from src.methods.crawler import crawl
 from src.utils.helpers import response
 from src.transformer.input_transformer import normalize
 from os.path import join, dirname

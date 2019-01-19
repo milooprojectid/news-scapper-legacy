@@ -1,7 +1,7 @@
 # Author: Fuad Ikhlasul Amal, Archie Isdiningrat
 # Created date: 07-11-2018
 # Updated date: 19-01-2019
-# Version: 1.3
+# Version: 2.0
 
 from __future__ import division
 import os, src.utils.mongodb as mongo
