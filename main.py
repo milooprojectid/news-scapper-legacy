@@ -1,4 +1,4 @@
-from src.methods.crawler import do_crawl as crawl
+from src.methods.crawler import crawl
 from os.path import join, dirname
 from dotenv import load_dotenv
 
@@ -7,11 +7,7 @@ load_dotenv(join(dirname(__file__), '.env'))
 
 # local tester
 if __name__ == '__main__':
-    # source = raw_input('source name : ')
-    # link = raw_input('source url  : ')
-    # target = raw_input('targer url  : ')
     source = 'detik'
     link = 'detik.com'
-    target = 'https://news.detik.com/berita/d-4352982/tgb-jadi-rebutan'
+    target = 'https://food.detik.com/readfoto/2019/01/09/101521/4376819/484/20-roti-bakar-empuk-enak-ada-di-sini'
     crawl(source, link, target)
-    # publish()
