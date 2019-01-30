@@ -174,10 +174,6 @@ def getNewsOKEZone(dom):
     return (result)
 
 
-def cleanDOM(dom):
-    clean = htmlmin.minify(dom)
-    return(clean)
-
 def getContentOnly(content):
 
     value = str(content)
@@ -223,16 +219,43 @@ def saveToMongo(source, date, author, news):
 
 
 
+from dotenv import load_dotenv
+from os.path import join, dirname
+from tqdm import tqdm
+import os, time
+load_dotenv(join(dirname(__file__),'../../.env'))
+
+import src.utils.mongodb as mongo
+import src.utils.news as News
+
 if __name__ == '__main__':
-    b,c,d = get_dom()
-    d = getContentOnly(d)
-
-    print("getnews no lib\n", getNews())
-
-    print('using lib indo\n',article(d))
-
-    source = getSourceOnly(b)
-    news = getNews()
+    # b,c,d = get_dom()
+    # d = getContentOnly(d)
+    #
+    # print("getnews no lib\n", getNews())
+    #
+    # print('using lib indo\n',article(d))
+    #
+    # source = getSourceOnly(b)
+    # news = getNews()
 
     # url = 'https://arabic.cnn.com/middle-east/article/2019/01/02/egypt-sisi-economic-reforms'
     # print('using library \n',article(url))
+
+    instance_ = mongo.getInstance()
+    db_ = instance_["milo-" + str(os.getenv('APP_ENV'))]
+    raw_collection = db_.raws
+    # print(raw_collection.count_documents)
+    count = raw_collection.count_documents({})
+
+    corp = []
+    for i in tqdm(range(0,count,10),postfix=None):
+        data = raw_collection.find().skip(i).limit(10)
+        # print(data)
+        # print(type(data))
+        for doc in data:
+        #     # print(doc['url'])
+            content = doc['content']
+            print(content)
+            corp.append(article(content))
+    # print(corp)
