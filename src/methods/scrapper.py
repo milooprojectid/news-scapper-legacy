@@ -191,7 +191,7 @@ def getSourceOnly(source):
 
 #using nespaper library
 def article(dom):
-    article = Article('', language ='id')
+    article = Article('', language ='id', memoize_articles=False)
     # article.download()
     article.html = dom
     article.parse()
@@ -245,17 +245,18 @@ if __name__ == '__main__':
     instance_ = mongo.getInstance()
     db_ = instance_["milo-" + str(os.getenv('APP_ENV'))]
     raw_collection = db_.raws
-    # print(raw_collection.count_documents)
     count = raw_collection.count_documents({})
 
     corp = []
-    for i in tqdm(range(0,count,10),postfix=None):
+    for i in tqdm(range(420,count,10),postfix=None, disable=True):
         data = raw_collection.find().skip(i).limit(10)
-        # print(data)
-        # print(type(data))
         for doc in data:
-        #     # print(doc['url'])
             content = doc['content']
-            print(content)
-            corp.append(article(content))
+            print(doc['url'])
+            try:
+                corp.append(article(content))
+            except:
+                print('whoops')
+            # print(corp)
+
     # print(corp)
