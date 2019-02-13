@@ -47,7 +47,6 @@ def crawl(source_alias, url, target_url):
             "$setOnInsert": {"source": source_alias, "status": LINK_STATUS['NEW'], "created_at": now, "updated_at": now},
             "$set": url_
         })
-
     try:
         LinkBulOp.execute()
         print("insert bulk links success !!")

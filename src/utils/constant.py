@@ -12,3 +12,10 @@ RAW_STATUS = {
     'COMPLETED': 30,
     'FAILED': 40
 }
+
+DOC_STATUS = {
+    'NEW': 10,
+    'RUNNING': 20,
+    'COMPLETED': 30,
+    'FAILED': 40
+}
