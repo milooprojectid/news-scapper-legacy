@@ -40,7 +40,6 @@ def migrate():
     for i in tqdm(range(0, count,10),postfix=None, disable=False):
         data = raw_collection.find().skip(i).limit(10)
 
-        # create bucket list for raw document and initialize py-mongodb bulk object
         if not DocBulkOp:
             DocBulkOp = doc_collection.initialize_ordered_bulk_op()
 
