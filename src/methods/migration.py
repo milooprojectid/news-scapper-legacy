@@ -41,7 +41,7 @@ def isEligible(text):
 def migrate():
     instance_ = mongo.getInstance()
     db_ = instance_["milo-" + str(os.getenv('APP_ENV'))]
-    doc_collection = db_.doc
+    doc_collection = db_.docs
     raw_collection = db_.raws
     count = raw_collection.count_documents({ "status": RAW_STATUS["NEW"]})
     DocBulkOp = doc_collection.initialize_ordered_bulk_op()
