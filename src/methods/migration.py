@@ -28,6 +28,16 @@ def article(dom):
         'text': article.text
     }
 
+def isEligible(text):
+    if not text:
+        return False
+
+    splitted = text.split('.')
+    if len(splitted) < 3:
+        return False
+
+    return True
+
 def migrate():
     instance_ = mongo.getInstance()
     db_ = instance_["milo-" + str(os.getenv('APP_ENV'))]
@@ -47,20 +57,22 @@ def migrate():
             content = doc['content']
             try:
                 data_to_insert = article(content)
-                DocBulkOp.find({"url": doc["url"]}).upsert() \
-                    .update({
-                        "$setOnInsert": {
-                            "status": RAW_STATUS["NEW"],
-                            "created_at": now,
-                            "updated_at": now
-                        },
-                        "$set": {
-                            "url": doc["url"],
-                            "source": doc["source"],
-                            "content": data_to_insert
-                        }
-                    })
-                raw_collection.update({"url": doc["url"]}, { "$set": {'status': RAW_STATUS['MIGRATED']} })
+
+                if isEligible(data_to_insert['text']):
+                    DocBulkOp.find({"url": doc["url"]}).upsert() \
+                        .update({
+                            "$setOnInsert": {
+                                "status": RAW_STATUS["NEW"],
+                                "created_at": now,
+                                "updated_at": now
+                            },
+                            "$set": {
+                                "url": doc["url"],
+                                "source": doc["source"],
+                                "content": data_to_insert
+                            }
+                        })
+                    raw_collection.update({"url": doc["url"]}, { "$set": {'status': RAW_STATUS['MIGRATED']} })
             except:
                pass
 
