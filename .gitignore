@@ -4,5 +4,6 @@ venv
 __pycache__/
 .DS_STORE
 *.env
+**/*.pyc
 
 /deployments/build
