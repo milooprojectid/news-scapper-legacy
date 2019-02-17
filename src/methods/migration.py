@@ -43,12 +43,12 @@ def migrate():
     db_ = instance_["milo-" + str(os.getenv('APP_ENV'))]
     doc_collection = db_.docs
     raw_collection = db_.raws
-    count = raw_collection.count_documents({ "status": RAW_STATUS["NEW"]})
+    count = raw_collection.count_documents({"status": RAW_STATUS["NEW"]})
     DocBulkOp = doc_collection.initialize_ordered_bulk_op()
     now = time.strftime("%Y-%m-%d %H:%M:%S")
 
     for i in tqdm(range(0, count,10),postfix=None, disable=False):
-        data = raw_collection.find().skip(i).limit(10)
+        data = raw_collection.find({"status": RAW_STATUS["NEW"]}).skip(i).limit(10)
 
         if not DocBulkOp:
             DocBulkOp = doc_collection.initialize_ordered_bulk_op()
