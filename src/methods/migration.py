@@ -73,6 +73,8 @@ def migrate():
                             }
                         })
                     raw_collection.update({"url": doc["url"]}, { "$set": {'status': RAW_STATUS['MIGRATED']} })
+                else:
+                    raw_collection.update({"url": doc["url"]}, { "$set": {'status': RAW_STATUS['INVALID']} })
             except:
                pass
 

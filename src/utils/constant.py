@@ -11,5 +11,6 @@ RAW_STATUS = {
     'MIGRATED': 15,
     'RUNNING': 20,
     'COMPLETED': 30,
+    'INVALID': 35,
     'FAILED': 40
 }
