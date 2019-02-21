@@ -47,7 +47,7 @@ def migrate():
     DocBulkOp = doc_collection.initialize_ordered_bulk_op()
     now = time.strftime("%Y-%m-%d %H:%M:%S")
 
-    for i in tqdm(range(0, count,10),postfix=None, disable=False):
+    for i in tqdm(range(0, count,10),postfix=None, disable=True):
         data = raw_collection.find({"status": RAW_STATUS["NEW"]}).skip(i).limit(10)
 
         if not DocBulkOp:
@@ -72,11 +72,14 @@ def migrate():
                                 "content": data_to_insert
                             }
                         })
+                    print('is a news')
                     raw_collection.update({"url": doc["url"]}, { "$set": {'status': RAW_STATUS['MIGRATED']} })
                 else:
+                    print('not a news')
                     raw_collection.update({"url": doc["url"]}, { "$set": {'status': RAW_STATUS['INVALID']} })
             except:
-               pass
+                print('failed parsing')
+                raw_collection.update({"url": doc["url"]}, {"$set": {'status': RAW_STATUS['INVALID']}})
 
         try:
             DocBulkOp.execute()
