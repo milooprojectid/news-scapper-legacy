@@ -20,8 +20,8 @@ class News:
         self.__determineDomStatus()
         self.__generateArticles()
 
-        if self.__DomStatus:
-            self.__generateCleansedDom()
+        # if self.__DomStatus:
+        self.__generateCleansedDom()
 
 
     def __determineDomStatus(self):
