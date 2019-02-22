@@ -9,6 +9,16 @@ from src.utils.constant import *
 from time import strftime
 from src.utils.news import News
 
+def isEligible(text):
+    if not text:
+        return False
+
+    splitted = text.split('.')
+    if len(splitted) < 3:
+        return False
+
+    return True
+
 
 def crawl(source_alias, url, target_url):
     now = strftime("%Y-%m-%d %H:%M:%S")
@@ -22,7 +32,7 @@ def crawl(source_alias, url, target_url):
     LinkCollection = db_.links
     RawCollection = db_.raws
 
-    if raw != {}:
+    if raw != {} and isEligible(raw['text']):
         # build a dom data structure
         data_ = {
             "source": source_alias,
@@ -35,24 +45,22 @@ def crawl(source_alias, url, target_url):
 
         # do upsert job to dom element collection
         RawCollection.update({"url": target_url}, data_, upsert=True)
-        print("insert raw success !!")
 
-    # initialize bulk Op
-    LinkBulOp = LinkCollection.initialize_ordered_bulk_op()
+        # initialize bulk Op
+        LinkBulOp = LinkCollection.initialize_ordered_bulk_op()
 
-    new = 0
-    for link in links:
-        url_ = {"url": link}
-        LinkBulOp.find(url_).upsert().update({
-            "$setOnInsert": {"source": source_alias, "status": LINK_STATUS['NEW'], "created_at": now, "updated_at": now},
-            "$set": url_
-        })
+        new = 0
+        for link in links:
+            url_ = {"url": link}
+            LinkBulOp.find(url_).upsert().update({
+                "$setOnInsert": {"source": source_alias, "status": LINK_STATUS['NEW'], "created_at": now, "updated_at": now},
+                "$set": url_
+            })
 
-    try:
-        LinkBulOp.execute()
-        print("insert bulk links success !!")
-        return new
-    except Exception as e:
-        return e
-    finally:
-        instance_.close()
+        try:
+            LinkBulOp.execute()
+            return new
+        except Exception as e:
+            return e
+
+    instance_.close()
