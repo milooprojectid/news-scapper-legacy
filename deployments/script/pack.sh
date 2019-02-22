@@ -19,6 +19,7 @@ source "./venv/bin/activate"
 echo "- installing dependencies ..."
 pip install -r ./requirements.txt -t ./deployments/build > /dev/null
 
+
 # copy source code to build
 tput setaf 2
 echo "- copying source code ..."
