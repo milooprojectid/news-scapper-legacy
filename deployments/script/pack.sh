@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-tput setaf 2
-set -e
-
 script_dir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 cd "${script_dir}/../../"
 
@@ -21,7 +18,6 @@ pip install -r ./requirements.txt -t ./deployments/build > /dev/null
 
 
 # copy source code to build
-tput setaf 2
 echo "- copying source code ..."
 cp -r *.py src ./deployments/build
 

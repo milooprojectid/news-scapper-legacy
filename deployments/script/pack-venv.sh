@@ -2,9 +2,6 @@
 
 version='3.7'
 
-tput setaf 2
-set -e
-
 script_dir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 cd "${script_dir}/../../"
 
@@ -22,7 +19,6 @@ echo "- moving dependencies ..."
 cp -a ./venv/lib/python${version}/site-packages/** ./deployments/build 
 
 # copy source code to build
-tput setaf 2
 echo "- copying source code ..."
 cp -r *.py src ./deployments/build
 
