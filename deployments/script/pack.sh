@@ -1,31 +1,33 @@
 #!/usr/bin/env bash
 
-script_dir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
-cd "${script_dir}/../../"
-
 # remove and recreate build folder
 echo "- creating build folder ..."
-rm -rf ./deployments/build
-mkdir -p ./deployments/build
+mkdir -p $(pwd)/deployments/build
+
 
 # activate virtual env
 echo "- activating virtual env ..."
-source "./venv/bin/activate"
+source $(pwd)/venv/bin/activate
 
 # install dependencies
 echo "- installing dependencies ..."
-pip install -r ./requirements.txt -t ./deployments/build > /dev/null
+pip install -r $(pwd)/requirements.txt -t $(pwd)/deployments/build > /dev/null
 
 
 # copy source code to build
 echo "- copying source code ..."
-cp -r *.py src ./deployments/build
+cp -r $(pwd)/*.py src $(pwd)/deployments/build
 
 # inject env to build
 echo "- injecting env file ..."
-cp -r ./environments/${env}.env ./deployments/build/.env
+cp -r $(pwd)/environments/${env}.env $(pwd)/deployments/build/.env
 
 # zip deployable code
 echo "- compressing build ..."
 cd deployments/build
-zip -qr "build.zip" .
+zip -qr "../build.zip" .
+cd ../..
+
+# remove build folder
+echo "- removing build folder ..."
+rm -rf $(pwd)/deployments/build

@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 
-cd "$( dirname "${BASH_SOURCE[0]}" )"
 script_dir=$(pwd)
-
 env="production"
+
 export env
+export script_dir
 
 echo -e "\n==================== Packaging files ====================\n"
-sh ./pack.sh
+sh $(pwd)/deployments/script/pack-venv.sh
 
 echo -e "\n==================== Deploying to ${env} ====================\n"
-sh ./update-lambda.sh
+sh $(pwd)/deployments/script/update-lambda.sh
 
 echo -e "\n${env} deployed !\n"

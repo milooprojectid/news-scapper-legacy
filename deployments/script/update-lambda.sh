@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-script_dir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
-
-zip_file="$script_dir/../build/build.zip"
+zip_file=$(pwd)/deployments/build.zip
 aws_region="ap-southeast-1"
 profile=milo
 

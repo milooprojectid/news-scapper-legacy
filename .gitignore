@@ -9,3 +9,4 @@ __pycache__/
 storage/**
 
 /deployments/build
+/deployments/build.zip
