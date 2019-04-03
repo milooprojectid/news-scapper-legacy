@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # remove and recreate build folder
 echo "- creating build folder ..."

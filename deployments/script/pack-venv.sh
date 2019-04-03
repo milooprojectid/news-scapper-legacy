@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 version='3.7'
 

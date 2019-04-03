@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 zip_file=$(pwd)/deployments/build.zip
 aws_region="ap-southeast-1"
