@@ -6,8 +6,8 @@
   "scripts": {
     "install-dep": "source ./venv/bin/activate && pip install -r requirements.txt",
     "crawl": "python main.py",
-    "deploy-stage": "sh ./deployments/script/deploy-staging.sh",
-    "deploy-prod": "sh ./deployments/script/deploy-production.sh",
+    "deploy-stage": "bash ./deployments/script/deploy-staging.sh",
+    "deploy-prod": "bash ./deployments/script/deploy-production.sh",
     "clean-install": "rm -rf venv/lib/python3.7/site-packages/** && npm run install-dep"
   },
   "repository": {
