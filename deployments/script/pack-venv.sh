@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+version='3.7'
+
 tput setaf 2
 set -e
 
@@ -15,10 +17,9 @@ mkdir -p ./deployments/build
 echo "- activating virtual env ..."
 source "./venv/bin/activate"
 
-# install dependencies
-echo "- installing dependencies ..."
-pip install -r ./requirements.txt -t ./deployments/build > /dev/null
-
+# moving dependencies
+echo "- moving dependencies ..."
+cp -a ./venv/lib/python${version}/site-packages/** ./deployments/build 
 
 # copy source code to build
 tput setaf 2

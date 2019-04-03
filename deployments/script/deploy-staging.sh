@@ -8,7 +8,7 @@ env="staging"
 export env
 
 echo -e "\n${white}==================== Packaging files ====================\n"
-sh ./pack.sh
+sh ./pack-venv.sh
 
 echo -e "\n${white}==================== Deploying to ${env} ====================\n"
 sh ./update-lambda.sh
