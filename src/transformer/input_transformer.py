@@ -7,3 +7,10 @@ def normalize(event):
         data['url'],
         data['target_url']
     ]
+
+def normalizeFlask(data):
+    return [
+        data['source'],
+        data['url'],
+        data['target_url']
+    ]

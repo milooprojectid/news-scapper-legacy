@@ -2,10 +2,10 @@
   "name": "milo-scrapper",
   "version": "1.0.0",
   "description": "",
-  "main": "main.py",
+  "main": "test.py",
   "scripts": {
     "install-dep": "source ./venv/bin/activate && pip install -r requirements.txt",
-    "crawl": "python main.py",
+    "crawl": "python test.py",
     "deploy-stage": "bash ./deployments/script/deploy-staging.sh",
     "deploy-prod": "bash ./deployments/script/deploy-production.sh",
     "clean-install": "rm -rf venv/lib/python3.7/site-packages/** && npm run install-dep"

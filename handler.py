@@ -8,13 +8,13 @@ from dotenv import load_dotenv
 # load env
 load_dotenv(join(dirname(__file__), '.env'))
 
-def crawler_handler(event, context):
+def lambda_handler(data, context):
     try:
-        if event['headers']['secret'] != os.getenv('API_SECRET'):
+        if data['headers']['secret'] != os.getenv('API_SECRET'):
             return response('not authorized', status=401)
 
         # get request input
-        [source, url, target_url] = normalize(event)
+        [source, url, target_url] = normalize(data)
 
         # crawl target url
         crawl(source, url, target_url)
@@ -22,3 +22,4 @@ def crawler_handler(event, context):
         return response('crawl completed', {'new': 0, 'done': 1})
     except:
         return response('an error occurred', status=500)
+
