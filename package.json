@@ -4,11 +4,8 @@
   "description": "",
   "main": "test.py",
   "scripts": {
-    "install-dep": "source ./venv/bin/activate && pip install -r requirements.txt",
     "crawl": "python test.py",
-    "deploy-stage": "bash ./deployments/script/deploy-staging.sh",
-    "deploy-prod": "bash ./deployments/script/deploy-production.sh",
-    "clean-install": "rm -rf venv/lib/python3.7/site-packages/** && npm run install-dep"
+    "build": "bash ./deployments/script/build.sh"
   },
   "repository": {
     "type": "git",

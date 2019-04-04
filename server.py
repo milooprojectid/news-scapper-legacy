@@ -12,12 +12,11 @@ load_dotenv(join(dirname(__file__), '.env'))
 # initiate flask app
 app = Flask(__name__)
 
-@app.route("/", methods=['POST'])
-def flask_handler():
+@app.route("/crawl", methods=['POST'])
+def server():
     try:
         if request.headers.get('secret') != os.getenv('API_SECRET'):
             return flaskResponse('not authorized', status=401)
-
 
         # get request input
         [source, url, target_url] = normalizeFlask(request.get_json())
@@ -26,8 +25,8 @@ def flask_handler():
         crawl(source, url, target_url)
 
         return flaskResponse('crawl completed', {'new': 0, 'done': 1})
-    except:
-        return flaskResponse('an error occurred', status=500)
+    except Exception as err:
+        return flaskResponse('an error occurred, ' + str(err), status=500)
 
 if __name__ == '__main__':
    app.run(port=os.getenv('APP_PORT'))

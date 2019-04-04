@@ -25,7 +25,7 @@ cp -r $(pwd)/environments/${env}.env $(pwd)/deployments/build/.env
 # zip deployable code
 echo "- compressing build ..."
 cd deployments/build
-zip -qr "../build.zip" .
+zip -qr "../build-${env}.zip" .
 cd ../..
 
 # remove build folder
